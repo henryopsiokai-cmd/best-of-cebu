@@ -18,11 +18,11 @@ export default function SakuraArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          It was Valentine’s Day, and Sakura Dining at Ayala Malls Central Bloc was exactly what you’d expect: packed, chaotic, and radiating a very specific shade of Japanese-inspired pink. I went with a friend for a long-overdue catch-up, and despite the 35-minute wait to be seated, it turned into one of those cute memories that sticks with you. There’s something about the intensity of a holiday crowd that makes the eventually-arrived comfort of a booth feel like a hard-won victory.
+          It was Valentine’s Day, and Sakura Dining at Ayala Malls Central Bloc was exactly what you’d expect: packed, chaotic, and radiating a very specific shade of Japanese-inspired pink. I went with a friend for a long-overdue catch-up, navigating through the festive crowds of Cebu IT Park. Despite a 35-minute wait that stretched our patience, the eventual transition into the calm, cherry-blossom-scented interior felt like a hard-won victory. There’s a particular kind of magic in the intensity of a holiday crowd that makes the comfort of a cushioned booth feel like a private sanctuary.
         </DropCap>
 
         <AnimatedSection>
-          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative">
+          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
              <video 
               className="w-full h-full object-cover"
               controls
@@ -39,20 +39,20 @@ export default function SakuraArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Fluff Factor</H2>
           <Paragraph>
-            The menu here is a broad Japanese-fusion mix, but let’s be honest: I was there for the sweets. Specifically, the legendary fluffy pancakes that have been taking over local feeds. I ordered the Chocolate Banana Pancake (₱440), and it was easily the highlight of the afternoon. The texture was uniquely soft and smooth—a delicate, almost cloud-like consistency that’s rare to find executed this well in the city. The design was beautiful, a perfect blend of fruit and rich chocolate that felt like a treat for the eyes as much as the palate.
+            The menu at Sakura is a broad Japanese-fusion mix, but let’s be honest: I was there for the sweets. Specifically, the legendary fluffy pancakes that have become a digital landmark for local foodies. I ordered the Chocolate Banana Pancake (₱440), and it was easily the highlight of the afternoon. 
           </Paragraph>
           <Paragraph>
-            We decided to balance the sugar with something savory and went for the Creamy Pesto (₱400). While it looked stunning on the plate, it was a bit of a mixed bag. The scent was incredibly strong—overpowering, even—when it first hit the table. Curiously, the taste was actually quite mild, not too salty and not too bland, but that initial aromatic intensity made it hard to fully enjoy compared to the pancakes.
+            The texture was a revelation—uniquely soft, smooth, and possessing a delicate, cloud-like consistency that is rare to execute with this much precision. Every bite felt intentional, a perfect marriage of warm, airy batter and the rich, cooling contrast of the chocolate and banana. It’s the kind of dish that justifies the hype, standing out not just for its visual appeal but for a technical mastery of texture.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
                 src="https://lh3.googleusercontent.com/d/15UV5f5Ul2MghCGSeNKeEA_caBpwt7p2X" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Sakura Decor"
+                alt="Sakura Decor Detail"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
             </div>
@@ -60,7 +60,15 @@ export default function SakuraArticle() {
               <img 
                 src="https://lh3.googleusercontent.com/d/1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Sakura Pancakes"
+                alt="Sakura Table Setting"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+            </div>
+            <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
+              <img 
+                src="https://lh3.googleusercontent.com/d/1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                alt="Sakura Pancake Close-up"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
             </div>
@@ -68,18 +76,62 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
+          <Paragraph>
+            We attempted to balance the sugar with a savory turn, opting for the Creamy Pesto (₱400). This was where the experience became more nuanced. Visually, it was stunning—vibrant greens against the clean white of the plate—but the aromatic profile was polarizing. The scent was incredibly strong, almost overpowering when it first hit the table. Curiously, the taste was far more reserved; mild, balanced, and perfectly adequate, but the initial olfactory intensity made it a difficult act to follow after the ethereal sweetness of the pancakes.
+          </Paragraph>
+        </AnimatedSection>
+
+        <AnimatedSection>
           <PullQuote>
-            It was so busy that I had to press the call button multiple times just to get someone to come over so we could pay. But in a place this aesthetic, surrounded by cherry blossoms, you almost don't mind the wait.
+            Surrounded by cherry blossoms and the soft hum of Valentine's chatter, the 30-minute wait for food began to feel less like a delay and more like a necessary intermission in the heart of the city's hustle.
           </PullQuote>
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Designed for the Feed</H2>
+          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-xl">
+             <video 
+              className="w-full h-full object-cover"
+              controls
+              poster="https://lh3.googleusercontent.com/d/1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91"
+            >
+              <source src="https://lh3.googleusercontent.com/d/1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91" type="video/mp4" />
+            </video>
+            <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
+              Table Detail
+            </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Aesthetic Architecture</H2>
           <Paragraph>
-            Sakura Dining is a photo dream. It’s a 25-30 person space that feels intimate but can get chaotic fast when the crowd hits. From the adorable heart bench to the cherry blossom accents, every corner is a photo spot. The outdoor area is particularly noteworthy, featuring a big heart backdrop and a "message heart tree" where people leave handwritten notes—a perfect, sentimental touch for a February 14 visit. 
+            Sakura Dining isn't just a restaurant; it’s a meticulously designed photo dream. The space, which comfortably seats about 25-30 people, feels intimate yet can quickly reach a state of high-energy chaos during peak hours. Every corner is curated for the lens—from the iconic heart bench that anchors the room to the cascading cherry blossom accents that define the perimeter. 
           </Paragraph>
           <Paragraph>
-            While the seating flow and staff response time could use some refinement during peak hours—we waited about 30 minutes for food to arrive—the fluffy pancakes and the cozy vibe are enough to bring me back. It feels like a labor of love; the staff mentioned it might be a Japanese family-owned business, and that personal touch shows in the decor. If you're looking for a place for a date night or a catch-up with friends who appreciate a good aesthetic, this is the spot. Just be prepared to use that call button.
+            The outdoor area is particularly noteworthy, acting as a sentimental extension of the brand. It features a large heart backdrop and a "message heart tree" where guests leave handwritten notes—a perfect, interactive touch that felt especially poignant on a February 14 visit. While the service flow could benefit from some peak-hour refinement—we found ourselves pressing the table call button multiple times just to settle the bill—the overall experience is one of genuine charm. 
+          </Paragraph>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 my-16">
+            {[
+              "1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw",
+              "1ssJkxmXfncN1GNrVlBKmpzpRKFunkEdY",
+              "1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91",
+              "16wlniF7Hf1k9SHJb8Om0AzZzPoaWOL_r"
+            ].map((id, i) => (
+              <div key={i} className="aspect-square bg-stone-100 overflow-hidden">
+                <video className="w-full h-full object-cover" muted loop onMouseOver={e => e.currentTarget.play()} onMouseOut={e => e.currentTarget.pause()}>
+                  <source src={`https://lh3.googleusercontent.com/d/${id}`} type="video/mp4" />
+                </video>
+              </div>
+            ))}
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <Paragraph>
+            It feels like a labor of love, possibly a Japanese family-owned enterprise, and that personal investment radiates through the decor and the menu's focus. For those seeking a date night destination or a catch-up spot for friends who value aesthetic as much as appetite, Sakura is an essential stop. Just bring your patience for the wait, and keep your camera ready.
           </Paragraph>
         </AnimatedSection>
 
@@ -87,12 +139,12 @@ export default function SakuraArticle() {
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Contact</h3>
-              <p className="text-sm text-stone-600 italic">2nd Floor, Ayala Malls Central Bloc (above Metro Supermarket), Cebu IT Park.</p>
-              <p className="text-sm text-stone-600 mt-2">IG: @sakura.ayalait • 09660738063</p>
+              <p className="text-sm text-stone-600 italic">2nd Floor, Ayala Malls Central Bloc (above Metro Supermarket), Cebu IT Park. Open Daily 10am-9pm.</p>
+              <p className="text-sm text-stone-600 mt-2">IG: @sakura.ayalait • FB: Sakura Dining Ayala Central Bloc</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">7/10. Great for pancakes and photos. Best avoided during peak holidays if you're in a rush.</p>
+              <p className="text-sm text-stone-600 italic">7/10. An aesthetic triumph with world-class pancakes. Service under pressure is the only friction point in an otherwise blooming experience.</p>
             </div>
           </div>
         </AnimatedSection>
