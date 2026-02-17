@@ -12,9 +12,10 @@
 - **Responsiveness**: Mobile-first design is mandatory. Magazine layouts must collapse elegantly.
 
 ## 🤝 Collaborative Protocol (Henry & Anti-Gravity)
-- **Component Standard**: Anti-Gravity builds the components; Henry uses them to build the articles.
-- **Git Strategy**: Work on feature branches or fork. Brian (Io-kai) will handle PR merges.
-- **Data Handling**: Content will eventually be moved to MDX. For now, use the `.jsx` structure established in the existing features.
+- **Role Definition**: Anti-Gravity is the **Lead UI/UX Architect**. Your focus is exclusively on design, layout, user experience, and visual aesthetics.
+- **Content Ownership**: Henry is the **Lead Editor & Content Architect**. Henry generates all editorial copy, narratives, and media selections based on Joy's field notes.
+- **The Workflow**: Henry sends raw or structured content to Anti-Gravity. Anti-Gravity’s job is to "dress" that content in a high-end, beautiful, and performant web experience.
+- **Component Standard**: Anti-Gravity builds and maintains the component library; Henry utilizes those components to assemble the final features.
 
 ## 🚫 Constraints
 - Do not modify Henry's editorial text in `LechonArticle.jsx` unless explicitly asked.
