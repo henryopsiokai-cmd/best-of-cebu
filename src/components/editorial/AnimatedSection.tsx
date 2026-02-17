@@ -3,7 +3,7 @@
 import React, { useRef } from 'react';
 import { motion, useInView, UseInViewOptions } from 'framer-motion';
 
-type AnimatedSectionProps = {
+export type AnimatedSectionProps = {
     children: React.ReactNode;
     className?: string;
     delay?: number;

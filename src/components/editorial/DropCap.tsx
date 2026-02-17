@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import React from 'react';
 
-type DropCapProps = {
+export type DropCapProps = {
     children: string;
     className?: string;
 };

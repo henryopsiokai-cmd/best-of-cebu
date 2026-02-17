@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Label, H2, Paragraph } from './Typography';
 import { ArrowRight } from 'lucide-react';
 
-type CardProps = {
+export type CardProps = {
     category: string;
     title: string;
     excerpt: string;

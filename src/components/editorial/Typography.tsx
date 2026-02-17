@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import clsx from 'clsx';
 
-type TypographyProps = {
+export type TypographyProps = {
     children: React.ReactNode;
     className?: string;
 };

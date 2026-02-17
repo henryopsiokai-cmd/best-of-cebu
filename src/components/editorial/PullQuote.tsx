@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import React from 'react';
 
-type PullQuoteProps = {
+export type PullQuoteProps = {
     children: React.ReactNode;
     attribution?: string;
     className?: string;
