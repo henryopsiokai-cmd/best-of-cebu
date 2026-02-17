@@ -26,9 +26,9 @@ export default function SakuraArticle() {
              <video 
               className="w-full h-full object-cover"
               controls
-              poster="https://lh3.googleusercontent.com/d/1XmnYDIQiSsQL_TKdOm-fWhkRH7IHYsLS"
+              poster="https://lh3.googleusercontent.com/d/1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw"
             >
-              <source src="https://lh3.googleusercontent.com/d/1XmnYDIQiSsQL_TKdOm-fWhkRH7IHYsLS?alt=media" type="video/mp4" />
+              <source src="https://lh3.googleusercontent.com/d/1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               Sakura Dining Exterior • Cebu IT Park
@@ -50,7 +50,7 @@ export default function SakuraArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/1Lq5n4TCdlAxrmIPkHVEV5wvBHKCAAEgB" 
+                src="https://lh3.googleusercontent.com/d/15UV5f5Ul2MghCGSeNKeEA_caBpwt7p2X" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Decor"
               />
@@ -58,7 +58,7 @@ export default function SakuraArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/14ojHe1uHP1ZSgqRcta2ZISEaJnOr4WPV" 
+                src="https://lh3.googleusercontent.com/d/1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Pancakes"
               />

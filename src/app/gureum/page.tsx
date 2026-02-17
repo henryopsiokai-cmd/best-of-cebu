@@ -28,7 +28,7 @@ export default function GureumArticle() {
               controls
               poster="https://lh3.googleusercontent.com/d/1WxtXwAIXBNvFygh8isE61-QIngWApWbR"
             >
-              <source src="https://lh3.googleusercontent.com/d/1WxtXwAIXBNvFygh8isE61-QIngWApWbR?alt=media" type="video/mp4" />
+              <source src="https://lh3.googleusercontent.com/d/1WxtXwAIXBNvFygh8isE61-QIngWApWbR" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               The Lounge View • Banilad

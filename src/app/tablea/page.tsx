@@ -26,9 +26,9 @@ export default function TableaArticle() {
              <video 
               className="w-full h-full object-cover"
               controls
-              poster="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu"
+              poster="https://lh3.googleusercontent.com/d/1c7PyaftjWM8YTJf2xqzzMIgvwDMqWxAw"
             >
-              <source src="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu?alt=media" type="video/mp4" />
+              <source src="https://lh3.googleusercontent.com/d/1c7PyaftjWM8YTJf2xqzzMIgvwDMqWxAw" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               The Tablea Counter • Salinas Drive
@@ -50,7 +50,7 @@ export default function TableaArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu" 
+                src="https://lh3.googleusercontent.com/d/10Myw_AM6PEwITXgJDKvJKxye6UCzzra_" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Tablea Presentation"
               />
@@ -58,7 +58,7 @@ export default function TableaArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu" 
+                src="https://lh3.googleusercontent.com/d/12UopobVvcklRQjGtKbnw2jQkBrMXPAn8" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Traditional Cacao"
               />
