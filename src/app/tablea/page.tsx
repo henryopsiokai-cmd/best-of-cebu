@@ -16,28 +16,70 @@ export default function TableaArticle() {
         publishedAt="February 2026"
       />
 
-      <article className="max-w-3xl mx-auto px-6 pb-24">
+      <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          I found Tabléa Chocolate Cafe on the ground floor of JY Square in Salinas Drive. It is a quiet, traditional space that feels more business-like than a typical cozy cafe—perfect for work-from-cafe sessions or meetings. But I wasn't there for the WiFi (they don't have any); I was there for the chocolate.
+          I found Tabléa Chocolate Cafe on the ground floor of JY Square in Salinas Drive, just a few steps away from the neighborhood McDonald's. It’s a quiet, traditional space that feels more business-like and formal than your typical neighborhood cafe—making it an ideal spot for work-from-cafe sessions or professional meetings. But I wasn't there for the WiFi (they don't have any); I was there for a deeper, older connection to Filipino culture: the chocolate.
         </DropCap>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8">The Sikwate Standard</H2>
+          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative">
+             <video 
+              className="w-full h-full object-cover"
+              controls
+              poster="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu"
+            >
+              <source src="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu?alt=media" type="video/mp4" />
+            </video>
+            <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
+              The Tablea Counter • Salinas Drive
+            </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Sikwate Standard</H2>
           <Paragraph>
-            I ordered the Special Set (₱175), which includes Sikwate, fresh mango, and Puto Maya. The mango was a bit sour and the Puto Maya didn't quite hit the mark for me in terms of texture, but the Sikwate was a revelation. It was the best tableya I’ve ever had—perfectly thick and rich. It’s clear they take their cacao traditions seriously here.
+            I ordered the Special Set (₱175), a traditional trio featuring Sikwate, fresh mango, and Puto Maya. In a city where mass-produced coffee dominates, this variety of tableya options is a unique and refreshing commemoration of Filipino cacao traditions. The fresh mango was a bit on the sour side during my visit, and the Puto Maya, served heated but perhaps not as fresh as it could be, had a texture that left me wanting a bit more.
+          </Paragraph>
+          <Paragraph>
+            However, the Sikwate—the heart of the ritual—was a revelation. It was, quite simply, the best tableya I’ve ever had. Perfectly thick, rich, and authentic, it carried the deep, bittersweet essence of local cacao with a consistency that only comes from traditional preparation. If you're coming here, come for the Sikwate; it’s the undisputed highlight of the menu.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
-          <PullQuote attribution="Notes from the Field">
-            I spent so much time taking photos of the counter and the food that people started staring. But in a city of mass-produced coffee, seeing someone commemorate Filipino cacao tradition is worth the attention.
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
+            <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
+              <img 
+                src="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                alt="Tablea Presentation"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+            </div>
+            <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
+              <img 
+                src="https://lh3.googleusercontent.com/d/1ULVck2RXaSi_qRDEJdW5mbC96OPxC9vu" 
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                alt="Traditional Cacao"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
+            </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <PullQuote>
+            I spent so much time taking photos of the counter and the food that people started staring. But in a city of modern facades, seeing someone commemorate Filipino cacao tradition is worth the attention.
           </PullQuote>
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8">Quiet Craft</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Quiet Craft</H2>
           <Paragraph>
-            The service was immediate, and my order arrived in just five minutes. While the staff couldn't share much about the shop's history and there was no owner on-site, the quality of their cuisine serves as their most effective advertisement. I recommend focusing on the counter—it beautifully commemorates our local traditions even in a relatively small space. 
+            The service at Tabléa is efficient; my order arrived in just five minutes. While the staff were friendly, they couldn't share much about the shop's history as there was no owner on-site to tell the tale. The space itself is compact, seating about 15 people, and while it lacks some modern amenities like WiFi or background music, the quality of their cuisine serves as their most effective advertisement. 
+          </Paragraph>
+          <Paragraph>
+            My tip for visitors: focus on the counter and the food. It beautifully commemorates our local traditions even in this small, business-like space. I look forward to returning to sample additional selections from their menu—mainly for that incredible Sikwate experience. It’s a quiet monument to a craft that deserves to be celebrated.
           </Paragraph>
         </AnimatedSection>
 
@@ -45,11 +87,11 @@ export default function TableaArticle() {
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Highlight</h3>
-              <p className="text-sm text-stone-600 italic">The Sikwate (Tableya drink). Perfectly thick and authentic. Easily the best thing on the menu.</p>
+              <p className="text-sm text-stone-600 italic">The Sikwate (Tableya drink). Perfectly thick and authentic. Easily the best thing on the menu and a must-try for cacao lovers.</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Vibe</h3>
-              <p className="text-sm text-stone-600 italic">Quiet, traditional, and business-like. Great for work if you don't need internet.</p>
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Environment</h3>
+              <p className="text-sm text-stone-600 italic">Quiet, formal, and traditional. Best for focused work or small business meetings where silence is appreciated.</p>
             </div>
           </div>
         </AnimatedSection>
