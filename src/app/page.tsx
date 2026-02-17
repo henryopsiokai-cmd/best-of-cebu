@@ -88,33 +88,6 @@ export default function Home() {
 
                         <AnimatedSection delay={0.2}>
                             <Card
-                                category="Architecture"
-                                title="Modernism in the Tropics"
-                                excerpt="From IT Park to SRP, the concrete jungle is blooming with glass and steel. We sit down with the architects reshaping the city's silhouette."
-                                href="/modernism"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.3}>
-                            <Card
-                                category="Arts & Culture"
-                                title="Suroy-Suroy Sugbo"
-                                excerpt="The heart of Cebu isn't in its malls, but in the hands of its artisans. A journey through the island's creative soul."
-                                href="/culture"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.4}>
-                            <Card
-                                category="Cuisine"
-                                title="The Island Table"
-                                excerpt="Beyond the roast. Exploring the new wave of Cebuano chefs redefining the island's culinary map."
-                                href="/food"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.5}>
-                            <Card
                                 category="Japanese Aesthetic"
                                 title="Pink Blossoms and Pancakes"
                                 excerpt="Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes."
@@ -122,7 +95,7 @@ export default function Home() {
                             />
                         </AnimatedSection>
 
-                        <AnimatedSection delay={0.6}>
+                        <AnimatedSection delay={0.3}>
                             <Card
                                 category="Coffee & Chill"
                                 title="The Half-Moon View"
@@ -131,7 +104,7 @@ export default function Home() {
                             />
                         </AnimatedSection>
 
-                        <AnimatedSection delay={0.7}>
+                        <AnimatedSection delay={0.4}>
                             <Card
                                 category="Tradition"
                                 title="The Cacao Ritual"
@@ -142,7 +115,7 @@ export default function Home() {
                     </section>
 
                     <aside className="md:col-span-4 space-y-12">
-                        <AnimatedSection delay={0.8} direction="left">
+                        <AnimatedSection delay={0.5} direction="left">
                             <div className="bg-white p-8 rounded-2xl shadow-2xl border border-stone-100 sticky top-10">
                                 <h3 className="text-xl font-bold mb-8 font-serif tracking-tight">The Curated List</h3>
                                 <ul className="space-y-6 font-sans">

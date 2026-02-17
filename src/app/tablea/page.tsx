@@ -50,17 +50,17 @@ export default function TableaArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/10Myw_AM6PEwITXgJDKvJKxye6UCzzra_" 
+                src="https://lh3.googleusercontent.com/d/1B48jd3plC1Snfelwx3ThfAGXGkcFNUkX" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Tablea Presentation"
+                alt="Tablea Traditional Preparation"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/12UopobVvcklRQjGtKbnw2jQkBrMXPAn8" 
+                src="https://lh3.googleusercontent.com/d/1MO9WVW5Jkupf35v8oe8prt8im3fghHS8" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Traditional Cacao"
+                alt="The Special Set Detail"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
             </div>
