@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-stone-900 bg-stone-50;
+  }
+}
+
+/* Custom Utilities if needed */
+.drop-cap-article p:first-of-type::first-letter {
+  @apply float-left text-7xl font-bold leading-[0.8] mr-3 mt-2 font-serif text-stone-900;
+}
