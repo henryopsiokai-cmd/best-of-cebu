@@ -14,7 +14,7 @@ export default function FoodArticle() {
         category="Cuisine"
         title="The Island Table"
         subtitle="Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories."
-        author="Christe Joy"
+        author="Christe joy"
         publishedAt="February 2026"
       />
 

@@ -13,7 +13,7 @@ export default function TableaArticle() {
         category="Cacao Traditions"
         title="The Cacao Ritual"
         subtitle="Exploring the quiet heritage of Filipino chocolate at JY Square."
-        author="Christe Joy"
+        author="Christe joy"
         publishedAt="February 2026"
       />
 
@@ -67,7 +67,7 @@ export default function TableaArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <PullQuote attribution="Christe Joy">
+          <PullQuote attribution="Christe joy">
             I spent so much time taking photos of the counter and the food that people started staring. But in a city of modern facades, seeing someone commemorate Filipino cacao tradition is worth the attention.
           </PullQuote>
         </AnimatedSection>
