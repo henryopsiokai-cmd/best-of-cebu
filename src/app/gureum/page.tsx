@@ -107,10 +107,12 @@ export default function GureumArticle() {
               "1mKOvFS0BoNzATWWlmkfC9G5Niw399pK8",
               "1_fPU4DqStSjBtN-u8UBGsqOcBV9tRjru"
             ].map((id, i) => (
-              <div key={i} className="aspect-square bg-stone-100 overflow-hidden">
-                <video className="w-full h-full object-cover" muted loop onMouseOver={e => e.currentTarget.play()} onMouseOut={e => e.currentTarget.pause()}>
-                  <source src={`https://drive.google.com/uc?export=download&id=${id}`} type="video/mp4" />
-                </video>
+              <div key={i} className="aspect-square bg-stone-100 overflow-hidden relative group">
+                <img 
+                  src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                  alt={`Gureum Detail ${i + 1}`}
+                />
               </div>
             ))}
           </div>
