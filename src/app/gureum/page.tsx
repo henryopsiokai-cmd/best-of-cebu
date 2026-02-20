@@ -70,7 +70,7 @@ export default function GureumArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <PullQuote>
+          <PullQuote attribution="Felicia, Owner of Gureum">
             "I struggled at first starting this business, but my motivation was giving people a place to chill and experience a great view."
           </PullQuote>
         </AnimatedSection>

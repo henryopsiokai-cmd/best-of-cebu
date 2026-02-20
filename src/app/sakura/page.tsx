@@ -84,7 +84,7 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <PullQuote>
+          <PullQuote attribution="Christy Joy">
             Surrounded by cherry blossoms and the soft hum of Valentine's chatter, the 30-minute wait for food began to feel less like a delay and more like a necessary intermission in the heart of the city's hustle.
           </PullQuote>
         </AnimatedSection>
