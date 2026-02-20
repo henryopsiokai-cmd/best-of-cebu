@@ -83,6 +83,7 @@ export default function Home() {
                                 title="The Lechon Pilgrimage"
                                 excerpt="Why the dusty streets of Carcar still hold the crown for the world's most coveted roasted pig. A journey into taste, tradition, and fire."
                                 href="/lechon"
+                                imageSrc="/best-of-cebu/images/lechon.png"
                             />
                         </AnimatedSection>
 
@@ -92,6 +93,7 @@ export default function Home() {
                                 title="Pink Blossoms and Pancakes"
                                 excerpt="Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes."
                                 href="/sakura"
+                                imageSrc="https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000"
                             />
                         </AnimatedSection>
 
@@ -101,6 +103,7 @@ export default function Home() {
                                 title="The Half-Moon View"
                                 excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
                                 href="/gureum"
+                                imageSrc="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
                             />
                         </AnimatedSection>
 
@@ -110,6 +113,7 @@ export default function Home() {
                                 title="The Cacao Ritual"
                                 excerpt="Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe."
                                 href="/tablea"
+                                imageSrc="https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000"
                             />
                         </AnimatedSection>
                     </section>
