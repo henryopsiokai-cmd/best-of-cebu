@@ -103,12 +103,16 @@ export default function GureumArticle() {
         <AnimatedSection>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4 my-16">
             {[
-              "1GkOx4UYPQm1eNW4-oY8-t15L9WqIubTZ",
-              "1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF"
+              "176y0gwsvcFldapTimnZ1JsXzFy5-VDpF",
+              "1x8FrRNZRs397TESlo5O0Dp8bD6hqgfQT",
+              "10vARwSbQQcdqlPo1LQxtfIK4yCnvHyUw",
+              "1D0TkDak5nluOAvRxQ25zCInILi7d5WH5",
+              "1HC2W7t8u1gbjGxEgNV5cYD1dM0vvdKhr",
+              "1mJEa5WYd0hHW4LC7WsoB9l2ABdCjxgiK"
             ].map((id, i) => (
-              <div key={i} className="aspect-square bg-stone-100 overflow-hidden relative group rounded-lg border border-stone-200 shadow-sm">
+              <div key={id} className="aspect-square bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
                 <img 
-                  src={`https://lh3.googleusercontent.com/u/0/d/${id}`} 
+                  src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                   alt={`Gureum Gallery ${i + 1}`}
                 />

@@ -50,11 +50,13 @@ export default function TableaArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             {[
               "1B48jd3plC1Snfelwx3ThfAGXGkcFNUkX",
-              "1MO9WVW5Jkupf35v8oe8prt8im3fghHS8"
+              "1MO9WVW5Jkupf35v8oe8prt8im3fghHS8",
+              "14_5-rxIe16nVX5SobprH0c2yidEd_kym",
+              "1XyFwuzaoRN2fsbKU3A2r2IrklJoHPCB2"
             ].map((id, i) => (
-              <div key={i} className="aspect-[4/5] bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
+              <div key={id} className="aspect-[4/5] bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
                 <img 
-                  src={`https://lh3.googleusercontent.com/u/0/d/${id}`} 
+                  src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                   alt={`Tablea Gallery ${i + 1}`}
                 />
