@@ -109,7 +109,7 @@ export default function GureumArticle() {
             ].map((id, i) => (
               <div key={i} className="aspect-square bg-stone-100 overflow-hidden">
                 <video className="w-full h-full object-cover" muted loop onMouseOver={e => e.currentTarget.play()} onMouseOut={e => e.currentTarget.pause()}>
-                  <source src={`https://drive.google.com/thumbnail?id=&sz=w1000${id}`} type="video/mp4" />
+                  <source src={`https://drive.google.com/uc?export=download&id=${id}`} type="video/mp4" />
                 </video>
               </div>
             ))}
