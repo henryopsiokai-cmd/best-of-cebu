@@ -1,4 +1,5 @@
 'use client';
+import Link from "next/link";
 
 import React from 'react';
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
@@ -148,8 +149,9 @@ export default function GureumArticle() {
             <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
           </div>
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-            <a href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Sakura Dining</a>
-            <a href="/" className="hover:text-amber-500 transition-colors">Back to Issues</a>
+            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Pink Blossoms and Pancakes</Link>
+            <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
+            <Link href="/tablea" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: The Cacao Ritual</Link>
           </nav>
         </div>
       </footer>

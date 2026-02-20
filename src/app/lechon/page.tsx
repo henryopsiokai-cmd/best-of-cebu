@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
 import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
@@ -55,9 +56,9 @@ export default function LechonArticlePage() {
                         <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
                     </div>
                     <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-                        <a href="#" className="hover:text-amber-500 transition-colors">Previous Feature</a>
-                        <a href="/" className="hover:text-amber-500 transition-colors">Back to Issues</a>
-                        <a href="#" className="hover:text-amber-500 transition-colors">Next Feature</a>
+                        <Link href="/tablea" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: The Cacao Ritual</Link>
+                        <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
+                        <Link href="/food" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: The Island Table</Link>
                     </nav>
                 </div>
             </footer>

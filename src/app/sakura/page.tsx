@@ -1,4 +1,5 @@
 'use client';
+import Link from "next/link";
 
 import React from 'react';
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
@@ -162,8 +163,9 @@ export default function SakuraArticle() {
             <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
           </div>
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-            <a href="/food" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: The Island Table</a>
-            <a href="/" className="hover:text-amber-500 transition-colors">Back to Issues</a>
+            <Link href="/lechon" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: The Lechon Pilgrimage</Link>
+            <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
+            <Link href="/gureum" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: The Half-Moon View</Link>
           </nav>
         </div>
       </footer>
