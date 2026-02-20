@@ -50,10 +50,10 @@ export default function TableaArticle() {
         <AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             {[
-              "1B48jd3plC1Snfelwx3ThfAGXGkcFNUkX",
-              "1MO9WVW5Jkupf35v8oe8prt8im3fghHS8",
-              "14_5-rxIe16nVX5SobprH0c2yidEd_kym",
-              "1XyFwuzaoRN2fsbKU3A2r2IrklJoHPCB2"
+              "1s1Y4nFqAzq3Wo1F4rNQuWOi3OH7hD5CQ",
+              "10mspYEJA01lZ_CCnYSJsb5e-GJm_kjF0",
+              "1Ro_bw6TN80T69Yy4QBFlOTfSHge7V5hC",
+              "1r_gI840N2MhUUhcJrznD_79B8dC-xjUj"
             ].map((id, i) => (
               <div key={id} className="aspect-[4/5] bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
                 <img 

@@ -1,13 +1,13 @@
 <svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1050" height="600" fill="#fafaf9" />
+  <rect width="1050" height="600" fill="#1c1917" />
   <rect x="0" y="580" width="1050" height="20" fill="#d97706" />
-  <text x="50" y="80" font-family="DejaVu-Serif" font-size="28" font-weight="bold" fill="#1c1917">BEST OF CEBU</text>
+  <text x="50" y="80" font-family="DejaVu-Serif" font-size="28" font-weight="bold" fill="#fafaf9">BEST OF CEBU</text>
   <rect x="50" y="95" width="40" height="2" fill="#d97706" />
-  <text x="50" y="280" font-family="DejaVu-Serif" font-size="64" font-weight="bold" fill="#1c1917">Criste Joy</text>
+  <text x="50" y="280" font-family="DejaVu-Serif" font-size="64" font-weight="bold" fill="#fafaf9">Criste Joy</text>
   <text x="50" y="330" font-family="DejaVu-Sans" font-size="20" font-weight="bold" fill="#d97706">EDITORIAL CONTRIBUTOR</text>
   <g transform="translate(50, 450)">
-    <text x="0" y="0" font-family="DejaVu-Sans" font-size="18" fill="#57534e">bestofcebu.com</text>
-    <text x="0" y="35" font-family="DejaVu-Sans" font-size="18" fill="#57534e">joy@bestofcebu.com</text>
+    <text x="0" y="0" font-family="DejaVu-Sans" font-size="18" fill="#a8a29e">bestofcebu.com</text>
+    <text x="0" y="35" font-family="DejaVu-Sans" font-size="18" fill="#a8a29e">joy@bestofcebu.com</text>
     <text x="0" y="70" font-family="DejaVu-Sans" font-size="16" font-weight="bold" fill="#78716c">@bestofcebu_official</text>
   </g>
   <g transform="translate(800, 360)">

@@ -53,7 +53,7 @@ export default function SakuraArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=15UV5f5Ul2MghCGSeNKeEA_caBpwt7p2X&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1bMZK-axAAMEbjV2tbn4aTAaKDr1kJYRj&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Decor Detail"
               />
@@ -61,7 +61,7 @@ export default function SakuraArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=14iRVAk39F8ahohHF1oVocpbNCoAVDT2r&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Table Setting"
               />
@@ -120,10 +120,10 @@ export default function SakuraArticle() {
             {[
               "1dZavyNmUEvKom67MCXNzf1rHeBzLTCdi",
               "1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD",
-              "1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb",
-              "1Jl7_fHykZQLwgbVfNNPybhq2EGcumd79",
-              "1M3axs2DNAAwegPqqPLE376vTzqZVgJwG",
-              "14HGW-apsXP4zlsZiDKIqcOQymUzS5618"
+              "14iRVAk39F8ahohHF1oVocpbNCoAVDT2r",
+              "1mx_STTXoOzBat-XBTYXacAnXQreV70XY",
+              "1Z6YfRgwTz-Bpwb1fKFN8aJ2VGilhjUsa",
+              "1BUVBJAYKXEICKXIZqw6etJ96C3wdtPvv"
             ].map((id, i) => (
               <div key={id} className="aspect-square bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
                 <img 

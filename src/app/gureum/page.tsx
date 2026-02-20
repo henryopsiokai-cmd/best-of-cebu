@@ -53,7 +53,7 @@ export default function GureumArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1GkOx4UYPQm1eNW4-oY8-t15L9WqIubTZ&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1LS1w_jTl9EasdEjhzmkGavYkzpGM8dhF&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Gureum Interior"
               />
@@ -61,7 +61,7 @@ export default function GureumArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1z-PVEsiKuaCTK7yOxLR_0M6NHnmKRbGi&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Marshmallow Choco Detail"
               />
@@ -104,12 +104,12 @@ export default function GureumArticle() {
         <AnimatedSection>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4 my-16">
             {[
-              "176y0gwsvcFldapTimnZ1JsXzFy5-VDpF",
-              "1x8FrRNZRs397TESlo5O0Dp8bD6hqgfQT",
-              "10vARwSbQQcdqlPo1LQxtfIK4yCnvHyUw",
-              "1D0TkDak5nluOAvRxQ25zCInILi7d5WH5",
-              "1HC2W7t8u1gbjGxEgNV5cYD1dM0vvdKhr",
-              "1mJEa5WYd0hHW4LC7WsoB9l2ABdCjxgiK"
+              "1GAcrZLjxe8Cq947rDcJqQ5GHyluGgFNm",
+              "1XsN0WPMwS3FvvwLQ-MB1cVKKDO8gnL3-",
+              "1vUaCc2mTiPXJLglHDWBL5l0eba-RWYJG",
+              "1uqq2dHF4o_zYX619gFy4jUonmZ3Z5QtS",
+              "1VXn70UvbLfg8JxwB9t8od1GuAuAV5_Mu",
+              "1DsscyQ7b61XxFkxHLNyLoPuv9drpk12b"
             ].map((id, i) => (
               <div key={id} className="aspect-square bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
                 <img 
