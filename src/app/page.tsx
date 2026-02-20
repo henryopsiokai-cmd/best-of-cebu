@@ -22,7 +22,7 @@ export default function Home() {
                     <div
                         className="absolute inset-0 bg-cover bg-center"
                         style={{
-                            backgroundImage: "url('/images/hero.png')",
+                            backgroundImage: "url('/best-of-cebu/images/hero.png')",
                             filter: "brightness(0.7)"
                         }}
                     ></div>
