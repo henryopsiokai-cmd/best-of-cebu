@@ -28,9 +28,9 @@ export default function GureumArticle() {
              <video 
               className="w-full h-full object-cover"
               controls
-              poster="https://lh3.googleusercontent.com/u/0/d/1WxtXwAIXBNvFygh8isE61-QIngWApWbR"
+              poster="https://drive.google.com/thumbnail?id=1WxtXwAIXBNvFygh8isE61-QIngWApWbR&sz=w1000"
             >
-              <source src="https://lh3.googleusercontent.com/u/0/d/1WxtXwAIXBNvFygh8isE61-QIngWApWbR" type="video/mp4" />
+              <source src="https://drive.google.com/uc?export=download&id=1WxtXwAIXBNvFygh8isE61-QIngWApWbR" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               The Lounge View • Banilad
@@ -52,7 +52,7 @@ export default function GureumArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/u/0/d/1GkOx4UYPQm1eNW4-oY8-t15L9WqIubTZ" 
+                src="https://drive.google.com/thumbnail?id=1GkOx4UYPQm1eNW4-oY8-t15L9WqIubTZ&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Gureum Interior"
               />
@@ -60,7 +60,7 @@ export default function GureumArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/u/0/d/1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF" 
+                src="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Marshmallow Choco Detail"
               />
@@ -80,9 +80,9 @@ export default function GureumArticle() {
              <video 
               className="w-full h-full object-cover"
               controls
-              poster="https://lh3.googleusercontent.com/u/0/d/1mKOvFS0BoNzATWWlmkfC9G5Niw399pK8"
+              poster="https://drive.google.com/thumbnail?id=1mKOvFS0BoNzATWWlmkfC9G5Niw399pK8&sz=w1000"
             >
-              <source src="https://lh3.googleusercontent.com/u/0/d/1mKOvFS0BoNzATWWlmkfC9G5Niw399pK8" type="video/mp4" />
+              <source src="https://drive.google.com/uc?export=download&id=1mKOvFS0BoNzATWWlmkfC9G5Niw399pK8" type="video/mp4" />
             </video>
             <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
               Table Experience
@@ -109,7 +109,7 @@ export default function GureumArticle() {
             ].map((id, i) => (
               <div key={i} className="aspect-square bg-stone-100 overflow-hidden">
                 <video className="w-full h-full object-cover" muted loop onMouseOver={e => e.currentTarget.play()} onMouseOut={e => e.currentTarget.pause()}>
-                  <source src={`https://lh3.googleusercontent.com/u/0/d/${id}`} type="video/mp4" />
+                  <source src={`https://drive.google.com/thumbnail?id=&sz=w1000${id}`} type="video/mp4" />
                 </video>
               </div>
             ))}
