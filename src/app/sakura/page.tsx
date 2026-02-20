@@ -28,9 +28,9 @@ export default function SakuraArticle() {
              <video 
               className="w-full h-full object-cover"
               controls
-              poster="https://lh3.googleusercontent.com/d/1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw"
+              poster="https://lh3.googleusercontent.com/u/0/d/1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw"
             >
-              <source src="https://lh3.googleusercontent.com/d/1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw" type="video/mp4" />
+              <source src="https://lh3.googleusercontent.com/u/0/d/1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               Sakura Dining Exterior • Cebu IT Park
@@ -52,7 +52,7 @@ export default function SakuraArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/15UV5f5Ul2MghCGSeNKeEA_caBpwt7p2X" 
+                src="https://lh3.googleusercontent.com/u/0/d/15UV5f5Ul2MghCGSeNKeEA_caBpwt7p2X" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Decor Detail"
               />
@@ -60,7 +60,7 @@ export default function SakuraArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb" 
+                src="https://lh3.googleusercontent.com/u/0/d/1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Table Setting"
               />
@@ -68,7 +68,7 @@ export default function SakuraArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://lh3.googleusercontent.com/d/1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD" 
+                src="https://lh3.googleusercontent.com/u/0/d/1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Pancake Close-up"
               />
@@ -94,9 +94,9 @@ export default function SakuraArticle() {
              <video 
               className="w-full h-full object-cover"
               controls
-              poster="https://lh3.googleusercontent.com/d/1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91"
+              poster="https://lh3.googleusercontent.com/u/0/d/1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91"
             >
-              <source src="https://lh3.googleusercontent.com/d/1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91" type="video/mp4" />
+              <source src="https://lh3.googleusercontent.com/u/0/d/1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91" type="video/mp4" />
             </video>
             <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
               Table Detail
@@ -124,7 +124,7 @@ export default function SakuraArticle() {
             ].map((id, i) => (
               <div key={i} className="aspect-square bg-stone-100 overflow-hidden">
                 <video className="w-full h-full object-cover" muted loop onMouseOver={e => e.currentTarget.play()} onMouseOut={e => e.currentTarget.pause()}>
-                  <source src={`https://lh3.googleusercontent.com/d/${id}`} type="video/mp4" />
+                  <source src={`https://lh3.googleusercontent.com/u/0/d/${id}`} type="video/mp4" />
                 </video>
               </div>
             ))}
