@@ -14,7 +14,7 @@ export default function GureumArticle() {
         category="Coffee & Chill"
         title="The Half-Moon View"
         subtitle="How a Korean expat turned an empty mall corner into Banilad's most relaxing hideout."
-        author="Christy Joy"
+        author="Christe Joy"
         publishedAt="February 2026"
       />
 
