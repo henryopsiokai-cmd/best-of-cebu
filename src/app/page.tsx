@@ -22,7 +22,7 @@ export default function Home() {
                     <div
                         className="absolute inset-0 bg-cover bg-center"
                         style={{
-                            backgroundImage: "url('/best-of-cebu/images/hero.png')",
+                            backgroundImage: "url('/images/hero.png')",
                             filter: "brightness(0.7)"
                         }}
                     ></div>
@@ -83,7 +83,7 @@ export default function Home() {
                                 title="The Lechon Pilgrimage"
                                 excerpt="Why the dusty streets of Carcar still hold the crown for the world's most coveted roasted pig. A journey into taste, tradition, and fire."
                                 href="/lechon"
-                                imageSrc="/best-of-cebu/images/lechon.png"
+                                imageSrc="/images/lechon.png"
                             />
                         </AnimatedSection>
 

@@ -19,7 +19,7 @@ export default function LechonArticlePage() {
             <figure className="max-w-7xl mx-auto px-4 mb-24 -mt-12">
                 <div className="relative h-[60vh] w-full mb-12 rounded-sm overflow-hidden shadow-xl">
                     <img
-                        src="/best-of-cebu/images/lechon.png"
+                        src="/images/lechon.png"
                         alt="Whole roasted lechon being prepared in Carcar"
                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-[30s] hover:scale-105"
                     />
