@@ -115,18 +115,17 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 my-16">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-16">
             {[
-              "1TeATLJBVl7Cz2WqS5U8cApcER8xfwCNw",
-              "1ssJkxmXfncN1GNrVlBKmpzpRKFunkEdY",
-              "1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91",
-              "16wlniF7Hf1k9SHJb8Om0AzZzPoaWOL_r"
+              "15UV5f5Ul2MghCGSeNKeEA_caBpwt7p2X",
+              "1cVPG6bOsExWX0tCnVbJ1nnfC3e9lTnyb",
+              "1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD"
             ].map((id, i) => (
-              <div key={i} className="aspect-square bg-stone-100 overflow-hidden relative group">
+              <div key={i} className="aspect-square bg-stone-100 overflow-hidden relative group rounded-lg border border-stone-200 shadow-sm">
                 <img 
-                  src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
-                  alt={`Sakura Detail ${i + 1}`}
+                  src={`https://lh3.googleusercontent.com/u/0/d/${id}`} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                  alt={`Sakura Gallery ${i + 1}`}
                 />
               </div>
             ))}

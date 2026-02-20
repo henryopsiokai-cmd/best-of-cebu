@@ -48,22 +48,18 @@ export default function TableaArticle() {
 
         <AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
-            <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
-              <img 
-                src="https://drive.google.com/thumbnail?id=1B48jd3plC1Snfelwx3ThfAGXGkcFNUkX&sz=w1000" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Tablea Traditional Preparation"
-              />
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
-            </div>
-            <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
-              <img 
-                src="https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000" 
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="The Special Set Detail"
-              />
-              <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
-            </div>
+            {[
+              "1B48jd3plC1Snfelwx3ThfAGXGkcFNUkX",
+              "1MO9WVW5Jkupf35v8oe8prt8im3fghHS8"
+            ].map((id, i) => (
+              <div key={i} className="aspect-[4/5] bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
+                <img 
+                  src={`https://lh3.googleusercontent.com/u/0/d/${id}`} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
+                  alt={`Tablea Gallery ${i + 1}`}
+                />
+              </div>
+            ))}
           </div>
         </AnimatedSection>
 
