@@ -1,9 +1,11 @@
+'use client';
+
 import React from 'react';
-import { ArticleHeader } from '@/components/editorial/ArticleHeader';
-import { H2, Paragraph } from '@/components/editorial/Typography';
-import { PullQuote } from '@/components/editorial/PullQuote';
-import { DropCap } from '@/components/editorial/DropCap';
-import { AnimatedSection } from '@/components/editorial/AnimatedSection';
+import { ArticleHeader } from '../../components/editorial/ArticleHeader';
+import { H2, Paragraph } from '../../components/editorial/Typography';
+import { PullQuote } from '../../components/editorial/PullQuote';
+import { DropCap } from '../../components/editorial/DropCap';
+import { AnimatedSection } from '../../components/editorial/AnimatedSection';
 
 export default function GureumArticle() {
   return (

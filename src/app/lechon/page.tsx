@@ -1,8 +1,8 @@
 import React from 'react';
-import { ArticleHeader } from '@/components/editorial/ArticleHeader';
-import { H2, Paragraph } from '@/components/editorial/Typography';
-import { PullQuote } from '@/components/editorial/PullQuote';
-import { DropCap } from '@/components/editorial/DropCap';
+import { ArticleHeader } from '../../components/editorial/ArticleHeader';
+import { H2, Paragraph } from '../../components/editorial/Typography';
+import { PullQuote } from '../../components/editorial/PullQuote';
+import { DropCap } from '../../components/editorial/DropCap';
 
 export default function LechonArticlePage() {
     return (

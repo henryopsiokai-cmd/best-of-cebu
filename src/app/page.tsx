@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
-import { Card } from '@/components/editorial/Card';
-import { H1, H2, H3, Paragraph } from '@/components/editorial/Typography';
-import { AnimatedSection } from '@/components/editorial/AnimatedSection';
+import { Card } from '../components/editorial/Card';
+import { H1, H2, H3, Paragraph } from '../components/editorial/Typography';
+import { AnimatedSection } from '../components/editorial/AnimatedSection';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export default function Home() {
