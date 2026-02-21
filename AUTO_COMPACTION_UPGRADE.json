@@ -1,0 +1,25 @@
+{
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "intelligent_trim",
+        "autoCompact": true,
+        "autoCompactInterval": 6,
+        "maxTokensBeforeCompact": 15000,
+        "minCompressRatio": 0.8,
+        "preservePercentage": 85,
+        "costOptimization": true
+      }
+    }
+  },
+  "tools": {
+    "memory": {
+      "compaction": {
+        "intelligent": true,
+        "preserveTechnicalConfig": true,
+        "compressVerboseAPI": true,
+        "autoSummarizeBackground": true
+      }
+    }
+  }
+}

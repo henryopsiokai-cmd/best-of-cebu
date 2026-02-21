@@ -1,0 +1,95 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openrouter/moonshotai/kimi-k2.5",
+        "provider": {
+          "order": ["Fireworks"],
+          "allow_fallbacks": false
+        }
+      },
+      "maxConcurrent": 4,
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "workspace": "/home/node/.openclaw/workspace"
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "main",
+        "model": "openrouter/moonshotai/kimi-k2.5",
+        "provider": {
+          "order": ["Fireworks"],
+          "allow_fallbacks": false
+        }
+      },
+      {
+        "id": "heartbeat",
+        "name": "heartbeat",
+        "model": "openrouter/google/gemini-2.0-flash-001"
+      }
+    ]
+  },
+  "tools": {
+    "exec": {
+      "security": "allowlist",
+      "safeBins": [
+        "ls", "cat", "grep", "find", "head", "tail", "wc", "echo", "pwd", "which", "curl", "wget", "git", "docker", "python3"
+      ]
+    },
+    "web": {
+      "search": {
+        "apiKey": "BSAO0lzVLY6abiYIAqwF30Rpj8nh50j"
+      }
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "d9b911014a43f9d607209b9337ee10314b4b0dc43ce91afe"
+    },
+    "port": 18789,
+    "trustedProxies": ["127.0.0.1", "::1"]
+  },
+  "commands": {
+    "restart": true
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "telegram": {
+        "enabled": true
+      }
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "8597782959:AAE6cug4eF8PDz7gpPvCeShIdMI1WQ_vlKY",
+      "dmPolicy": "pairing",
+      "allowFrom": [
+        1418327811
+      ],
+      "groupPolicy": "allowlist",
+      "streamMode": "partial"
+    }
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.1.29",
+    "lastTouchedAt": "2026-02-15T17:40:00Z"
+  }
+}

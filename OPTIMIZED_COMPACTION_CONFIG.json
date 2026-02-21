@@ -1,0 +1,111 @@
+{
+  "intelligent_compaction": {
+    "enabled": true,
+    "mode": "brian_optimized_trim",
+    "cost_optimization": {
+      "max_tokens_before_autocompact": 12000,
+      "min_compression_ratio": 0.75,
+      "preserve_percentage": 88,
+      "priority_preservation": true,
+      "max_tokens_conversation": 18000,
+      "target_savings": "40_to_60_percent"
+    },
+    "auto_triggers": {
+      "interval_messages": 5,
+      "token_threshold": 14000,
+      "max_tokens_systemic": 160000,
+      "cost_peak_alert": true,
+      "urgent_threshold": 22000
+    },
+    "content_policies": {
+      "high_priority": [
+        "pacs_configuration",
+        "teleradiology_setup", 
+        "google_drive_settings",
+        "gmail_integration",
+        "final_decisions",
+        "api_tokens",
+        "project_requirements",
+        "medical_system_configs",
+        "technical_continuity"
+      ],
+      "medium_priority": [
+        "email_compositions",
+        "image_processing_results",
+        "google_drive_uploads",
+        "background_task_success",
+        "api_verifications"
+      ],
+      "low_priority": [
+        "verbose_gmail_responses",
+        "detailed_drive_analysis",
+        "email_draft_iterations", 
+        "image_processing_steps",
+        "routine_verification_outputs",
+        "google_api_verbose_json"
+      ]
+    },
+    "brian_specific_rules": {
+      "pacs_context": "preserve_all_details",
+      "teleradiology_settings": "preserve_infrastructure",
+      "google_drive_quota": "summarize_constraints_only", 
+      "email_drafts": "keep_final_version_only",
+      "image_processing": "keep_success_status_only",
+      "gmail_operations": "keep_endpoints_status_only",
+      "drive_analysis": "keep_analysis_compress_verbose_content"
+    },
+    "compression_policies": {
+      "email_iterations": {
+        "strategy": "keep_final_draft",
+        "compress_intermediate_revisions": true,
+        "preserve_salutation_closings": true
+      },
+      "google_operations": {
+        "strategy": "status_only_post_compression",
+        "preserve_error_details": true,
+        "compress_success_details": true
+      },
+      "image_processing": {
+        "strategy": "result_only_compression",
+        "preserve_critical_failures": true,
+        "compress_success_steps": true  
+      },
+      "api_responses": {
+        "strategy": "essential_status_only",
+        "preserve_authentication_details": true,
+        "compress_verbose_json_structures": true
+      }
+    },
+    "efficiency_tracking": {
+      "token_usage_monitoring": true,
+      "cost_estimate_reporting": true,
+      "compaction_effectiveness": true,
+      "save_percentage_reporting": true,
+      "brian_pattern_tracking": true,
+      "technical_continuity_metrics": true
+    }
+  },
+  "implementation_profile": {
+    "profile": "brian_radiologist_telemedicine",
+    "philosophy": "medical_continuity_with_cost_efficiency",
+    "target_usage": "reduce_by_45_to_65_percent",
+    "quality_maintenance": "preserve_88_percent_technical_continuity",
+    "cost_model": "moonshotai_k2_optimization",
+    "user_communication": "concise_technical_direct",
+    "session_optimization": "teleradiology_workflow_focused"
+  },
+  "monitoring": {
+    "alert_thresholds": {
+      "tokens_per_message": 3000,
+      "daily_total_tokens": 36000,
+      "compaction_failure_rate": 2,
+      "technical_continuity_score": 85
+    },
+    "performance_metrics": {
+      "track_compaction_success": true,
+      "measure_brian_satisfaction": true,
+      "monitor_pacs_continuity": true,
+      "cost_savings_tracking": true
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "to": "cristejoycalosor13@gmail.com",
+  "subject": "Re: Clarification: Video & Gallery Updates - Best of Cebu",
+  "body": "Hi Joy,\n\nRegarding the YouTube videos: Please use the **bestofcebu** account for the uploads. It's better to keep all the site's assets under the official brand account from the start.\n\nOn the business cards\u2014I've got you covered. I've generated high-resolution PNG versions of both the Light and Dark designs. You can find them here:\n\n1. **Dark Editorial (PNG):** https://bestofcebu.com/assets/business-card-dark.png\n2. **Light Editorial (PNG):** https://bestofcebu.com/assets/business-card.png\n\nThe print shop should have no trouble with these. If they still have questions about the 'all white' look, just tell them it's the 'Minimalist Editorial' aesthetic we're going for\u2014it's meant to look clean and premium.\n\nLooking forward to those YouTube links once you have them!\n\nBest,\nHenry \ud83e\udd85"
+}

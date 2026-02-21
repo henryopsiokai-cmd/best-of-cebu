@@ -1,0 +1,36 @@
+{
+  "agent_id": "henry-antigravity-v1",
+  "name": "Google Antigravity Agent (Henry Enterprise)",
+  "type": "google_antigravity_enterprise",
+  "provider": "google_oauth2_antigravity",
+  "authentication": {
+    "method": "oauth2_enhanced",
+    "flow": "authorization_code_plus_pkce",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.profile",
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/drive",
+      "https://www.googleapis.com/auth/gmail.modify",
+      "https://www.googleapis.com/auth/assistant-sdk-pro"
+    ],
+    "enhanced_features": [
+      "google_antigravity_v2",
+      "agent_first_query_system",
+      "enterprise_rate_limits",
+      "enhanced_model_priority",
+      "richard_service_integration"
+    ]
+  },
+  "capabilities": {
+    "authentication": true,
+    "agent_first_architecture": true,
+    "enterprise_rate_limits": true,
+    "enhanced_processing": true,
+    "oled_support": true,
+    "service_category": "enterprise_customer"
+  },
+  "endpoint": "https://oauth2.googleapis.com/token", 
+  "base": "https://antigravity.google.com/api/v1",
+  "client_type": "henry-enterprise-service",
+  "description": "Google Antigravity agent configured for Brian through enhanced OAuth2"
+}

@@ -1,0 +1,38 @@
+<svg width="1050" height="600" viewBox="0 0 1050 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1050" height="600" fill="#1c1917" />
+  
+  <!-- Accent Line -->
+  <rect x="0" y="580" width="1050" height="20" fill="#d97706" />
+  
+  <!-- Brand Logo -->
+  <text x="50" y="80" font-family="serif" font-size="28" font-weight="900" font-style="italic" fill="#fafaf9">BEST OF CEBU</text>
+  <rect x="50" y="95" width="40" height="2" fill="#d97706" />
+
+  <!-- Name and Title -->
+  <text x="50" y="280" font-family="serif" font-size="64" font-weight="bold" fill="#fafaf9">Criste Joy</text>
+  <text x="50" y="330" font-family="sans-serif" font-size="20" font-weight="bold" fill="#d97706">EDITORIAL CONTRIBUTOR</text>
+  
+  <!-- Contact Details -->
+  <g transform="translate(50, 450)">
+    <text x="0" y="0" font-family="sans-serif" font-size="18" fill="#a8a29e">bestofcebu.com</text>
+    <text x="0" y="35" font-family="sans-serif" font-size="18" fill="#a8a29e">joy@bestofcebu.com</text>
+    <text x="0" y="70" font-family="sans-serif" font-size="16" font-weight="bold" fill="#a8a29e">@bestofcebu_official</text>
+  </g>
+  
+  <!-- QR Code Section (Right Side) -->
+  <g transform="translate(800, 360)">
+    <!-- QR Background Box -->
+    <rect width="180" height="180" rx="10" fill="#ffffff" stroke="#a8a29e" stroke-width="0.5" />
+    
+    <!-- Real QR Pattern -->
+    <g transform="translate(15, 15) scale(1.0)">
+      <path fill="#1c1917" d="elements" />
+    </g>
+    
+    <text x="90" y="205" font-family="sans-serif" font-size="12" font-weight="bold" fill="#a8a29e" text-anchor="middle">SCAN TO EXPLORE</text>
+  </g>
+
+  <!-- Side Accent -->
+  <path d="M750 0 L1050 0 L1050 300 L850 300 Z" fill="#d97706" opacity="0.05" />
+</svg>

@@ -1,0 +1,19 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.4
+2 info using node@v22.22.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/node/.openclaw/workspace/best-of-cebu/.npmrc
+5 silly config load:file:/home/node/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:/home/node/.openclaw/workspace/.npm_cache/_logs/2026-02-20T03_55_08_590Z-
+10 verbose logfile /home/node/.openclaw/workspace/.npm_cache/_logs/2026-02-20T03_55_08_590Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose cwd /home/node/.openclaw/workspace/best-of-cebu
+14 verbose os Linux 6.8.0-100-generic
+15 verbose node v22.22.0
+16 verbose npm  v10.9.4
+17 verbose exit 0
+18 info ok

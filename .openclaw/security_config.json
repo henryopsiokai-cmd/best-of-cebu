@@ -1,0 +1,35 @@
+{
+  "terminal_execution_policy": "request_review",
+  "browser_javascript_policy": "request_review",
+  "terminal_allowlist": [
+    "ls",
+    "pwd",
+    "cd",
+    "git",
+    "python3",
+    "node",
+    "npm",
+    "npx",
+    "cat",
+    "echo",
+    "mkdir",
+    "touch",
+    "cp",
+    "mv",
+    "chmod"
+  ],
+  "terminal_denylist": [
+    "rm",
+    "sudo",
+    "dd",
+    "ifconfig",
+    "iptables",
+    "service",
+    "systemctl",
+    "reboot",
+    "shutdown",
+    "curl",
+    "wget"
+  ],
+  "browser_url_allowlist": "local/gemini/antigravity/browserAllowlist.txt"
+}

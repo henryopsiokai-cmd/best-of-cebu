@@ -1,0 +1,43 @@
+Subject: Google Drive Sharing Instructions - Step-by-Step Process for Best of Cebu
+
+Hi Joy,
+
+Thanks for helping with this! Here are the exact procedures to share your Google Drive folders with me for the Best of Cebu analysis:
+
+## 🔗 HOW TO SHARE GOOGLE DRIVE FOLDERS:
+
+**METHOD 1 - Desktop (Web Browser):**
+
+1. **Go to Google Drive**: drive.google.com
+2. **Find your Best of Cebu folder(s)** in your Drive
+3. **Right-click** on the folder → click "Share"
+4. **Add my email**: henry.ops.iokai@gmail.com
+5. **Set permissions**: Editor (not Viewer - I need to analyze structure)
+6. **Add message**: "Best of Cebu folder access for Brian"
+7. **Click "Send"**
+
+**METHOD 2 - Mobile App:**
+
+1. **Open Google Drive app**
+2. **Find Best of Cebu folder**
+3. **Tap the 3 dots** (menu) → "Share"
+4. **Add my email**: henry.ops.iokai@gmail.com  
+5. **Set permission**: "Can edit"
+6. **Send the invitation**
+
+**WHAT I'LL DO ONCE SHARED:**
+✅ Complete folder inventory and mapping
+✅ Project structure analysis
+✅ File categorization and organization patterns
+✅ Document flow analysis
+✅ Usage statistics and file distribution
+✅ Development-ready structure documentation
+
+**IMPACT:** This helps us build the website with optimal content organization and ensures nothing gets lost or misplaced.
+
+**SHARE ANY OR ALL folders** - comprehensive access gives the best analysis, but I'm happy to work with whatever you can provide.
+
+Feel free to share all at once or incrementally when you're ready!
+
+Henry 🦅  
+Digital Assistant for Brian

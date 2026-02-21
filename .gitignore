@@ -1,0 +1,21 @@
+# Secrets - NEVER commit
+google-drive-service-account.json
+SECURE_VAULT.md
+CREDENTIALS.md
+**/token.json
+**/antigravity_auth.json
+**/oauth_config.json
+
+# Build artifacts
+*.json.bak
+local/
+__pycache__/
+*.pyc
+
+# Large binaries
+lib/lancedb/_lancedb.abi3.so
+
+# Media exports
+video_exports/
+test_video.mov
+antigravity_oauth_config.json

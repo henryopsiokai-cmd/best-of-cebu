@@ -1,0 +1,103 @@
+{
+  "config_verification": {
+    "INTELLIGENT_COMPACTION_CONFIG.json": {
+      "exists": true,
+      "description": "Core intelligent compaction config",
+      "size_bytes": 1870,
+      "last_modified": "2026-02-15T17:23:35.760807"
+    },
+    "OPTIMIZED_COMPACTION_CONFIG.json": {
+      "exists": true,
+      "description": "Brian-optimized compaction settings",
+      "size_bytes": 3579,
+      "last_modified": "2026-02-15T17:24:37.980555"
+    },
+    "AUTO_COMPACTION_UPGRADE.json": {
+      "exists": true,
+      "description": "Auto-compaction upgrade configuration",
+      "size_bytes": 531,
+      "last_modified": "2026-02-15T17:23:47.900758"
+    },
+    "brian_intelligent_compaction.py": {
+      "exists": true,
+      "description": "Brian's specialized compaction engine",
+      "size_bytes": 15122,
+      "last_modified": "2026-02-15T17:25:03.284454"
+    }
+  },
+  "memory_system": {
+    "MEMORY.md": {
+      "exists": true,
+      "description": "Long-term memory storage",
+      "matched_file": "/home/node/.openclaw/workspace/MEMORY.md"
+    },
+    "memory_manager.py": {
+      "exists": true,
+      "description": "Core memory management system",
+      "matched_file": "/home/node/.openclaw/workspace/memory_manager.py"
+    },
+    "HENRY_MEMORY_SYSTEM": {
+      "exists": true,
+      "description": "Henry's specialized memory manager",
+      "matched_file": "/home/node/.openclaw/workspace/henry_memory_manager.py"
+    }
+  },
+  "automation_verification": {
+    "config_found": true,
+    "auto_triggers_configured": true,
+    "interval_correct": true,
+    "max_tokens_set": true
+  },
+  "context_preservation": {
+    "teleradiology": {
+      "preserved": true,
+      "reasoning": "Found protection in OPTIMIZED_COMPACTION_CONFIG.json",
+      "key_terms": [
+        "teleradiology",
+        "telemedicine",
+        "cloud PACS"
+      ]
+    },
+    "medical_imaging": {
+      "preserved": true,
+      "reasoning": "Found protection in OPTIMIZED_COMPACTION_CONFIG.json",
+      "key_terms": [
+        "PACS",
+        "DICOM",
+        "HL7",
+        "medical imaging"
+      ]
+    },
+    "business": {
+      "preserved": false,
+      "reasoning": "Not found in any config",
+      "key_terms": [
+        "Remote Imaging Consultants",
+        "radiologist",
+        "physician"
+      ]
+    },
+    "technical_constraints": {
+      "preserved": false,
+      "reasoning": "Not found in any config",
+      "key_terms": [
+        "Google Drive quota",
+        "0-byte limitation"
+      ]
+    },
+    "projects": {
+      "preserved": false,
+      "reasoning": "Not found in any config",
+      "key_terms": [
+        "email_to_joy",
+        "graphics collection",
+        "Gmail integration"
+      ]
+    }
+  },
+  "compression_test": {
+    "tested": true,
+    "results": {},
+    "script_exists": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "lastChecks": {
+    "email": 1771655680,
+    "calendar": 0,
+    "weather": null,
+    "memory_review": 0
+  },
+  "sessionCount": 1,
+  "lastSessionDate": "2026-02-15",
+  "memoryStatus": "healthy",
+  "continuityLevel": "full",
+  "preferences": {
+    "communication_style": "direct_concise",
+    "priority_projects": [
+      "cloud_pacs_development",
+      "business_automation"
+    ],
+    "timezone": "UTC+8",
+    "location": "taiwan"
+  },
+  "last_memory_review": 1771175776.149101,
+  "last_updated": "2026-02-21T01:36:00",
+  "last_consolidation": "2026-02-20T02:54:59.638366",
+  "sessions_analyzed": 6,
+  "discoveries_found": 3,
+  "projects_tracked": 3
+}

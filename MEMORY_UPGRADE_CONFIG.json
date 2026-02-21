@@ -1,0 +1,25 @@
+{
+  "plugins": {
+    "entries": {
+      "memory-lancedb": {
+        "enabled": true,
+        "config": {
+          "embedding": {
+            "apiKey": "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",
+            "model": "text-embedding-3-small"
+          },
+          "autoCapture": true,
+          "autoRecall": true,
+          "dbPath": "/home/node/.openclaw/memory/lancedb"
+        }
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "memorySearch": {
+        "provider": "openai"
+      }
+    }
+  }
+}

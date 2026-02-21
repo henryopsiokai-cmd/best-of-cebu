@@ -1,0 +1,60 @@
+{
+  "intelligent_compaction": {
+    "enabled": true,
+    "mode": "intelligent_trim",
+    "cost_optimization": {
+      "max_tokens_before_autocompact": 15000,
+      "min_compression_ratio": 0.80,
+      "preserve_percentage": 85,
+      "priority_preservation": true
+    },
+    "auto_triggers": {
+      "interval_messages": 6,
+      "token_threshold": 16000,
+      "max_tokens_systemic": 200000,
+      "cost_peak_alert": true
+    },
+    "content_policies": {
+      "high_priority": [
+        "technical_configurations",
+        "final_decisions",
+        "api_tokens",
+        "project_requirements",
+        "critical_lessons",
+        "user_preferences"
+      ],
+      "medium_priority": [
+        "success_confirmations",
+        "process_summaries",
+        "background_task_results"
+      ],
+      "low_priority": [
+        "verbose_api_responses",
+        "detailed_command_outputs",
+        "routine_success_confirmations",
+        "technical_exploration_steps"
+      ]
+    },
+    "compression_rules": {
+      "api_success_responses": "keep_status_only",
+      "repeated_confirmation": "keep_final_only",
+      "background_task_output": "summarize_takewaway",
+      "google_operations": "keep_endpoints_drop_verbose",
+      "github_verifications": "keep_url_drop_exhaustive_json",
+      "drive_analysis": "keep_analysis_drop_verbose_content",
+      "memory_management": "keep_config_drop_display_output"
+    },
+    "efficiency_tracking": {
+      "token_usage_monitoring": true,
+      "cost_estimate_reporting": true,
+      "compaction_effectiveness": true,
+      "save_percentage_reporting": true
+    }
+  },
+  "implementation_strategy": {
+    "profile": "brian_cost_efficiency_priority",
+    "philosophy": "technical_continuity_over_perfection",
+    "target_usage": "reduce_by_40_to_60_percent", 
+    "quality_maintenance": "preserve_85_percent_effectiveness"
+  }
+}
