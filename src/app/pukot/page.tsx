@@ -6,6 +6,7 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function PukotArticle() {
   return (
@@ -92,6 +93,23 @@ export default function PukotArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN",
+            "14mI0Bp6TYddqvD5gBY594qwqS8sULhPY",
+            "14TyvAmh-_Xp9xUzN5h1H_QiPgR6FUt5l",
+            "1-FZWmhy6zWFaiI0QU_lmDdqqMcV2pHxd",
+            "1LriHVX8hXyQlTYVCpgm1lQT7zLiQMlql",
+            "11bFrp9ixWLPfvEuUioyVWxXMpejgTE6s",
+            "1Iz5_E_n-3SMmvsyVKGQGL8xQWi4heqgB",
+            "1ABszuZYeCHmKUJnY9qB7VZ-jL11XAJ0c",
+            "18Qq2uquhE-Ni18ApC71ctQH4J1RnFOOV",
+            "1446a5wP9xquc7ZiVU-2eM9QGjBIJvEAb",
+            "1GeskliLnBluubJ7DjNoLyrXPBXYZmw-d",
+            "1I9e6lGyRk8V7A7eZqEavVCs7cmmSqQYs"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
