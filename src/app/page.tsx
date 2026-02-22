@@ -13,13 +13,6 @@ export default function Home() {
     // Internal index to maintain order and prevent duplicates
     const articles = [
         {
-            category: "The Island Table",
-            title: "Exploring Cebuano Cafes",
-            excerpt: "Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories.",
-            href: "/food",
-            imageSrc: "https://drive.google.com/thumbnail?id=1bMZK-axAAMEbjV2tbn4aTAaKDr1kJYRj&sz=w1000"
-        },
-        {
             category: "Japanese Aesthetic",
             title: "Pink Blossoms and Pancakes",
             excerpt: "Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes.",
@@ -67,6 +60,13 @@ export default function Home() {
             excerpt: "Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe.",
             href: "/tablea",
             imageSrc: "https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000"
+        },
+        {
+            category: "The Island Table",
+            title: "Exploring Cebuano Cafes",
+            excerpt: "Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories.",
+            href: "/food",
+            imageSrc: "https://drive.google.com/thumbnail?id=1bMZK-axAAMEbjV2tbn4aTAaKDr1kJYRj&sz=w1000"
         }
     ];
 
