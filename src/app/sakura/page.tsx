@@ -1,6 +1,5 @@
 'use client';
 import Link from "next/link";
-
 import React from 'react';
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
 import { H2, Paragraph } from '../../components/editorial/Typography';
@@ -114,27 +113,6 @@ export default function SakuraArticle() {
           <Paragraph>
             The outdoor area is particularly noteworthy, acting as a sentimental extension of the brand. It features a large heart backdrop and a "message heart tree" where guests leave handwritten notes—a perfect, interactive touch that felt especially poignant on a February 14 visit. While the service flow could benefit from some peak-hour refinement—we found ourselves pressing the table call button multiple times just to settle the bill—the overall experience is one of genuine charm. 
           </Paragraph>
-        </AnimatedSection>
-
-        <AnimatedSection>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 my-16">
-            {[
-              "1dZavyNmUEvKom67MCXNzf1rHeBzLTCdi",
-              "1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD",
-              "14iRVAk39F8ahohHF1oVocpbNCoAVDT2r",
-              "1mx_STTXoOzBat-XBTYXacAnXQreV70XY",
-              "1Z6YfRgwTz-Bpwb1fKFN8aJ2VGilhjUsa",
-              "1BUVBJAYKXEICKXIZqw6etJ96C3wdtPvv"
-            ].map((id, i) => (
-              <div key={id} className="aspect-square bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
-                <img 
-                  src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                  alt={`Sakura Gallery ${i + 1}`}
-                />
-              </div>
-            ))}
-          </div>
         </AnimatedSection>
 
         <AnimatedSection>
