@@ -21,7 +21,7 @@ export default function GureumArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          I found Gurium (Gureum) Cafe and Bar tucked away on the second floor of Gaisano Country Mall in Banilad, near the Chinese restaurant and just a stone's throw from the University of Cebu. Walking in, the vibe is immediate: chill, cozy, and profoundly relaxing. It’s the kind of place where you can fully relax, stretch your legs, and lounge comfortably—a rare find in a bustling city where seating usually prioritizes turnover over the actual human experience of comfort.
+          I found Gureum Cafe and Bar tucked away on the second floor of Gaisano Country Mall in Banilad, near the Chinese restaurant and just a stone's throw from the University of Cebu. Walking in, the vibe is immediate: chill, cozy, and profoundly relaxing. In Korean, "Gureum" means cloud—a fitting name for a place where you can fully relax, stretch your legs, and lounge comfortably—a rare find in a bustling city where seating usually prioritizes turnover over the actual human experience of comfort.
         </DropCap>
 
         <AnimatedSection>
@@ -97,14 +97,14 @@ export default function GureumArticle() {
             The food and drink felt like "best picks" from the owner herself. I ordered the Carbonara with Garlic Baguette (₱340), which arrived in a record 8 minutes. It was served hot with an uncooked egg on top that blended beautifully into the creamy, milky richness of the pasta as I stirred it. It’s a perfect dish if you love that rich, savory egg flavor—though note it does contain pork.
           </Paragraph>
           <Paragraph>
-            I also tried the Iced Marshmallow Choco (₱180), which was surprisingly unique. The marshmallows tasted lightly grilled, adding a smoky depth to the drink. My tip: stir it well to blend the chocolate from the bottom with the marshmallows on top. It’s a satisfying, layered experience that matches the lounge's cozy energy.
+            I also tried the Iced Marshmallow Choco (₱180), which was surprisingly unique. The marshmallows tasted lightly grilled, adding a smoky depth to the drink. My tip: stir it well to blend the chocolate from the bottom with the marshmallows on top. It’s a satisfying, layered experience that matches the lounge's cozy energy. Other local favorites include the Tiramisu and Dirty Matcha, known for their generous portions.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Takeaway</H2>
           <Paragraph>
-            Gurium isn't just a cafe; it’s a study in how to make a commercial space feel like home. With fast WiFi, friendly staff, and a stay policy that allows for a generous 2.5 hours before needing to re-order, it’s a haven for students and digital nomads. The seating isn't just functional; it’s designed for lounging. You can relax like you’re in your own living room, watching the world go by through that half-moon window. I’ll definitely be back—it’s the perfect spot for when you need to recharge and actually feel comfortable.
+            Gureum isn't just a cafe; it’s a study in how to make a commercial space feel like home. With fast WiFi, friendly staff, and a stay policy that allows for a generous 2.5 hours before needing to re-order, it’s a haven for students and digital nomads. The seating isn't just functional; it’s designed for lounging. You can relax like you’re in your own living room, watching the world go by through that half-moon window. I’ll definitely be back—it’s the perfect spot for when you need to recharge and actually feel comfortable.
           </Paragraph>
         </AnimatedSection>
 
