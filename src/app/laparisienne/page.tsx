@@ -6,6 +6,7 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function LaParisienneArticle() {
   return (
@@ -110,6 +111,23 @@ export default function LaParisienneArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m",
+            "1X7hRsNRM-WVY7ka6mfKVb-EZD3NvV_u8",
+            "1KMv1w73XVTR8qV6uIo-P2cBBqaNj5rKS",
+            "1T-qeXsKy8RXevtPXRLsfdx1O_EJiRJn9",
+            "1UTIHUCYxu7s9NHHYbWN5DrV2ohkrPdbG",
+            "1rmzukoVjgV_NkpHXzn54DEG6gUMse4uo",
+            "1oS8PRE59vv7TIXXgLF907zZxgeAoIQyU",
+            "1aIIzg46iygKp28fWrVvfNcNYKecETyU0",
+            "1LPulHkltrPkNeVa-SNiGuEJ9as2W2iXg",
+            "1u2vcC4Ztz9gY9vh70QBbqr_gB5Br1dC-",
+            "1yeMeGqljlpM4__xgkFg5IdURcoLS_esm",
+            "1PuCYx4GtHBt7wwKXWpEIC3hkQNnbCP4X"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
