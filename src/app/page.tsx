@@ -13,6 +13,13 @@ export default function Home() {
     // Internal index to maintain order and prevent duplicates
     const articles = [
         {
+            category: "The Island Table",
+            title: "Exploring Cebuano Cafes",
+            excerpt: "Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories.",
+            href: "/food",
+            imageSrc: "https://drive.google.com/thumbnail?id=1bMZK-axAAMEbjV2tbn4aTAaKDr1kJYRj&sz=w1000"
+        },
+        {
             category: "Japanese Aesthetic",
             title: "Pink Blossoms and Pancakes",
             excerpt: "Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes.",
