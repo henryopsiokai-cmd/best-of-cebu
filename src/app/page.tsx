@@ -10,6 +10,59 @@ export default function Home() {
     const { scrollY } = useScroll();
     const y1 = useTransform(scrollY, [0, 500], [0, 200]);
 
+    // Internal index to maintain order and prevent duplicates
+    const articles = [
+        {
+            category: "Japanese Aesthetic",
+            title: "Pink Blossoms and Pancakes",
+            excerpt: "Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes.",
+            href: "/sakura",
+            imageSrc: "https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000"
+        },
+        {
+            category: "French Patisserie",
+            title: "French Soul in Cebu",
+            excerpt: "Timeless charm and buttery layers at La Parisienne, a Gallic escape in the heart of Lahug.",
+            href: "/laparisienne",
+            imageSrc: "https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1000"
+        },
+        {
+            category: "Industrial Coffee",
+            title: "Minimalist Brew in Mandaue",
+            excerpt: "Concrete lines and technical extraction at Hatte Cafe, a sanctuary for the serious coffee enthusiast.",
+            href: "/hatte",
+            imageSrc: "https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000"
+        },
+        {
+            category: "Community & Soul",
+            title: "A Net of Local Flavors",
+            excerpt: "Celebrating the vibrant textures and soulful Cebuano cuisine at Pukot Kitchen.",
+            href: "/pukot",
+            imageSrc: "https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000"
+        },
+        {
+            category: "Modern Comfort",
+            title: "Effortless Elegance at Tamp",
+            excerpt: "Technical precision and modern cafe culture at Tamp Cafe & Co., a reliable haven in the city.",
+            href: "/tamp",
+            imageSrc: "https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000"
+        },
+        {
+            category: "Coffee & Chill",
+            title: "The Half-Moon View",
+            excerpt: "How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation.",
+            href: "/gureum",
+            imageSrc: "https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
+        },
+        {
+            category: "Tradition",
+            title: "The Cacao Ritual",
+            excerpt: "Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe.",
+            href: "/tablea",
+            imageSrc: "https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000"
+        }
+    ];
+
     return (
         <div className="min-h-screen bg-stone-50 text-stone-900 font-serif overflow-x-hidden">
             {/* Hero Section */}
@@ -77,109 +130,21 @@ export default function Home() {
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
                     <section className="md:col-span-8 space-y-16">
-                        <AnimatedSection delay={0.1}>
-                            <Card
-                                category="Cuisine & Culture"
-                                title="The Lechon Pilgrimage"
-                                excerpt="Why the dusty streets of Carcar still hold the crown for the world's most coveted roasted pig. A journey into taste, tradition, and fire."
-                                href="/lechon"
-                                imageSrc="/images/lechon.png"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.2}>
-                            <Card
-                                category="Japanese Aesthetic"
-                                title="Pink Blossoms and Pancakes"
-                                excerpt="Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes."
-                                href="/sakura"
-                                imageSrc="https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.3}>
-                            <Card
-                                category="French Patisserie"
-                                title="French Soul in Cebu"
-                                excerpt="Timeless charm and buttery layers at La Parisienne, a Gallic escape in the heart of Lahug."
-                                href="/laparisienne"
-                                imageSrc="https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.4}>
-                            <Card
-                                category="Coffee & Chill"
-                                title="The Half-Moon View"
-                                excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
-                                href="/gureum"
-                                imageSrc="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.4}>
-                            <Card
-                                category="Industrial Coffee"
-                                title="Minimalist Brew in Mandaue"
-                                excerpt="Concrete lines and technical extraction at Hatte Cafe, a sanctuary for the serious coffee enthusiast."
-                                href="/hatte"
-                                imageSrc="https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.5}>
-                            <Card
-                                category="Community & Soul"
-                                title="A Net of Local Flavors"
-                                excerpt="Celebrating the vibrant textures and soulful Cebuano cuisine at Pukot Kitchen."
-                                href="/pukot"
-                                imageSrc="https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.6}>
-                            <Card
-                                category="Coffee & Chill"
-                                title="The Half-Moon View"
-                                excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
-                                href="/gureum"
-                                imageSrc="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.6}>
-                            <Card
-                                category="Modern Comfort"
-                                title="Effortless Elegance at Tamp"
-                                excerpt="Technical precision and modern cafe culture at Tamp Cafe & Co., a reliable haven in the city."
-                                href="/tamp"
-                                imageSrc="https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.7}>
-                            <Card
-                                category="Coffee & Chill"
-                                title="The Half-Moon View"
-                                excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
-                                href="/gureum"
-                                imageSrc="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
-                            />
-                        </AnimatedSection>
-
-                        <AnimatedSection delay={0.8}>
-                            <Card
-                                category="Tradition"
-                                title="The Cacao Ritual"
-                                excerpt="Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe."
-                                href="/tablea"
-                                imageSrc="https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000"
-                            />
-                        </AnimatedSection>
+                        {articles.map((article, index) => (
+                            <AnimatedSection key={article.href} delay={0.1 * (index + 1)}>
+                                <Card
+                                    category={article.category}
+                                    title={article.title}
+                                    excerpt={article.excerpt}
+                                    href={article.href}
+                                    imageSrc={article.imageSrc}
+                                />
+                            </AnimatedSection>
+                        ))}
                     </section>
 
                     <aside className="md:col-span-4 space-y-12">
-                        <AnimatedSection delay={0.9} direction="left">
+                        <AnimatedSection delay={0.8} direction="left">
                             <div className="bg-white p-8 rounded-2xl shadow-2xl border border-stone-100 sticky top-10">
                                 <h3 className="text-xl font-bold mb-8 font-serif tracking-tight">The Curated List</h3>
                                 <ul className="space-y-6 font-sans">
