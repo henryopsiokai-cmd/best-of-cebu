@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import Link from "next/link";
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
@@ -5,7 +6,6 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
-import { Card } from '../../components/editorial/Card';
 
 export default function FoodArticle() {
   return (
@@ -67,9 +67,9 @@ export default function FoodArticle() {
             <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
           </div>
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-            <Link href="/lechon" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: The Lechon Pilgrimage</Link>
+            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Sakura Dining</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Pink Blossoms and Pancakes</Link>
+            <Link href="/laparisienne" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: French Soul</Link>
           </nav>
         </div>
       </footer>
