@@ -6,6 +6,7 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function HatteArticle() {
   return (
@@ -104,6 +105,23 @@ export default function HatteArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1l3TYo14AA8kylwsWEqABsMxFOt0CX1An",
+            "1VhS-B9HW1zM2B7F0aIDfSnvVKCmQeiEL",
+            "1zSI98rF-_UmReGydX-D_PCsOBNMsUS-o",
+            "126KeTIImFN-UCLinEEwJO4Iv8fU7ekU_",
+            "1VhS-B9HW1zM2B7F0aIDfSnvVKCmQeiEL",
+            "1erihX6dsru23QXoL_jVnLWvWAN_5eglh",
+            "1etzwvO84Hukz-vVnDtUMQqQ35i0HyC6o",
+            "1wQEIS6JXK-qtxTtdoc_yaZoYZENpF33I",
+            "1L1IGQxekreNsuqmSJ3-2ShfKN3v5FF6a",
+            "1bCol_I5fcGWl4VqRj5Wyin-X7WAmZYY1",
+            "1vwnyZjDJIal1_Ks9KGtuRlux039g1i9A",
+            "1brsBQ2EqfXR4dANcxjFRkhDjcvKDc32v"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
