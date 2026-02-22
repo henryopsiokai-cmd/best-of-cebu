@@ -6,6 +6,7 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function TampArticle() {
   return (
@@ -92,6 +93,23 @@ export default function TampArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn",
+            "1X6zdvfRm8JCEwyL-3aV9kbxN7eAdw55t",
+            "1lGiugt9SF5ujWWZ5VqpIi4MDnpkZLpnZ",
+            "1EimJ5SSpFDL5_V4cGY_R80C0mZN3_few",
+            "1tAZiftIdiMZKOw1OeTxwhmyl05HrfKHh",
+            "125nKaB3y_3fyl2RLXkZl6rIoDHUZyf4-",
+            "1ZbjTxIw9Iygn6fu0mZ8f65XpeBn8uIb-",
+            "1SJJ8t3F1VzO2oCU9jnYawX5KfQamFvai",
+            "1TzNZvb7iSbItgBur_rvXk03Rp44JfbqI",
+            "1sS-kK0sbLwHKpPyYhT68oYETs-zHBCCE",
+            "1FbXCxBCQ9IqyPsyoSxiLATw7MBItv2BL",
+            "1nun4LORx-YOZOXL9J3nvIhhafIDE9rGd"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
@@ -102,7 +120,7 @@ export default function TampArticle() {
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
             <Link href="/pukot" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Pukot Kitchen</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/lechon" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Lechon</Link>
+            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Sakura Dining</Link>
           </nav>
         </div>
       </footer>
