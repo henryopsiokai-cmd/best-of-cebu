@@ -14,14 +14,14 @@ export default function TampArticle() {
       <ArticleHeader
         category="Cuisine & Comfort"
         title="Tamp Cafe: Effortless Elegance in Every Bite"
-        subtitle="Exploring the modern comfort and technical precision of Tamp Cafe & Co."
+        subtitle="Exploring the modern comfort and technical precision of Tamp Cafe & Co. at Paseo Banawa."
         author="Criste Joy"
         publishedAt="February 2026"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          Tamp Cafe & Co. is a masterclass in modern comfort. Located in the heart of the city, it is a space where the design is clean, the service is efficient, and the food is consistently exceptional.
+          Tamp Cafe & Co. is a masterclass in modern comfort. Located in the heart of Paseo Arcenas Mall in Banawa, it is a space where the design is clean, the service is efficient, and the food is consistently exceptional. Even on a weekday evening, the place is buzzing with a lively energy that makes it clear: this is a local favorite that doesn't need mall traffic to stay full.
         </DropCap>
 
         <AnimatedSection>
@@ -34,7 +34,7 @@ export default function TampArticle() {
               <source src="https://drive.google.com/uc?export=download&id=17CBbV8_QcQ76IXt3o_qrWEm-4hE074s4" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Tamp Cafe & Co. • Cebu City
+              Tamp Cafe & Co. • Paseo Banawa
             </div>
           </div>
         </AnimatedSection>
@@ -42,10 +42,10 @@ export default function TampArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Technical Precision</H2>
           <Paragraph>
-            The menu at Tamp is defined by its technical precision. From the perfectly balanced coffee to the beautifully presented plates, every element is considered. It's a place for people who value quality and consistency—a reliable haven in the city's fast-paced culinary landscape.
+            The menu at Tamp is defined by its technical precision and thoughtful promotions. I tried the Beef Stroganoff (₱395), which features slow-cooked, incredibly tender beef in a creamy white sauce. While the side of lettuce felt a bit sparse, the meat itself was a revelation of texture and flavor. 
           </Paragraph>
           <Paragraph>
-            Whether you're there for a quick caffeine fix or a leisurely brunch, the experience is one of effortless elegance. It's a testament to the city's growing appetite for refined dining experiences that don't compromise on comfort.
+            The real winner, however, is their signature "One Peso Cake" promotion: purchase a meal and a drink, and you can get a generously sized slice of cake for just ₱1. I chose the Yema Cake, and they certainly didn't hold back on the ingredients. It was rich, sweet, and satisfying—a masterstroke of customer loyalty that makes every visit feel like a special occasion.
           </Paragraph>
         </AnimatedSection>
 
@@ -77,19 +77,30 @@ export default function TampArticle() {
 
         <AnimatedSection>
           <PullQuote attribution="Criste Joy">
-            At Tamp, the elegance is in the details—from the perfect extraction to the thoughtful presentation.
+            At Tamp, the elegance is in the details—from the nuttiness of the Iced Pistachio Latte to the tiny, thriving ecosystem of the fish pond at the counter.
           </PullQuote>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Cozy Organization</H2>
+          <Paragraph>
+            Beyond the food, the service stands out. The staff, led by a particularly warm supervisor, are engaged and professional, even during peak hours. The space is well air-conditioned and features a unique touch: a small, living pond on one of the tables near the counter, complete with colorful fish and snails. It adds a layer of charm and personality that distinguishes Tamp from more clinical mall cafes.
+          </Paragraph>
+          <Paragraph>
+            While the lack of WiFi and background music means it's more of an "eating and talking" spot than a digital nomad hub, the quality of the experience remains top-tier. It's a reliable haven for families, friends, and anyone seeking a refined but accessible dining experience in Cebu.
+          </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Contact</h3>
-              <p className="text-sm text-stone-600 italic">Cebu City. Modern comfort and precision.</p>
+              <p className="text-sm text-stone-600 italic">Paseo Arcenas Mall, Banawa, Cebu City. Open Daily 7:30 AM – 10:00 PM.</p>
+              <p className="text-sm text-stone-600 mt-2">Special: ₱1 Promo Cake with Meal + Drink. IG: @tampcafecebu</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">8/10. A masterclass in consistency and modern cafe culture.</p>
+              <p className="text-sm text-stone-600 italic">8/10. A masterclass in consistency and modern cafe culture. The promo is genuinely thoughtful and the beef is world-class.</p>
             </div>
           </div>
         </AnimatedSection>
@@ -120,7 +131,7 @@ export default function TampArticle() {
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
             <Link href="/pukot" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Pukot Kitchen</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Sakura Dining</Link>
+            <Link href="/gureum" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: The Half-Moon View</Link>
           </nav>
         </div>
       </footer>

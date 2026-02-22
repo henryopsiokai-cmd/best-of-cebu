@@ -14,14 +14,14 @@ export default function LaParisienneArticle() {
       <ArticleHeader
         category="Cuisine & Ambiance"
         title="French Soul in the Heart of the Queen City"
-        subtitle="Exploring the timeless charm and buttery layers of La Parisienne Cebu."
+        subtitle="Exploring the timeless charm, buttery layers, and wine culture of La Vie Parisienne Cebu."
         author="Criste Joy"
         publishedAt="February 2026"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          Stepping into La Parisienne Cebu is less of a dining choice and more of a temporal shift. Nestled in the historic enclave of Lahug, this bakery-bistro is a monument to the Gallic art of living, where the aroma of fresh-baked baguettes and the clink of wine glasses create a symphony that feels miles away from the humidity of the city.
+          Stepping into La Vie Parisienne Cebu is less of a dining choice and more of a temporal shift. Nestled in the historic enclave of Lahug at 371 Gorordo Avenue, this bakery-bistro is a monument to the Gallic art of living. Often called the "Little Paris of Cebu," it is where the aroma of fresh-baked baguettes and the clink of imported wine glasses create a symphony that feels miles away from the humidity of the city.
         </DropCap>
 
         <AnimatedSection>
@@ -42,10 +42,10 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Patisserie Standard</H2>
           <Paragraph>
-            The display cases at La Parisienne are a dangerous place for the uninitiated. Rows of jewel-toned macarons, éclairs that glisten with dark ganache, and golden-brown croissants that promise a thousand shatter-crisp layers are the real protagonists here. 
+            The display cases here are a dangerous place for the uninitiated. Rows of jewel-toned macarons, éclairs that glisten with dark ganache, and golden-brown croissants that promise a thousand shatter-crisp layers are the real protagonists. 
           </Paragraph>
           <Paragraph>
-            Each pastry feels like a piece of quiet craftsmanship—a technical achievement of butter and flour that respects the traditional French methods while embracing the local Cebuano spirit of gathering. Whether it's a mid-morning espresso with a pain au chocolat or a long afternoon shared over a charcuterie board, the quality remains consistent: unapologetically classic.
+            Each pastry feels like a piece of quiet craftsmanship—a technical achievement of butter and flour that respects traditional French methods while embracing the local Cebuano spirit of gathering. Whether it's a mid-morning espresso with a pain au chocolat or a long afternoon shared over a charcuterie board, the quality remains consistent: unapologetically classic.
           </Paragraph>
         </AnimatedSection>
 
@@ -82,8 +82,12 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Wine & Charcuterie</H2>
           <Paragraph>
-            Beyond the sweets, the savory menu offers a robust exploration of bistro staples. From the creamy richness of a well-executed quiche to the crisp freshness of a niçoise salad, there is a commitment to ingredients that elevates the experience above your standard cafe fare. It is a place that understands the value of ambiance—where the decor, the service, and the plate all work together to tell a story of refined comfort.
+            Beyond the sweets, La Vie Parisienne is famous for its extensive wine cellar, which offers one of the best selections of French wines in the country. The walls are literally lined with bottles, acting as both a design element and an invitation to stay for another glass.
+          </Paragraph>
+          <Paragraph>
+            The savory menu offers a robust exploration of bistro staples. I tried the Spaghetti Meatballs (₱450), where the sauce really elevates the dish, making it Filipino-palate friendly without losing its bistro roots. But the real magic happens at night, when the outdoor area and rooftop, featuring a miniature Eiffel Tower, light up. It’s a study in ambiance—where the decor, the music (nonstop love songs), and the plate all work together to tell a story of refined comfort.
           </Paragraph>
         </AnimatedSection>
 
@@ -103,11 +107,12 @@ export default function LaParisienneArticle() {
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Contact</h3>
-              <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Cebu City. A true neighborhood staple.</p>
+              <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City. Open until 1:00 AM (Mon-Thu) and 2:00 AM (Fri-Sun).</p>
+              <p className="text-sm text-stone-600 mt-2">IG: @laparisiennecebu • FB: La Parisienne CEBU</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">8/10. An essential destination for anyone seeking the perfect croissant or a quiet corner that feels like a European getaway.</p>
+              <p className="text-sm text-stone-600 italic">8.7/10. An essential destination for anyone seeking the perfect croissant, a massive wine selection, or a quiet corner that feels like a European getaway.</p>
             </div>
           </div>
         </AnimatedSection>

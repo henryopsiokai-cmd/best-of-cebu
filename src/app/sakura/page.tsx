@@ -21,7 +21,7 @@ export default function SakuraArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          It was Valentine’s Day, and Sakura Dining at Ayala Malls Central Bloc was exactly what you’d expect: packed, chaotic, and radiating a very specific shade of Japanese-inspired pink. I went with a friend for a long-overdue catch-up, navigating through the festive crowds of Cebu IT Park. Despite a 35-minute wait that stretched our patience, the eventual transition into the calm, cherry-blossom-scented interior felt like a hard-won victory. There’s a particular kind of magic in the intensity of a holiday crowd that makes the comfort of a cushioned booth feel like a private sanctuary.
+          It was Valentine’s Day, and Sakura Dining at Ayala Malls Central Bloc was exactly what you’d expect: packed, chaotic, and radiating a very specific shade of Japanese-inspired pink. Nestled on the 2nd floor of IT Park’s newest mall hub, directly above the Metro Supermarket, this cafe (often associated with the Fuwari brand) has quickly become a digital landmark for local foodies. I went with a friend for a long-overdue catch-up, navigating through the festive crowds of Cebu IT Park. Despite a 35-minute wait that stretched our patience, the eventual transition into the calm, cherry-blossom-scented interior felt like a hard-won victory.
         </DropCap>
 
         <AnimatedSection>
@@ -40,12 +40,12 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Fluff Factor</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Fuwari Fluff Factor</H2>
           <Paragraph>
-            The menu at Sakura is a broad Japanese-fusion mix, but let’s be honest: I was there for the sweets. Specifically, the legendary fluffy pancakes that have become a digital landmark for local foodies. I ordered the Chocolate Banana Pancake (₱440), and it was easily the highlight of the afternoon. 
+            The menu here is a broad Japanese-fusion mix, but let’s be honest: I was there for the sweets. Specifically, the legendary fluffy pancakes that have made the Fuwari name famous across Cebu, from SM Seaside to this new Ayala location. I ordered the Chocolate Banana Pancake (₱440), and it was easily the highlight of the afternoon. 
           </Paragraph>
           <Paragraph>
-            The texture was a revelation—uniquely soft, smooth, and possessing a delicate, cloud-like consistency that is rare to execute with this much precision. Every bite felt intentional, a perfect marriage of warm, airy batter and the rich, cooling contrast of the chocolate and banana. It’s the kind of dish that justifies the hype, standing out not just for its visual appeal but for a technical mastery of texture.
+            The texture was a revelation—uniquely soft, smooth, and possessing a delicate, cloud-like consistency that is rare to execute with this much precision. Every bite felt intentional, a perfect marriage of warm, airy batter and the rich, cooling contrast of the chocolate and banana. It’s a dish that justifies the hype, standing out not just for its visual appeal but for a technical mastery of texture that distinguishes it from more traditional, dense American-style pancakes.
           </Paragraph>
         </AnimatedSection>
 
@@ -117,7 +117,7 @@ export default function SakuraArticle() {
 
         <AnimatedSection>
           <Paragraph>
-            It feels like a labor of love, possibly a Japanese family-owned enterprise, and that personal investment radiates through the decor and the menu's focus. For those seeking a date night destination or a catch-up spot for friends who value aesthetic as much as appetite, Sakura is an essential stop. Just bring your patience for the wait, and keep your camera ready.
+            It feels like a labor of love, possibly a Japanese family-owned enterprise, and that personal investment radiates through the decor and the menu's focus on high-quality ingredients and presentation. For those seeking a date night destination or a catch-up spot for friends who value aesthetic as much as appetite, Sakura is an essential stop in the IT Park ecosystem. Just bring your patience for the wait, and keep your camera ready.
           </Paragraph>
         </AnimatedSection>
 
@@ -126,7 +126,7 @@ export default function SakuraArticle() {
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Contact</h3>
               <p className="text-sm text-stone-600 italic">2nd Floor, Ayala Malls Central Bloc (above Metro Supermarket), Cebu IT Park. Open Daily 10am-9pm.</p>
-              <p className="text-sm text-stone-600 mt-2">IG: @sakura.ayalait • FB: Sakura Dining Ayala Central Bloc</p>
+              <p className="text-sm text-stone-600 mt-2">IG: @fuwari.ayalait • FB: Sakura Dining Ayala Central Bloc</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>

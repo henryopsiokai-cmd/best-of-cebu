@@ -14,14 +14,14 @@ export default function PukotArticle() {
       <ArticleHeader
         category="Cuisine & Culture"
         title="Pukot Kitchen: A Net of Local Flavors"
-        subtitle="Exploring the vibrant textures and community spirit of Pukot Kitchen."
+        subtitle="Exploring the vibrant textures and community spirit of a Banilad hole-in-the-wall."
         author="Criste Joy"
         publishedAt="February 2026"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          Pukot Kitchen is more than just a place to eat; it is a celebration of the Cebuano spirit, woven together like a traditional fishing net. It is a space where the ingredients are local, the flavors are bold, and the community is always welcome.
+          Pukot Kitchen is more than just a place to eat; it is a celebration of the Cebuano spirit, woven together like a traditional fishing net. Nestled inside the quiet El Dorado Subdivision in Banilad, this hole-in-the-wall gem is the kind of discovery that makes you feel like an insider. In Cebuano, "Pukot" means net—an intentional name for a space designed to gather friends, business partners, and the local community into its welcoming atmosphere.
         </DropCap>
 
         <AnimatedSection>
@@ -34,18 +34,18 @@ export default function PukotArticle() {
               <source src="https://drive.google.com/uc?export=download&id=1GlXnxZRX2l10Q1C9fxukVnjNPW84nUKu" type="video/mp4" />
             </video>
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Pukot Kitchen • Cebu City
+              Pukot Kitchen • Banilad, Cebu City
             </div>
           </div>
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Soul of the Menu</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Comfort of Local Grit</H2>
           <Paragraph>
-            The menu at Pukot is a testament to the richness of our local bounty. Every dish tells a story of the land and the sea, prepared with a respect for tradition and a touch of modern creativity. 
+            The owner, Sachi, shared a story of perseverance and transformation. Though the business has been running for four years, she took over only a year ago, renovating the space with a singular focus: "comfort." This isn't just a restaurant; it’s designed to function as a work-friendly sanctuary. With free WiFi, a dedicated presentation area, and a quiet daytime vibe, it's a Study-from-Home or Business Meeting alternative that retains its soulful roots.
           </Paragraph>
           <Paragraph>
-            From the vibrant colors of the produce to the deep, resonant flavors of the proteins, dining at Pukot is an immersive experience. It is a place that reminds you of why we love the flavors of our home—unpretentious, soulful, and deeply satisfying.
+            The menu is a testament to the local bounty. I ordered the Salisbury Steak (₱399), which features a generous portion and a gravy that is unapologetically Filipino-palate friendly. For a refreshing finish, the Mango Shake (₱225) avoids the syrupy pitfalls of mall chains, delivering the authentic, crunchy-ice sweetness of real mango. It's unpretentious, bold, and deeply satisfying—the kind of food that reminds you why the "comfort" label fits so well here.
           </Paragraph>
         </AnimatedSection>
 
@@ -77,7 +77,7 @@ export default function PukotArticle() {
 
         <AnimatedSection>
           <PullQuote attribution="Criste Joy">
-            Pukot Kitchen gathers the best of our city and serves it with a side of genuine Cebuano warmth.
+            Pukot Kitchen is a place that reminds you of why we love the flavors of our home. It connects people, strengthens relationships, and serves the best of our city with genuine warmth.
           </PullQuote>
         </AnimatedSection>
 
@@ -85,11 +85,12 @@ export default function PukotArticle() {
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Contact</h3>
-              <p className="text-sm text-stone-600 italic">Cebu City. A net of local flavors.</p>
+              <p className="text-sm text-stone-600 italic">#4 Adelfa St, El Dorado Subdivision, Banilad, Cebu City. A bit secluded—follow the subdivision signs.</p>
+              <p className="text-sm text-stone-600 mt-2">Open Daily 11:00 AM – 10:00 PM. IG: @pukotkitchen</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">9/10. A vibrant, soulful celebration of local cuisine and community.</p>
+              <p className="text-sm text-stone-600 italic">8/10. A masterclass in hole-in-the-wall comfort. Parking is a struggle, but the steak and the owner's story are well worth the subdivision navigation.</p>
             </div>
           </div>
         </AnimatedSection>

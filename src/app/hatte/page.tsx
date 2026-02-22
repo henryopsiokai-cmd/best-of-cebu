@@ -21,7 +21,7 @@ export default function HatteArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          Hatte Cafe is a sharp departure from the warmth of tradition. Located in the bustling industrial arteries of Mandaue, it is a space defined by gray concrete, clean angles, and a focus on the drink as the sole ornament.
+          Hatte Cafe is a sharp departure from the warmth of Cebu's traditional cafe scene. Located along the bustling Governor M. Cuenco Avenue in the Banilad/Apas area, it is a Korean-owned space defined by gray concrete, sharp angles, and a focus on the drink as the sole ornament. It’s a "color block" universe that feels more like a modern art installation than a coffee shop.
         </DropCap>
 
         <AnimatedSection>
@@ -42,10 +42,10 @@ export default function HatteArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Industrial Brew</H2>
           <Paragraph>
-            The aesthetic at Hatte is unapologetically modern. It's a place for people who appreciate the silence of brutalist design—where the texture of the wall is as important as the crema on the espresso. 
+            The aesthetic at Hatte is unapologetically modern. It's a place for people who appreciate the silence of brutalist design—where the texture of the raw concrete walls is as important as the crema on the espresso. The space is layered, with an "up and down" configuration that gives it a mini-adventure feel despite its compact footprint. 
           </Paragraph>
           <Paragraph>
-            The coffee program is similarly focused. There is no clutter on the menu, only a dedication to the craft of extraction. In a city often defined by its vibrant color and noise, Hatte offers a monochromatic sanctuary of high-quality caffeine.
+            The coffee program is similarly focused. I ordered the Iced Vanilla Bean Latte (₱180), which features a rich layer of creamy vanilla milk at the bottom—stirring is essential here to balance the sweetness. For snacks, the Oreo S’more Cookie (₱120) is a solid companion, though a bit on the firm side. In a city often defined by vibrant color and noise, Hatte offers a monochromatic sanctuary of high-quality caffeine.
           </Paragraph>
         </AnimatedSection>
 
@@ -77,7 +77,7 @@ export default function HatteArticle() {
 
         <AnimatedSection>
           <PullQuote attribution="Criste Joy">
-            At Hatte, the simplicity of the concrete is the perfect canvas for the complexity of the bean.
+            At Hatte, the simplicity of the concrete is the perfect canvas for the complexity of the bean. It feels like a little Korean cafe world where you can just chill and be cute.
           </PullQuote>
         </AnimatedSection>
 
@@ -97,11 +97,12 @@ export default function HatteArticle() {
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Contact</h3>
-              <p className="text-sm text-stone-600 italic">Mandaue City. Follow the concrete.</p>
+              <p className="text-sm text-stone-600 italic">Gov. M. Cuenco Ave, Apas (near UC Banilad). Open 9:00 AM – 10:00 PM (11:00 PM on weekends). Closed Sundays.</p>
+              <p className="text-sm text-stone-600 mt-2">IG: @hatte_cebu • FB: Hatte Cafe</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">8.5/10. For the serious coffee enthusiast and the lover of minimal lines.</p>
+              <p className="text-sm text-stone-600 italic">8/10. An aesthetic powerhouse with a friendly staff. Perfect for those who love minimal lines and a peaceful afternoon reset.</p>
             </div>
           </div>
         </AnimatedSection>
