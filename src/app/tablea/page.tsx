@@ -1,10 +1,12 @@
-import React from 'react';
+'use client';
 import Link from "next/link";
+import React from 'react';
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
 import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function TableaArticle() {
   return (
@@ -40,7 +42,7 @@ export default function TableaArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Sikwate Standard</H2>
           <Paragraph>
-            I ordered the Special Set (₱175), a traditional trio featuring Sikwate, fresh mango, and Puto Maya. In a city where mass-produced coffee dominates, this variety of tableya options is a unique and refreshing commemoration of Filipino cacao traditions. The fresh mango was a bit on the sour side during my visit, and the Puto Maya, served heated but perhaps not as fresh as it could be, had a texture that left me wanting a bit more.
+            I ordered the Special Set (₱175), a traditional trio featuring Sikwate, fresh mango, and Puto Maya. In a city where mass-produced coffee dominates, this variety of tableya options is a unique and refreshing commemoration of Filipino cacao traditions. The fresh mango was a bit on the side during my visit, and the Puto Maya, served heated but perhaps not as fresh as it could be, had a texture that left me wanting a bit more.
           </Paragraph>
           <Paragraph>
             However, the Sikwate—the heart of the ritual—was a revelation. It was, quite simply, the best tableya I’ve ever had. Perfectly thick, rich, and authentic, it carried the deep, bittersweet essence of local cacao with a consistency that only comes from traditional preparation. If you're coming here, come for the Sikwate; it’s the undisputed highlight of the menu.
@@ -94,6 +96,23 @@ export default function TableaArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1GqNJnlnKVtD3aYjeo78VyZKVxmOJ80Pr",
+            "1ojgKtXvgLJNgCn1hb00lvPzgGzXJhq-I",
+            "1G50lscbsuvzBeiWJP0Z2aCTHdHppINxz",
+            "1wA-yxPkU9xNUqKUymqJhuDQQk2hWISKq",
+            "18RGLMtN0uKZ_AAbzp8ZNeSZEnLB5rPhl",
+            "1pftdyDaJ9JnsfU4piBpV0wQtgyneUFmH",
+            "1dh4PsVzk6Xr2qn4azEi6Y2Is7ugHLqNp",
+            "10BS_e-dnXHHWj9CERdhn0p8M5wSBCEzG",
+            "1s1Y4nFqAzq3Wo1F4rNQuWOi3OH7hD5CQ",
+            "1QXIMoJDaAlXvYYPj7z4QBmvSocYDgrc4",
+            "1KdXo7xL2gkgtDTp9VyYEITBBnPjiLH8_",
+            "1_ULmCW5p3TJqIIRiyK0CZQWLfzZKaKut"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
@@ -104,7 +123,7 @@ export default function TableaArticle() {
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
             <Link href="/gureum" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: The Half-Moon View</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/lechon" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: The Lechon Pilgrimage</Link>
+            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Sakura Dining</Link>
           </nav>
         </div>
       </footer>
