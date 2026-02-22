@@ -99,6 +99,16 @@ export default function Home() {
 
                         <AnimatedSection delay={0.3}>
                             <Card
+                                category="French Patisserie"
+                                title="French Soul in Cebu"
+                                excerpt="Timeless charm and buttery layers at La Parisienne, a Gallic escape in the heart of Lahug."
+                                href="/laparisienne"
+                                imageSrc="https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1000"
+                            />
+                        </AnimatedSection>
+
+                        <AnimatedSection delay={0.4}>
+                            <Card
                                 category="Coffee & Chill"
                                 title="The Half-Moon View"
                                 excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
@@ -108,6 +118,56 @@ export default function Home() {
                         </AnimatedSection>
 
                         <AnimatedSection delay={0.4}>
+                            <Card
+                                category="Industrial Coffee"
+                                title="Minimalist Brew in Mandaue"
+                                excerpt="Concrete lines and technical extraction at Hatte Cafe, a sanctuary for the serious coffee enthusiast."
+                                href="/hatte"
+                                imageSrc="https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000"
+                            />
+                        </AnimatedSection>
+
+                        <AnimatedSection delay={0.5}>
+                            <Card
+                                category="Community & Soul"
+                                title="A Net of Local Flavors"
+                                excerpt="Celebrating the vibrant textures and soulful Cebuano cuisine at Pukot Kitchen."
+                                href="/pukot"
+                                imageSrc="https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000"
+                            />
+                        </AnimatedSection>
+
+                        <AnimatedSection delay={0.6}>
+                            <Card
+                                category="Coffee & Chill"
+                                title="The Half-Moon View"
+                                excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
+                                href="/gureum"
+                                imageSrc="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
+                            />
+                        </AnimatedSection>
+
+                        <AnimatedSection delay={0.6}>
+                            <Card
+                                category="Modern Comfort"
+                                title="Effortless Elegance at Tamp"
+                                excerpt="Technical precision and modern cafe culture at Tamp Cafe & Co., a reliable haven in the city."
+                                href="/tamp"
+                                imageSrc="https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000"
+                            />
+                        </AnimatedSection>
+
+                        <AnimatedSection delay={0.7}>
+                            <Card
+                                category="Coffee & Chill"
+                                title="The Half-Moon View"
+                                excerpt="How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation."
+                                href="/gureum"
+                                imageSrc="https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
+                            />
+                        </AnimatedSection>
+
+                        <AnimatedSection delay={0.8}>
                             <Card
                                 category="Tradition"
                                 title="The Cacao Ritual"
@@ -119,7 +179,7 @@ export default function Home() {
                     </section>
 
                     <aside className="md:col-span-4 space-y-12">
-                        <AnimatedSection delay={0.5} direction="left">
+                        <AnimatedSection delay={0.9} direction="left">
                             <div className="bg-white p-8 rounded-2xl shadow-2xl border border-stone-100 sticky top-10">
                                 <h3 className="text-xl font-bold mb-8 font-serif tracking-tight">The Curated List</h3>
                                 <ul className="space-y-6 font-sans">
