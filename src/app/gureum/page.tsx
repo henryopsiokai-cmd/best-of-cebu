@@ -1,12 +1,12 @@
 'use client';
 import Link from "next/link";
-
 import React from 'react';
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
 import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function GureumArticle() {
   return (
@@ -102,27 +102,6 @@ export default function GureumArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-4 my-16">
-            {[
-              "1GAcrZLjxe8Cq947rDcJqQ5GHyluGgFNm",
-              "1XsN0WPMwS3FvvwLQ-MB1cVKKDO8gnL3-",
-              "1vUaCc2mTiPXJLglHDWBL5l0eba-RWYJG",
-              "1uqq2dHF4o_zYX619gFy4jUonmZ3Z5QtS",
-              "1VXn70UvbLfg8JxwB9t8od1GuAuAV5_Mu",
-              "1DsscyQ7b61XxFkxHLNyLoPuv9drpk12b"
-            ].map((id, i) => (
-              <div key={id} className="aspect-square bg-stone-100 rounded-lg overflow-hidden relative group border border-stone-200 shadow-sm">
-                <img 
-                  src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`} 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                  alt={`Gureum Gallery ${i + 1}`}
-                />
-              </div>
-            ))}
-          </div>
-        </AnimatedSection>
-
-        <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Takeaway</H2>
           <Paragraph>
             Gurium isn't just a cafe; it’s a study in how to make a commercial space feel like home. With fast WiFi, friendly staff, and a stay policy that allows for a generous 2.5 hours before needing to re-order, it’s a haven for students and digital nomads. The seating isn't just functional; it’s designed for lounging. You can relax like you’re in your own living room, watching the world go by through that half-moon window. I’ll definitely be back—it’s the perfect spot for when you need to recharge and actually feel comfortable.
@@ -141,6 +120,23 @@ export default function GureumArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1GAcrZLjxe8Cq947rDcJqQ5GHyluGgFNm",
+            "1XsN0WPMwS3FvvwLQ-MB1cVKKDO8gnL3-",
+            "1vUaCc2mTiPXJLglHDWBL5l0eba-RWYJG",
+            "1uqq2dHF4o_zYX619gFy4jUonmZ3Z5QtS",
+            "1VXn70UvbLfg8JxwB9t8od1GuAuAV5_Mu",
+            "1DsscyQ7b61XxFkxHLNyLoPuv9drpk12b",
+            "1uvg1E69bw91FpFwvCnMR4xHUW01J1x61",
+            "1s4ak6ofCrCMnMRGzU9aPoGS-bjTuOVcX",
+            "19VCDVDfJq56grSRYOFYLiZtMEhER7_q7",
+            "1vupArAcmPqN0uVZr8dFHpFblVAtZNrQV",
+            "1tUXGU6CL-ZVFcS7VIbGToZ_N82X0j5jk",
+            "1K2JpMA6w9JfcGGKoDttgDvTXAQHU7OcX"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
@@ -149,7 +145,7 @@ export default function GureumArticle() {
             <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
           </div>
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Pink Blossoms and Pancakes</Link>
+            <Link href="/tamp" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Tamp Cafe</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
             <Link href="/tablea" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: The Cacao Ritual</Link>
           </nav>
