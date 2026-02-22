@@ -7,6 +7,7 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 export default function SakuraArticle() {
   return (
@@ -155,6 +156,22 @@ export default function SakuraArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <Gallery 
+          images={[
+            "1dZavyNmUEvKom67MCXNzf1rHeBzLTCdi",
+            "1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD",
+            "14iRVAk39F8ahohHF1oVocpbNCoAVDT2r",
+            "1mx_STTXoOzBat-XBTYXacAnXQreV70XY",
+            "1Z6YfRgwTz-Bpwb1fKFN8aJ2VGilhjUsa",
+            "1BUVBJAYKXEICKXIZqw6etJ96C3wdtPvv",
+            "1nuaG0myZoOf9mN2uKlMxYasDlJl0Yr98",
+            "10_UX2Qg0P0n64BdznSs62RAMlN_UgWkT",
+            "1w1oyrSKau8FEyekBb-9RTUBHNglT95z_",
+            "17E7jUzgO63a86qO50jypK5B9uQyD4Ev0",
+            "1N74nXNC1pNY9W1RwJPWZ-W8gqT3L7cw5"
+          ]} 
+        />
       </article>
 
       <footer className="bg-stone-900 text-white py-24 px-6">
