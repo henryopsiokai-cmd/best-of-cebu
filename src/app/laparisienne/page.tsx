@@ -135,34 +135,18 @@ export default function LaParisienneArticle() {
           </Paragraph>
         </AnimatedSection>
 
-
-        <AnimatedSection>
-          <div className="my-10 font-sans flex justify-end">
-            <div className="w-full md:w-[320px] border border-stone-200 bg-stone-50 px-5 py-4 text-sm text-stone-700">
-              <p className="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-3">Quick Take</p>
-              <div className="space-y-2">
-                <p><span className="text-stone-400">Price:</span> ₱₱₱</p>
-                <p><span className="text-stone-400">Rating:</span> ★★★★☆ (8.7/10)</p>
-                <p><span className="text-stone-400">Best Time:</span> 5:00 PM</p>
-                <p><span className="text-stone-400">Setting:</span> Indoor · Outdoor · Rooftop</p>
-                <p><span className="text-stone-400">WiFi:</span> PisoNet</p>
-              </div>
-            </div>
-          </div>
-        </AnimatedSection>
-
         <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Details</h3>
               <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City 6000. Along Gorordo near UP Cebu. Easy Grab/taxi drop-off.</p>
-              <p className="text-sm text-stone-600 mt-2">Mon–Thu: 9:00 AM – 1:00 AM. Fri–Sun: 9:00 AM – 2:00 AM. Parking available (limited during peak hours). WiFi: PisoNet (coin-operated).</p>
-              <p className="text-sm text-stone-600 mt-2">Setup: Indoor + outdoor + rooftop seating. Noise level: conversational/lively at night.</p>
+              <p className="text-sm text-stone-600 mt-2">Mon–Thu: 9:00 AM – 1:00 AM. Fri–Sun: 9:00 AM – 2:00 AM. Best time to arrive: around 5:00 PM.</p>
+              <p className="text-sm text-stone-600 mt-2">Setting: Indoor + outdoor + rooftop seating. WiFi: PisoNet (coin-operated). Parking available (limited during peak hours).</p>
               <p className="text-sm text-stone-600 mt-2">Phone: 0999 885 4318 • IG: @laparisiennecebu • FB: La Parisienne CEBU</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">8.7/10. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. No clear worst order from this visit. Great for date nights, friends, solo resets, family hangouts, and lingering conversations. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
+              <p className="text-sm text-stone-600 italic">★★★★☆ (8.7/10) • Price: ₱₱₱. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. No clear worst order from this visit. Great for date nights, friends, solo resets, family hangouts, and lingering conversations. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
             </div>
           </div>
         </AnimatedSection>
