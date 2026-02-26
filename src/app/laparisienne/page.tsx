@@ -21,33 +21,18 @@ export default function LaParisienneArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <AnimatedSection>
-          <div className="mt-10 mb-8 border-y border-stone-200 py-6 font-sans">
-            <div className="flex items-center gap-3 mb-4">
-              <p className="text-[11px] uppercase tracking-[0.22em] text-stone-500">Quick Read</p>
-              <div className="h-px flex-1 bg-stone-200"></div>
+          <div className="mt-8 mb-8 font-sans">
+            <p className="text-[11px] uppercase tracking-[0.22em] text-stone-500 mb-4">Quick Read</p>
+
+            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-stone-700 mb-4">
+              <span><span className="text-stone-400">Price:</span> ₱₱₱ · Reasonable</span>
+              <span><span className="text-stone-400">Rating:</span> ★★★★☆ (8.7/10)</span>
+              <span><span className="text-stone-400">Best time:</span> Around 5:00 PM</span>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4 text-sm">
-              <div className="bg-stone-50 border border-stone-200 px-4 py-3">
-                <p className="text-[10px] uppercase tracking-[0.18em] text-stone-500 mb-1">Price</p>
-                <p className="text-stone-800 font-medium">₱₱₱ · Reasonable</p>
-              </div>
-              <div className="bg-stone-50 border border-stone-200 px-4 py-3">
-                <p className="text-[10px] uppercase tracking-[0.18em] text-stone-500 mb-1">Overall Rating</p>
-                <p className="text-stone-800 font-medium">★★★★☆ <span className="text-stone-600">(8.7/10)</span></p>
-              </div>
-              <div className="bg-stone-50 border border-stone-200 px-4 py-3">
-                <p className="text-[10px] uppercase tracking-[0.18em] text-stone-500 mb-1">Best Time To Go</p>
-                <p className="text-stone-800 font-medium">Around 5:00 PM</p>
-              </div>
-            </div>
-
-            <ul className="text-sm text-stone-700 grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1">
-              <li>• Date-night energy, but still friendly for barkada and family dinners</li>
-              <li>• Music leans love-song heavy, especially in evening service</li>
-              <li>• Comfort and design are the strengths</li>
-              <li>• Service attentiveness still needs tightening</li>
-            </ul>
+            <p className="text-sm text-stone-700 leading-relaxed">
+              Date-night energy, but still friendly for barkada and family dinners. Music leans love-song heavy in evening service. Comfort and design are the strongest points, while service attentiveness still needs work.
+            </p>
           </div>
         </AnimatedSection>
 
@@ -166,18 +151,6 @@ export default function LaParisienneArticle() {
           </Paragraph>
         </AnimatedSection>
 
-        <AnimatedSection>
-          <div className="my-12 border-l-2 border-amber-500 pl-5 font-sans">
-            <p className="text-[11px] uppercase tracking-[0.22em] text-stone-500 mb-3">Highlights</p>
-            <ul className="text-sm text-stone-700 space-y-2">
-              <li>Cozy, romantic, homey atmosphere that still works for solo visits.</li>
-              <li>Surprisingly large layout with indoor, outdoor, and rooftop zones.</li>
-              <li>Rooftop Eiffel detail and koi area add personality without feeling gimmicky.</li>
-              <li>Dark Chocolate Gelato is the standout order.</li>
-              <li>Best arrival window for seat choice is around 5:00 PM.</li>
-            </ul>
-          </div>
-        </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
