@@ -155,17 +155,15 @@ export default function Home() {
                             <div className="bg-white p-8 rounded-2xl shadow-2xl border border-stone-100 sticky top-10">
                                 <h3 className="text-xl font-bold mb-8 font-serif tracking-tight">The Curated List</h3>
                                 <ul className="space-y-6 font-sans">
-                                    {[
-                                        { id: '01', title: 'Best Sunset View', val: 'Busay' },
-                                        { id: '02', title: 'Best Coffee', val: 'Tightrope' },
-                                        { id: '03', title: 'Best Hidden Gem', val: 'Olango' }
-                                    ].map((item, i) => (
-                                        <li key={i} className="group flex justify-between items-center border-b border-stone-100 pb-4 cursor-pointer">
-                                            <div className="flex items-center gap-4">
-                                                <span className="text-xs font-bold text-stone-300">{item.id}</span>
-                                                <span className="text-stone-600 group-hover:text-stone-900 transition-colors">{item.title}</span>
-                                            </div>
-                                            <span className="font-bold text-amber-600 opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0 duration-300">{item.val}</span>
+                                    {articles.slice(0, 3).map((item, i) => (
+                                        <li key={item.href} className="group border-b border-stone-100 pb-4">
+                                            <a href={item.href} className="flex justify-between items-center">
+                                                <div className="flex items-center gap-4">
+                                                    <span className="text-xs font-bold text-stone-300">{String(i + 1).padStart(2, '0')}</span>
+                                                    <span className="text-stone-600 group-hover:text-stone-900 transition-colors">Best of {item.category}</span>
+                                                </div>
+                                                <span className="font-bold text-amber-600 opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0 duration-300">Open</span>
+                                            </a>
                                         </li>
                                     ))}
                                 </ul>
