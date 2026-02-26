@@ -40,7 +40,7 @@ export default function LaParisienneArticle() {
               </div>
               <div className="mb-4 pb-3 border-b border-stone-200">
                 <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Overall Rating</p>
-                <p className="text-sm text-stone-800 font-medium">🍴🍴🍴🍴☆ <span className="text-stone-600">(4.35/5 forks)</span></p>
+                <p className="text-sm text-stone-800 font-medium">★★★★☆ <span className="text-stone-600">(8.7/10)</span></p>
               </div>
               <ul className="text-sm text-stone-700 space-y-1">
                 <li>• Date-night energy, but still friendly for barkada and family dinners</li>
@@ -122,7 +122,7 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">What We Ordered</H2>
           <Paragraph>
-            Service starts fast. Seating was immediate, and food came in around 5 to 10 minutes. We ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The spaghetti itself was rated 3.9/5, with the meatballs being the best part because the sauce clings well and gives each bite more flavor.
+            Service starts fast. Seating was immediate, and food came in around 5 to 10 minutes. We ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The spaghetti itself was rated 7.8/10, with the meatballs being the best part because the sauce clings well and gives each bite more flavor.
           </Paragraph>
           <Paragraph>
             The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that makes you pause for a second because it is unexpectedly that good. Best order of the visit, no contest. Even the water became part of the experience, because this is the kind of place where you end up staying longer than expected.
@@ -164,7 +164,7 @@ export default function LaParisienneArticle() {
             The weak point is service consistency. Staff friendliness during the visit tracked around 2 to 3 out of 5, with attentiveness at 2 out of 5, especially at the counter. WiFi is available but paid through PisoNet, so work sessions are possible, just not seamless. The menu could also use more high-protein choices.
           </Paragraph>
           <Paragraph>
-            If what you want is a polished, romantic setting where conversations can stretch and the city noise drops to the background, this place does that very well. At 4.35/5, it earns a strong recommendation and an easy return visit.
+            If what you want is a polished, romantic setting where conversations can stretch and the city noise drops to the background, this place does that very well. At 8.7/10, it earns a strong recommendation and an easy return visit.
           </Paragraph>
         </AnimatedSection>
 
@@ -179,7 +179,7 @@ export default function LaParisienneArticle() {
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">4.35/5. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 3.9/5. No clear worst order from this visit. Great for date nights, friends, solo resets, family hangouts, and lingering conversations. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
+              <p className="text-sm text-stone-600 italic">8.7/10. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. No clear worst order from this visit. Great for date nights, friends, solo resets, family hangouts, and lingering conversations. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
             </div>
           </div>
         </AnimatedSection>
