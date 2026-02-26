@@ -21,7 +21,7 @@ export default function LaParisienneArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          Along Gorordo Avenue, where traffic usually dictates your mood, La Parisienne Cebu offers the opposite rhythm. The address is practical, easy to find, and well placed for a quick Grab drop-off, yet the interior feels intentionally detached from the rush outside. The room is softly lit, carefully styled, and emotionally precise. It does not attempt spectacle. Instead, it invites you to stay. Couples lean into quiet conversation, friends settle in for long catch-ups, and solo diners become unhurried without realizing it.
+          If you’ve spent enough time around Cebu traffic, you know how rare it is to find a place that instantly makes you slow down. La Parisienne Cebu does that. It’s right on Gorordo, easy to get to, but once you step in, the outside noise fades. The space feels warm, cozy, and made for staying longer than you planned. It works for date night, late catch-ups with friends, or even a solo coffee when you need a reset.
         </DropCap>
 
         <AnimatedSection>
@@ -44,34 +44,28 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">An Interior Built for Slow Evenings</H2>
           <Paragraph>
-            The strongest thing about La Parisienne is control of atmosphere. Every design decision, from seating density to visual texture, supports intimacy over turnover. It is one of those Cebu spaces where conversation naturally lowers in volume, and where the evening stretches longer than planned. The romantic mood is not loud or themed. It is architectural. Warm tones, deliberate spacing, and low visual noise create a setting that feels cinematic without becoming costume.
+            What La Parisienne gets right is the vibe. The layout is simple, the lighting is flattering, and the space feels calm without trying too hard. It’s one of those Cebu spots where you naturally talk softer and stay longer. Nothing feels forced, but everything feels intentional.
           </Paragraph>
           <Paragraph>
-            Even during busier service windows, the room maintains its composure. That consistency is what gives the place repeat value. You are not only visiting for a single dish or a photo-friendly corner. You return because the setting is reliable for dates, reflective solo time, and the type of friendship conversations that need a few unbroken hours.
+            Even when it gets busy, it still feels balanced. That’s why people come back. Not just for one drink or one pretty corner, but because it’s reliable for real conversations and chill nights when you don’t want to rush home yet.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-16">
-            <figure className="space-y-3">
+            <figure>
               <img
                 src="https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1600"
                 alt="La Parisienne facade and first impression"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
-              <figcaption className="font-sans text-xs uppercase tracking-widest text-stone-500">
-                Street-side facade on Gorordo Avenue, where the city pace drops at the door.
-              </figcaption>
             </figure>
-            <figure className="space-y-3">
+            <figure>
               <img
                 src="https://drive.google.com/thumbnail?id=1X7hRsNRM-WVY7ka6mfKVb-EZD3NvV_u8&sz=w1600"
                 alt="La Parisienne interior seating"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
-              <figcaption className="font-sans text-xs uppercase tracking-widest text-stone-500">
-                Layered seating and warm tones that hold the room in a calm, romantic register.
-              </figcaption>
             </figure>
           </div>
         </AnimatedSection>
@@ -85,44 +79,35 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Why It Works in Lahug</H2>
           <Paragraph>
-            Location is part of the appeal. At 371 Gorordo Avenue, near UP Cebu, it is accessible enough for spontaneous plans yet polished enough to feel occasion-worthy. Opening hours that run until 1:00 AM on weekdays and 2:00 AM on weekends reinforce its identity as a late-night refuge. Parking is available, though arriving near golden hour usually gives you the best seat selection before peak dinner traffic.
+            The location helps a lot too. It’s at 371 Gorordo Avenue near UP Cebu, so it’s easy to swing by even on a random weekday. They’re open late, until 1:00 AM on weekdays and 2:00 AM on weekends, which makes it a solid option when most places are already winding down. Parking is available, but coming a little earlier gives you better seat choices.
           </Paragraph>
           <Paragraph>
-            What remains after the meal is a specific emotional residue: calm, softness, and the sense that the city briefly slowed down for you. That is the real achievement here. La Parisienne translates a European romantic language into a Cebu context without feeling imported or forced.
+            By the time you leave, the best part is the feeling. You feel lighter, calmer, and less rushed. That’s why this place works. It has that romantic Paris-inspired personality, but still feels natural in Cebu and never overdone.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
-            <figure className="space-y-2">
+            <figure>
               <img
                 src="https://drive.google.com/thumbnail?id=1KMv1w73XVTR8qV6uIo-P2cBBqaNj5rKS&sz=w1200"
                 alt="Dessert and table styling at La Parisienne"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
-              <figcaption className="font-sans text-[10px] uppercase tracking-widest text-stone-500">
-                Pastry-forward table styling that matches the room's soft visual language.
-              </figcaption>
             </figure>
-            <figure className="space-y-2">
+            <figure>
               <img
                 src="https://drive.google.com/thumbnail?id=1u_9Bp1KVC-8446wlZmZMR7ulZTNJVXHe&sz=w1200"
                 alt="Ambient corner at La Parisienne"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
-              <figcaption className="font-sans text-[10px] uppercase tracking-widest text-stone-500">
-                A quiet corner designed for long-form conversation and slower evenings.
-              </figcaption>
             </figure>
-            <figure className="space-y-2">
+            <figure>
               <img
                 src="https://drive.google.com/thumbnail?id=1Aq7hbwLJFjiXy-aHWoyFUzWCQsDHeo8w&sz=w1200"
                 alt="Night atmosphere at La Parisienne Cebu"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
-              <figcaption className="font-sans text-[10px] uppercase tracking-widest text-stone-500">
-                Late-night mood, the main reason this stop remains a repeat date-night choice.
-              </figcaption>
             </figure>
           </div>
         </AnimatedSection>
