@@ -4,6 +4,7 @@ import { H2, Paragraph } from '../../components/editorial/Typography';
 import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
+import { Gallery } from '../../components/editorial/Gallery';
 
 // -----------------------------------------------------------------------------
 // BEST OF CEBU - FEATURE TEMPLATE
@@ -28,45 +29,62 @@ export default function FeatureTemplate() {
                 imageSrc="/path/to/image.jpg"
             />
 
-            <article className="max-w-3xl mx-auto px-6 pb-24">
-
-                {/* 2. OPENING PARAGRAPH
-            - Always use DropCap for the first paragraph.
-            - Keep the first paragraph punchy and setting the scene.
-        */}
+            <article className="max-w-4xl mx-auto px-6 pb-24">
                 <DropCap>
-                    This is the opening paragraph. It should start with a strong hook. The first letter will be automatically styled as a large drop cap to give that premium editorial feel.
+                    This is the opening paragraph in first person. Start with atmosphere, location context, and emotional hook.
                 </DropCap>
 
-                {/* 3. CONTENT SECTIONS
-            - Wrap distinct sections in <AnimatedSection> to trigger scroll effects.
-            - Use <Paragraph> for body text.
-            - Use <H2> for section dividers.
-        */}
                 <AnimatedSection>
-                    <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 mt-8">
-                        Section Title
-                    </H2>
+                    <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden border relative shadow-2xl">
+                        <iframe
+                            className="w-full h-full"
+                            src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                            title="Best of Cebu video"
+                            loading="lazy"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                        />
+                    </div>
+                </AnimatedSection>
+
+                <AnimatedSection>
+                    <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Section Title</H2>
                     <Paragraph>
-                        This is standard body text. It is optimized for readability with a max-width and generous line-height.
+                        Narrative paragraph one.
+                    </Paragraph>
+                    <Paragraph>
+                        Narrative paragraph two.
                     </Paragraph>
                 </AnimatedSection>
 
-                {/* 4. PULL QUOTES
-            - Use to highlight key takeaways or impactful statements.
-        */}
                 <AnimatedSection>
-                    <PullQuote attribution="Person of Interest">
-                        This is a pull quote. It breaks up the text and adds visual interest. It automatically adds the quotation marks.
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-16">
+                        <figure><img src="https://drive.google.com/thumbnail?id=IMAGE_ID_1&sz=w1600" className="w-full aspect-[4/5] object-cover border shadow-sm" alt="Feature image 1" /></figure>
+                        <figure><img src="https://drive.google.com/thumbnail?id=IMAGE_ID_2&sz=w1600" className="w-full aspect-[4/5] object-cover border shadow-sm" alt="Feature image 2" /></figure>
+                    </div>
+                </AnimatedSection>
+
+                <AnimatedSection>
+                    <PullQuote>
+                        Author pull quote goes here.
                     </PullQuote>
                 </AnimatedSection>
 
                 <AnimatedSection>
-                    <Paragraph>
-                        Concluding thoughts. Wrap up the article with a final observation or call to action.
-                    </Paragraph>
+                    <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
+                        <div className="p-8 bg-stone-50 border shadow-sm">
+                            <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Details</h3>
+                            <p className="text-sm text-stone-600 italic">Address, area, hours, parking, WiFi, contact links.</p>
+                        </div>
+                        <div className="p-8 bg-stone-50 border shadow-sm">
+                            <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
+                            <p className="text-sm text-stone-600 italic">★★★★☆ (X.X/10) • Price: ₱₱₱. Best order, strengths, weaknesses, return recommendation.</p>
+                        </div>
+                    </div>
                 </AnimatedSection>
 
+                <Gallery images={["IMAGE_ID_1", "IMAGE_ID_2", "IMAGE_ID_3"]} />
             </article>
 
             {/* 5. FOOTER / NAVIGATION
