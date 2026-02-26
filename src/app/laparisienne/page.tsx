@@ -34,6 +34,14 @@ export default function LaParisienneArticle() {
             </div>
             <div className="p-6 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Quick Read</h3>
+              <div className="mb-3 pb-3 border-b border-stone-200">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Price</p>
+                <p className="text-sm text-stone-800 font-medium">₱₱₱ · Reasonable</p>
+              </div>
+              <div className="mb-4 pb-3 border-b border-stone-200">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Overall Rating</p>
+                <p className="text-sm text-stone-800 font-medium">🍴🍴🍴🍴☆ <span className="text-stone-600">(4.35/5 forks · 8.7/10)</span></p>
+              </div>
               <ul className="text-sm text-stone-700 space-y-1">
                 <li>• Date-night energy, but still friendly for barkada and family dinners</li>
                 <li>• Music leans love-song heavy, especially in evening service</li>
