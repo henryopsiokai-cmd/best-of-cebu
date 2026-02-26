@@ -20,10 +20,6 @@ export default function LaParisienneArticle() {
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
-        <DropCap>
-          La Parisienne Cebu is the kind of place that reminds you how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Inside, it shifts into something softer. The room is warm, the pace slows down, and suddenly the night feels less like a checklist and more like an actual evening.
-        </DropCap>
-
         <AnimatedSection>
           <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
             <div className="p-6 bg-stone-50 border shadow-sm">
@@ -48,6 +44,10 @@ export default function LaParisienneArticle() {
             </div>
           </div>
         </AnimatedSection>
+
+        <DropCap>
+          La Parisienne Cebu is the kind of place that reminds you how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Inside, it shifts into something softer. The room is warm, the pace slows down, and suddenly the night feels less like a checklist and more like an actual evening.
+        </DropCap>
 
         <AnimatedSection>
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
