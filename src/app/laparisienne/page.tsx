@@ -21,8 +21,34 @@ export default function LaParisienneArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          La Parisienne Cebu is one of those places that changes your mood before you even sit down. On paper, it is super practical, right on 371 Gorordo Avenue in Lahug, with easy Grab drop-off and nearby landmarks like UP Cebu. In real life, it feels like a little romantic escape once you cross the door. The highway is still outside, but inside it’s all cozy energy, soft lighting, and that feeling that you should stay longer than you planned.
+          La Parisienne Cebu is the kind of place that reminds you how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Inside, it shifts into something softer. The room is warm, the pace slows down, and suddenly the night feels less like a checklist and more like an actual evening.
         </DropCap>
+
+        <AnimatedSection>
+          <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
+            <div className="p-6 bg-stone-50 border shadow-sm">
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">At a Glance</h3>
+              <ul className="text-sm text-stone-700 space-y-1">
+                <li>• 371 Gorordo Ave, Lahug, Cebu City (near UP Cebu)</li>
+                <li>• Open daily: 9:00 AM to 1:00 AM (Mon–Thu), 2:00 AM (Fri–Sun)</li>
+                <li>• Parking available (no valet), easy Grab/taxi drop-off</li>
+                <li>• Setup: indoor, outdoor, and rooftop seating</li>
+                <li>• WiFi: PisoNet (coin-operated)</li>
+                <li>• Best for: dates, friends, solo resets, family hangouts</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-stone-50 border shadow-sm">
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">What We Ordered</h3>
+              <ul className="text-sm text-stone-700 space-y-1">
+                <li>• Spaghetti Meatballs — ₱450 (7.8/10)</li>
+                <li>• Water — ₱60</li>
+                <li>• Dark Chocolate Gelato — ₱175 (best order)</li>
+                <li>• Service speed: seated immediately, food in 5–10 minutes</li>
+                <li>• Overall score: 8.7/10 (₱₱₱, reasonable)</li>
+              </ul>
+            </div>
+          </div>
+        </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
@@ -44,10 +70,10 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">First Impressions That Keep Building</H2>
           <Paragraph>
-            The vibe can be summed up in three words that are actually accurate: cozy, romantic, and homey. The place is big, bigger than you expect from first glance, with indoor seating, outdoor seating, and a rooftop area. It is air-conditioned where needed, open where it should be, and designed for different moods. You can come as a couple, as barkada, with family, for solo dining, or even for a work session.
+            Joy’s first descriptors were precise: cozy, romantic, homey. They hold up. The space opens wider than expected, with enough room to support different kinds of nights. There is indoor seating for comfort, outdoor areas for a more casual mood, and a rooftop that gives the whole place personality. It works for couples, barkadas, families, solo diners, and even people trying to get a little work done between meals.
           </Paragraph>
           <Paragraph>
-            At around 5:00 PM, you get the best seat choices. Later in the evening, it gets crowded and the energy shifts into something livelier, but the romantic mood still holds because the music leans heavily into love songs. It sounds cheesy, but it works. Even if you come alone, the atmosphere still feels comforting instead of awkward.
+            Timing matters here. Around 5:00 PM, you can still choose your preferred table. Later at night, it gets busy and louder, but still stays conversational. Love songs run through the room and keep the tone soft. The place still feels friendly when you’re alone, which is harder to pull off than most cafés realize.
           </Paragraph>
         </AnimatedSection>
 
@@ -125,16 +151,13 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Honest Take</H2>
           <Paragraph>
-            La Parisienne is strongest on atmosphere. It feels romantic without being intimidating, and it works whether you are on a date or just trying to reset after a long day. That is why this is a place people come back to. It is not only photogenic, it is genuinely comfortable.
+            The strongest argument for La Parisienne is still atmosphere. It delivers romance without feeling exclusive, and that balance is why people return. You can come here for a date, but you can also come alone and still feel held by the space.
           </Paragraph>
           <Paragraph>
-            There are still fixes needed. Staff friendliness felt around 2 to 3 out of 5, and attentiveness was closer to 2 out of 5, especially at the counter when someone is already waiting. WiFi exists, but it is PisoNet style, coin-operated, so the work-from-cafe experience is not always seamless. Menu-wise, more high-protein options would make the lineup stronger.
+            The weak point is service consistency. Staff friendliness during the visit tracked around 2 to 3 out of 5, with attentiveness at 2 out of 5, especially at the counter. WiFi is available but paid through PisoNet, so work sessions are possible, just not seamless. The menu could also use more high-protein choices.
           </Paragraph>
           <Paragraph>
-            Practical notes from the visit: parking is available with no valet, and it gets tighter during peak hours. Noise level stays conversational but lively at night. The place is suitable for date nights, friends, solo diners, family groups, and even casual work sessions. Recommendation-wise, this is for people who love romantic spots, love songs, and that movie-scene feeling during long conversations.
-          </Paragraph>
-          <Paragraph>
-            Still, at 8.7/10 overall, this is an easy recommendation for anyone who likes romantic spots, long conversations, and places that make the city feel softer for a few hours.
+            If what you want is a polished, romantic setting where conversations can stretch and the city noise drops to the background, this place does that very well. At 8.7/10, it earns a strong recommendation and an easy return visit.
           </Paragraph>
         </AnimatedSection>
 
