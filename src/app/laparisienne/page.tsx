@@ -14,14 +14,14 @@ export default function LaParisienneArticle() {
       <ArticleHeader
         category="Cuisine & Ambiance"
         title="La Parisienne Cebu: Where Lahug Slows Down After Sunset"
-        subtitle="A fresh editorial pass on the Gorordo favorite—equal parts date-night glow, rooftop city views, and comfort plates that reward unhurried evenings."
+        subtitle="A refreshed editorial look at the Gorordo favorite with warm evening glow, rooftop city views, and comfort plates that reward unhurried dining."
         author="Criste Joy"
         publishedAt="February 2026"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24 -mt-4 md:-mt-6">
         <DropCap>
-          I reached La Parisienne while Gorordo Avenue was still in weekday mode—cars moving fast, people heading home, everyone on schedule. Inside, the tempo changed immediately. The lighting softened, conversations dropped into a calmer register, and the room quietly reminded me that dinner can be an experience, not just a stop between errands.
+          I arrived at La Parisienne while Gorordo Avenue still felt like a weekday rush, with cars streaming past and people moving with purpose. Step inside and the pace loosens. The light turns honeyed, voices settle into a softer register, and the room quietly suggests that dinner can be an experience, not just a pit stop.
         </DropCap>
 
         <AnimatedSection>
@@ -44,10 +44,10 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">A Room Built for Lingering</H2>
           <Paragraph>
-            La Parisienne is designed in layers that actually work for real diners. Indoor seating gives you comfort and privacy, the outdoor tables let you sit with the pulse of Lahug, and the rooftop shifts the whole mood once the sky turns deep blue. Wherever you land, the identity stays consistent—intimate, polished, and welcoming.
+            La Parisienne is layered in a way that actually serves real diners. Indoor seating offers privacy and ease, the outdoor tables keep you close to Lahug&apos;s pulse, and the rooftop shifts the mood entirely once the sky turns deep blue. Wherever you settle, the place feels intimate, polished, and genuinely welcoming.
           </Paragraph>
           <Paragraph>
-            If you can choose your timing, arrive between 5:00 PM and 6:00 PM. You get that beautiful crossover from natural light to city glow, and it is easier to secure your preferred table. Later in the night, the crowd thickens, but the atmosphere remains controlled enough for meaningful conversation instead of forced shouting over noise.
+            If you can control timing, arrive between 5:00 PM and 6:00 PM. You catch the graceful crossover from daylight to city glow, and it&apos;s far easier to secure the table you want. Later, the crowd thickens, but the atmosphere stays composed enough for conversation that doesn&apos;t need to fight for air.
           </Paragraph>
         </AnimatedSection>
 
@@ -73,26 +73,26 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Design That Feels Personal</H2>
           <Paragraph>
-            Plenty of concept restaurants in Cebu feel overstyled; La Parisienne does not. The wine display, warm amber lighting, and Paris-inspired accents create character without crossing into gimmick territory. Even its photo-friendly corners feel naturally part of the room rather than props dropped in for social media.
+            Many concept restaurants in Cebu lean too hard into styling; La Parisienne does not. The wine display, warm amber lighting, and Paris inspired accents create character without tipping into theater. Even its photo friendly corners feel like natural extensions of the room, not staged backdrops.
           </Paragraph>
           <Paragraph>
-            Operations are another reason this place earns repeat visits. Shared spaces are clean, tables turn over efficiently, and upkeep is visible across the property. The restroom, in particular, remains one of the better-maintained comfort rooms in this dining bracket—spacious, tidy, and clearly monitored through service hours.
+            Operations strengthen the appeal. Shared spaces stay clean, table turnover is efficient, and upkeep is visible across the property. The restroom deserves a mention. It is spacious, tidy, and clearly monitored throughout service hours, a quiet marker of care that diners notice.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <PullQuote>
-            La Parisienne succeeds because it delivers more than aesthetics—it gives you a consistent evening rhythm from first seat to final spoonful.
+            La Parisienne wins on more than looks. It offers a steady evening rhythm from the first seat to the final spoonful.
           </PullQuote>
         </AnimatedSection>
 
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Food Notes From This Visit</H2>
           <Paragraph>
-            Service started on a strong note. We were seated quickly and our first plates reached the table in roughly 5 to 10 minutes. For this visit, I kept the order simple: Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The pasta landed at 7.8/10—comforting and filling, with the meatballs carrying the strongest flavor.
+            Service opened well: we were seated quickly, and the first plates landed in roughly 5 to 10 minutes. This visit stayed simple with Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The pasta rated 7.8/10, comforting and filling, with the meatballs carrying the most character.
           </Paragraph>
           <Paragraph>
-            Dessert was the clear headline. The Dark Chocolate Gelato scored 9.3/10 for its smooth texture and deep cocoa profile that stayed rich without becoming too heavy. If you are trying La Parisienne for the first time, prioritize at least one dessert course—it is where the kitchen feels most confident.
+            Dessert was the clear standout. The Dark Chocolate Gelato scored 9.3/10 for its silky texture and deep cocoa profile that stayed lush without turning heavy. If this is your first visit, plan for at least one dessert course. This is where the kitchen feels most assured.
           </Paragraph>
         </AnimatedSection>
 
@@ -125,10 +125,10 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Final Assessment</H2>
           <Paragraph>
-            Few restaurants in Cebu balance visual appeal and actual comfort this well. La Parisienne understands pacing, and that makes it especially strong for date nights, gentle catch-ups, and solo reset dinners where you want ambiance without social pressure.
+            Few restaurants in Cebu balance visual appeal with actual comfort this well. La Parisienne understands pacing, which makes it especially strong for date nights, gentle catch ups, and solo reset dinners where you want ambiance without social pressure.
           </Paragraph>
           <Paragraph>
-            The biggest improvement opportunity is service consistency during peak hours. Warmth and attentiveness can fluctuate when the floor gets busy, and the PisoNet WiFi setup is functional but not ideal for extended work sessions. A broader set of protein-forward mains would also strengthen repeatability for regular diners.
+            The key opportunity is service consistency during peak hours. Warmth and attentiveness can fluctuate when the floor gets busy, and the PisoNet WiFi setup is workable but not ideal for extended work sessions. A broader roster of protein focused mains would also strengthen repeatability for regular diners.
           </Paragraph>
           <Paragraph>
             Overall score: 8.9/10. For evenings where mood matters as much as food, La Parisienne remains one of Lahug&apos;s most reliable reservations.
