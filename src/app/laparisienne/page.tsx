@@ -44,7 +44,7 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">First Impressions That Keep Building</H2>
           <Paragraph>
-            Joy’s first descriptors were precise: cozy, romantic, homey. They hold up. The space opens wider than expected, with enough room to support different kinds of nights. There is indoor seating for comfort, outdoor areas for a more casual mood, and a rooftop that gives the whole place personality. It works for couples, barkadas, families, solo diners, and even people trying to get a little work done between meals.
+            My first descriptors were precise: cozy, romantic, homey. They still hold up. The space opens wider than expected, with enough room to support different kinds of nights. There is indoor seating for comfort, outdoor areas for a more casual mood, and a rooftop that gives the whole place personality. It works for couples, barkadas, families, solo diners, and even people trying to get a little work done between meals.
           </Paragraph>
           <Paragraph>
             Timing matters here. Around 5:00 PM, you can still choose your preferred table. Later at night, it gets busy and louder, but still stays conversational. Love songs run through the room and keep the tone soft. The place still feels friendly when you’re alone, which is harder to pull off than most cafés realize.
