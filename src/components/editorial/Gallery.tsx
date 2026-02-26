@@ -62,7 +62,7 @@ export function Gallery({ images, title = "The Gallery" }: GalleryProps) {
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {images.map((id, i) => (
+                    {images.slice(0, 12).map((id, i) => (
                         <button
                             key={id + i}
                             type="button"
@@ -79,6 +79,21 @@ export function Gallery({ images, title = "The Gallery" }: GalleryProps) {
                         </button>
                     ))}
                 </div>
+
+                {images.length > 12 && (
+                    <div className="mt-6 flex items-center justify-between">
+                        <p className="text-xs uppercase tracking-widest text-stone-500">
+                            Showing 12 preview images · {images.length} total
+                        </p>
+                        <button
+                            type="button"
+                            onClick={() => openAt(0)}
+                            className="text-xs uppercase tracking-widest border border-stone-300 px-3 py-2 hover:bg-stone-100 transition-colors"
+                        >
+                            Open Full Gallery
+                        </button>
+                    </div>
+                )}
             </div>
 
             {isOpen && activeIndex !== null && (
