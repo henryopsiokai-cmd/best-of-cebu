@@ -27,24 +27,23 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
             <div className="p-6 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">At a Glance</h3>
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Highlights</h3>
               <ul className="text-sm text-stone-700 space-y-1">
-                <li>• 371 Gorordo Ave, Lahug, Cebu City (near UP Cebu)</li>
-                <li>• Open daily: 9:00 AM to 1:00 AM (Mon–Thu), 2:00 AM (Fri–Sun)</li>
-                <li>• Parking available (no valet), easy Grab/taxi drop-off</li>
-                <li>• Setup: indoor, outdoor, and rooftop seating</li>
-                <li>• WiFi: PisoNet (coin-operated)</li>
-                <li>• Best for: dates, friends, solo resets, family hangouts</li>
+                <li>• Cozy, romantic, homey atmosphere that still works for solo visits</li>
+                <li>• Surprisingly large layout with indoor, outdoor, and rooftop zones</li>
+                <li>• Rooftop Eiffel detail + lush koi area add personality without feeling gimmicky</li>
+                <li>• Dark Chocolate Gelato is the standout order</li>
+                <li>• Best arrival window for seat choice: around 5:00 PM</li>
               </ul>
             </div>
             <div className="p-6 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">What We Ordered</h3>
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Quick Read</h3>
               <ul className="text-sm text-stone-700 space-y-1">
-                <li>• Spaghetti Meatballs — ₱450 (7.8/10)</li>
-                <li>• Water — ₱60</li>
-                <li>• Dark Chocolate Gelato — ₱175 (best order)</li>
-                <li>• Service speed: seated immediately, food in 5–10 minutes</li>
-                <li>• Overall score: 8.7/10 (₱₱₱, reasonable)</li>
+                <li>• Date-night energy, but still friendly for barkada and family dinners</li>
+                <li>• Music leans love-song heavy, especially in evening service</li>
+                <li>• Comfort and design are the strengths</li>
+                <li>• Service attentiveness still needs tightening</li>
+                <li>• Overall feel: a romantic reset in the middle of the city</li>
               </ul>
             </div>
           </div>
