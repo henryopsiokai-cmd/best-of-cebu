@@ -92,7 +92,7 @@ export default function LaParisienneArticle() {
             Service starts fast. Seating was immediate, and food came in around 5 to 10 minutes. We ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The spaghetti itself was rated 7.8/10, with the meatballs being the best part because the sauce clings well and gives each bite more flavor.
           </Paragraph>
           <Paragraph>
-            The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that makes you pause for a second because it is unexpectedly that good. Best order of the visit, no contest.
+            The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that makes you pause for a second because it is unexpectedly that good. Best order of the visit, no contest. Even the water became part of the experience, because this is the kind of place where you end up staying longer than expected.
           </Paragraph>
         </AnimatedSection>
 
@@ -131,6 +131,9 @@ export default function LaParisienneArticle() {
             There are still fixes needed. Staff friendliness felt around 2 to 3 out of 5, and attentiveness was closer to 2 out of 5, especially at the counter when someone is already waiting. WiFi exists, but it is PisoNet style, coin-operated, so the work-from-cafe experience is not always seamless. Menu-wise, more high-protein options would make the lineup stronger.
           </Paragraph>
           <Paragraph>
+            Practical notes from the visit: parking is available with no valet, and it gets tighter during peak hours. Noise level stays conversational but lively at night. The place is suitable for date nights, friends, solo diners, family groups, and even casual work sessions. Recommendation-wise, this is for people who love romantic spots, love songs, and that movie-scene feeling during long conversations.
+          </Paragraph>
+          <Paragraph>
             Still, at 8.7/10 overall, this is an easy recommendation for anyone who likes romantic spots, long conversations, and places that make the city feel softer for a few hours.
           </Paragraph>
         </AnimatedSection>
@@ -146,7 +149,7 @@ export default function LaParisienneArticle() {
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">8.7/10. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. Great for date nights, friends, solo resets, and family hangouts. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
+              <p className="text-sm text-stone-600 italic">8.7/10. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. No clear worst order from this visit. Great for date nights, friends, solo resets, family hangouts, and lingering conversations. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
             </div>
           </div>
         </AnimatedSection>
