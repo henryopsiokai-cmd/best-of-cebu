@@ -20,8 +20,29 @@ export default function LaParisienneArticle() {
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
+        <AnimatedSection>
+          <div className="mt-10 mb-6 p-6 bg-stone-50 border shadow-sm font-sans">
+            <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Quick Read</h3>
+            <div className="mb-3 pb-3 border-b border-stone-200">
+              <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Price</p>
+              <p className="text-sm text-stone-800 font-medium">₱₱₱ · Reasonable</p>
+            </div>
+            <div className="mb-4 pb-3 border-b border-stone-200">
+              <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Overall Rating</p>
+              <p className="text-sm text-stone-800 font-medium">★★★★☆ <span className="text-stone-600">(8.7/10)</span></p>
+            </div>
+            <ul className="text-sm text-stone-700 space-y-1">
+              <li>• Date-night energy, but still friendly for barkada and family dinners</li>
+              <li>• Music leans love-song heavy, especially in evening service</li>
+              <li>• Comfort and design are the strengths</li>
+              <li>• Service attentiveness still needs tightening</li>
+              <li>• Overall feel: a romantic reset in the middle of the city</li>
+            </ul>
+          </div>
+        </AnimatedSection>
+
         <DropCap>
-          La Parisienne Cebu is the kind of place that reminds you how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Inside, it shifts into something softer. The room is warm, the pace slows down, and suddenly the night feels less like a checklist and more like an actual evening.
+          La Parisienne Cebu is the kind of place that reminds me how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Once I step inside, everything softens. The room is warm, the pace slows down, and the night feels less like a checklist and more like an actual evening.
         </DropCap>
 
         <AnimatedSection>
@@ -89,10 +110,10 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">What We Ordered</H2>
           <Paragraph>
-            Service starts fast. Seating was immediate, and food came in around 5 to 10 minutes. We ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The spaghetti itself was rated 7.8/10, with the meatballs being the best part because the sauce clings well and gives each bite more flavor.
+            Service was fast from the start. I got seated right away, and the food arrived in around 5 to 10 minutes. I ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). I’d rate the spaghetti 7.8/10, with the meatballs carrying the dish because the sauce clings well and gives each bite more flavor.
           </Paragraph>
           <Paragraph>
-            The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that makes you pause for a second because it is unexpectedly that good. Best order of the visit, no contest. Even the water became part of the experience, because this is the kind of place where you end up staying longer than expected.
+            The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that made me pause because it was unexpectedly that good. Best order of the visit, no contest. Even the water became part of the experience, because this is the kind of place where I ended up staying longer than expected.
           </Paragraph>
         </AnimatedSection>
 
@@ -125,7 +146,7 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Honest Take</H2>
           <Paragraph>
-            The strongest argument for La Parisienne is still atmosphere. It delivers romance without feeling exclusive, and that balance is why people return. You can come here for a date, but you can also come alone and still feel held by the space.
+            The strongest argument for La Parisienne is still atmosphere. It delivers romance without feeling exclusive, and that balance is why people return. I can come here for a date, but I can also come alone and still feel held by the space.
           </Paragraph>
           <Paragraph>
             The weak point is service consistency. Staff friendliness during the visit tracked around 2 to 3 out of 5, with attentiveness at 2 out of 5, especially at the counter. WiFi is available but paid through PisoNet, so work sessions are possible, just not seamless. The menu could also use more high-protein choices.
@@ -136,7 +157,7 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
+          <div className="my-10 font-sans">
             <div className="p-6 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Highlights</h3>
               <ul className="text-sm text-stone-700 space-y-1">
@@ -145,24 +166,6 @@ export default function LaParisienneArticle() {
                 <li>• Rooftop Eiffel detail + lush koi area add personality without feeling gimmicky</li>
                 <li>• Dark Chocolate Gelato is the standout order</li>
                 <li>• Best arrival window for seat choice: around 5:00 PM</li>
-              </ul>
-            </div>
-            <div className="p-6 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Quick Read</h3>
-              <div className="mb-3 pb-3 border-b border-stone-200">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Price</p>
-                <p className="text-sm text-stone-800 font-medium">₱₱₱ · Reasonable</p>
-              </div>
-              <div className="mb-4 pb-3 border-b border-stone-200">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Overall Rating</p>
-                <p className="text-sm text-stone-800 font-medium">★★★★☆ <span className="text-stone-600">(8.7/10)</span></p>
-              </div>
-              <ul className="text-sm text-stone-700 space-y-1">
-                <li>• Date-night energy, but still friendly for barkada and family dinners</li>
-                <li>• Music leans love-song heavy, especially in evening service</li>
-                <li>• Comfort and design are the strengths</li>
-                <li>• Service attentiveness still needs tightening</li>
-                <li>• Overall feel: a romantic reset in the middle of the city</li>
               </ul>
             </div>
           </div>
