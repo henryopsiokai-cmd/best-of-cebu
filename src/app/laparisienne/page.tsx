@@ -14,7 +14,7 @@ export default function LaParisienneArticle() {
       <ArticleHeader
         category="Cuisine & Ambiance"
         title="La Parisienne Cebu: A Romantic Escape on Gorordo Avenue"
-        subtitle="A complete long form review of the Lahug destination where atmosphere, dessert, and design details turn an ordinary dinner into an occasion."
+        subtitle="A Lahug destination where atmosphere, dessert, and thoughtful design details turn an ordinary dinner into an occasion."
         author="Criste Joy"
         publishedAt="February 2026"
       />

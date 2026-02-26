@@ -21,8 +21,8 @@ export default function Home() {
         },
         {
             category: "French Patisserie",
-            title: "French Soul in Cebu",
-            excerpt: "Timeless charm and buttery layers at La Parisienne, a Gallic escape in the heart of Lahug.",
+            title: "A Romantic Escape on Gorordo Avenue",
+            excerpt: "A Lahug destination where atmosphere, dessert, and thoughtful design details turn an ordinary dinner into an occasion.",
             href: "/laparisienne",
             imageSrc: "https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1000"
         },
