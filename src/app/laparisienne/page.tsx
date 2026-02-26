@@ -128,10 +128,10 @@ export default function LaParisienneArticle() {
             Few restaurants in Cebu balance visual appeal with actual comfort this well. La Parisienne understands pacing, which makes it especially strong for date nights, gentle catch ups, and solo reset dinners where you want ambiance without social pressure.
           </Paragraph>
           <Paragraph>
-            The key opportunity is service consistency during peak hours. Warmth and attentiveness can fluctuate when the floor gets busy, and the PisoNet WiFi setup is workable but not ideal for extended work sessions. A broader roster of protein focused mains would also strengthen repeatability for regular diners.
+            The key opportunity is service consistency during peak hours. Staff friendliness can dip to around 2 to 3 out of 5, and attentiveness around 2 out of 5 when the floor gets busy. The PisoNet WiFi setup is workable but not ideal for extended work sessions. A broader roster of protein focused mains would also strengthen repeatability for regular diners.
           </Paragraph>
           <Paragraph>
-            Overall score: 8.9/10. For evenings where mood matters as much as food, La Parisienne remains one of Lahug&apos;s most reliable reservations.
+            Overall score: 8.7/10. For evenings where mood matters as much as food, La Parisienne remains one of Lahug&apos;s most reliable reservations.
           </Paragraph>
         </AnimatedSection>
 
@@ -141,12 +141,12 @@ export default function LaParisienneArticle() {
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location &amp; Details</h3>
               <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City 6000. Near UP Cebu with easy drop off access for Grab and taxi riders.</p>
               <p className="text-sm text-stone-600 mt-2">Mon to Thu: 9:00 AM to 1:00 AM. Fri to Sun: 9:00 AM to 2:00 AM. Prime visit window is 5:00 PM to 6:00 PM.</p>
-              <p className="text-sm text-stone-600 mt-2">Seating: indoor, outdoor, and rooftop. WiFi: PisoNet access. Parking is available but can fill quickly at peak dinner hours.</p>
+              <p className="text-sm text-stone-600 mt-2">Seating: indoor, outdoor, and rooftop. WiFi: PisoNet access. Parking is available but can fill quickly at peak dinner hours. Bathroom: 5/5 cleanliness, with a hidden bookshelf style entrance.</p>
               <p className="text-sm text-stone-600 mt-2">Phone: 0999 885 4318 • IG: @laparisiennecebu • FB: La Parisienne CEBU</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">★★★★☆ (8.9/10) • Price: ₱₱₱. Best order: Dark Chocolate Gelato (₱175) at 9.3/10. Spaghetti Meatballs (₱450): 7.8/10. Best for couples, friend catch ups, solo reset nights, and family dinners. Main drawback: service warmth can vary during high traffic periods.</p>
+              <p className="text-sm text-stone-600 italic">★★★★☆ (8.7/10) • Price: ₱₱₱. Best order: Dark Chocolate Gelato (₱175) at 9.3/10. Spaghetti Meatballs (₱450): 7.8/10. Best for couples, friend catch ups, solo reset nights, and family dinners. Main drawback: service warmth and attentiveness can dip during high traffic periods.</p>
             </div>
           </div>
         </AnimatedSection>
