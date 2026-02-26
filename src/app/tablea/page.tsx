@@ -14,14 +14,14 @@ export default function TableaArticle() {
       <ArticleHeader
         category="Cacao Traditions"
         title="The Cacao Ritual"
-        subtitle="Exploring the quiet heritage of Filipino chocolate at JY Square."
+        subtitle="A grounded Cebu visit to JY Square where Filipino cacao tradition still leads the menu."
         author="Criste Joy"
         publishedAt="February 2026"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          I found Tabléa Chocolate Cafe on the ground floor of JY Square in Salinas Drive, just a few steps away from the neighborhood McDonald's. It’s a quiet, traditional space that feels more business-like and formal than your typical neighborhood cafe—making it an ideal spot for work-from-cafe sessions or professional meetings. But I wasn't there for the WiFi (they don't have any); I was there for a deeper, older connection to Filipino culture: the chocolate.
+          I visited Tabléa Chocolate Cafe on February 12, 2026, at the ground floor of JY Square on Salinas Drive, just near McDonald&apos;s. The space is small, quiet, and business like, so it feels less like a trendy cafe and more like a practical stop for people who want to sit down and focus. I came for one reason: to see if their traditional sikwate still delivers the kind of Filipino cacao experience people talk about.
         </DropCap>
 
         <AnimatedSection>
@@ -44,10 +44,10 @@ export default function TableaArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Sikwate Standard</H2>
           <Paragraph>
-            I ordered the Special Set (₱175), a traditional trio featuring Sikwate, fresh mango, and Puto Maya. In a city where mass-produced coffee dominates, this variety of tableya options is a unique and refreshing commemoration of Filipino cacao traditions. The fresh mango was a bit on the side during my visit, and the Puto Maya, served heated but perhaps not as fresh as it could be, had a texture that left me wanting a bit more.
+            I ordered the Special Set for ₱175, which includes sikwate, fresh mango, and puto maya. As a value order, it is worth trying because you get a full snapshot of their traditional pairing in one tray. The mango leaned sour on this visit, and the puto maya was served warm but not fresh enough to hold its best texture.
           </Paragraph>
           <Paragraph>
-            However, the Sikwate—the heart of the ritual—was a revelation. It was, quite simply, the best tableya I’ve ever had. Perfectly thick, rich, and authentic, it carried the deep, bittersweet essence of local cacao with a consistency that only comes from traditional preparation. If you're coming here, come for the Sikwate; it’s the undisputed highlight of the menu.
+            The sikwate carried the whole set. It was thick, deep, and balanced, and easily the best tableya based drink I have had in Cebu so far. This is where Tabléa stands out. In a city crowded with coffee concepts, it still centers Filipino cacao without apology and does it with real quality in the cup.
           </Paragraph>
         </AnimatedSection>
 
@@ -71,30 +71,32 @@ export default function TableaArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <PullQuote attribution="Criste Joy">
-            I spent so much time taking photos of the counter and the food that people started staring. But in a city of modern facades, seeing someone commemorate Filipino cacao tradition is worth the attention.
+          <PullQuote>
+            I took so many photos of the counter and the food that people started staring, but preserving this kind of Filipino cacao story is worth the awkward moment.
           </PullQuote>
         </AnimatedSection>
 
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Quiet Craft</H2>
           <Paragraph>
-            The service at Tabléa is efficient; my order arrived in just five minutes. While the staff were friendly, they couldn't share much about the shop's history as there was no owner on-site to tell the tale. The space itself is compact, seating about 15 people, and while it lacks some modern amenities like WiFi or background music, the quality of their cuisine serves as their most effective advertisement. 
+            Service was fast from the start. Seating was immediate, and the order arrived in about five minutes. Staff friendliness was around 3 out of 5, but attentiveness was lower at 1 out of 5, especially for follow through after the food landed. The team was accommodating for photos, though, which made content capture easy.
           </Paragraph>
           <Paragraph>
-            My tip for visitors: focus on the counter and the food. It beautifully commemorates our local traditions even in this small, business-like space. I look forward to returning to sample additional selections from their menu—mainly for that incredible Sikwate experience. It’s a quiet monument to a craft that deserves to be celebrated.
+            The room fits around 15 people, with air conditioning and a conversational noise level that works for work sessions and short meetings. There is no WiFi and no background music, and the layout plus chairs could still be improved. Even with those gaps, I would still come back for the sikwate alone. If you are visiting for the first time, focus on the counter and food details because that is where the Filipino tradition is most visible.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Highlight</h3>
-              <p className="text-sm text-stone-600 italic">The Sikwate (Tableya drink). Perfectly thick and authentic. Easily the best thing on the menu and a must-try for cacao lovers.</p>
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location &amp; Details</h3>
+              <p className="text-sm text-stone-600 italic">Ground Floor, JY Square, Salinas Drive, Cebu City 6000 • Open daily 8:00 AM to 8:00 PM, except holidays • Parking available • Easy taxi access near the main road • Near McDonald&apos;s.</p>
+              <p className="text-sm text-stone-600 mt-2">Best for work from cafe sessions and meetings • Seating about 15 • Air conditioned • WiFi: none • Noise level: conversational • Cleanliness: 3/5.</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Environment</h3>
-              <p className="text-sm text-stone-600 italic">Quiet, formal, and traditional. Best for focused work or small business meetings where silence is appreciated.</p>
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
+              <p className="text-sm text-stone-600 italic">★★★☆☆ (7/10) • Best order: Special Set (₱175), mainly for the sikwate • Sikwate: standout • Mango: a bit sour • Puto Maya: weakest item • Main improvements needed: table layout, better chairs, WiFi, and background music.</p>
+              <p className="text-sm text-stone-600 mt-2">Contact: 0968-694-4871 • Instagram: tableachocolateph • Facebook: Tablea Chocolate.</p>
             </div>
           </div>
         </AnimatedSection>
