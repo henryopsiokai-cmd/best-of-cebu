@@ -132,7 +132,7 @@ export default function SakuraArticle() {
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">7/10. Best order: Chocolate Banana Pancake (₱440). Price range: ₱500 to ₱1000. Main friction points are wait times and slower staff response during crowded periods. No WiFi available.</p>
+              <p className="text-sm text-stone-600 italic">★★★☆☆ (7/10) • Best order: Chocolate Banana Pancake (₱440) • Price range: ₱500 to ₱1000 • Main friction points: wait times and slower staff response during crowded periods • No WiFi available.</p>
             </div>
           </div>
         </AnimatedSection>
