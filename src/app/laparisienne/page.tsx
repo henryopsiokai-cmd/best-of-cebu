@@ -19,21 +19,7 @@ export default function LaParisienneArticle() {
         publishedAt="February 2026"
       />
 
-      <article className="max-w-4xl mx-auto px-6 pb-24">
-        <AnimatedSection>
-          <div className="mt-8 mb-8 font-sans">
-            <div className="w-full md:w-[320px] border border-stone-200 bg-stone-50 px-5 py-4 text-sm text-stone-700">
-              <div className="space-y-2">
-                <p><span className="text-stone-400">Price:</span> ₱₱₱</p>
-                <p><span className="text-stone-400">Rating:</span> ★★★★☆ (8.7/10)</p>
-                <p><span className="text-stone-400">Best Time:</span> 5:00 PM</p>
-                <p><span className="text-stone-400">Setting:</span> Indoor · Outdoor · Rooftop</p>
-                <p><span className="text-stone-400">WiFi:</span> PisoNet</p>
-              </div>
-            </div>
-          </div>
-        </AnimatedSection>
-
+      <article className="max-w-4xl mx-auto px-6 pb-24 -mt-4 md:-mt-6">
         <DropCap>
           La Parisienne Cebu is the kind of place that reminds me how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Once I step inside, everything softens. The room is warm, the pace slows down, and the night feels less like a checklist and more like an actual evening.
         </DropCap>
@@ -149,6 +135,21 @@ export default function LaParisienneArticle() {
           </Paragraph>
         </AnimatedSection>
 
+
+        <AnimatedSection>
+          <div className="my-10 font-sans flex justify-end">
+            <div className="w-full md:w-[320px] border border-stone-200 bg-stone-50 px-5 py-4 text-sm text-stone-700">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-stone-500 mb-3">Quick Take</p>
+              <div className="space-y-2">
+                <p><span className="text-stone-400">Price:</span> ₱₱₱</p>
+                <p><span className="text-stone-400">Rating:</span> ★★★★☆ (8.7/10)</p>
+                <p><span className="text-stone-400">Best Time:</span> 5:00 PM</p>
+                <p><span className="text-stone-400">Setting:</span> Indoor · Outdoor · Rooftop</p>
+                <p><span className="text-stone-400">WiFi:</span> PisoNet</p>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
