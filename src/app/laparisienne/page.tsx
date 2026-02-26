@@ -21,7 +21,7 @@ export default function LaParisienneArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24 -mt-4 md:-mt-6">
         <DropCap>
-          La Parisienne Cebu is the kind of place that reminds me how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Once I step inside, everything softens. The room is warm, the pace slows down, and the night feels less like a checklist and more like an actual evening.
+          If Cebu had a soft-focus romance filter, it would probably look like La Parisienne at golden hour. I walked in from Gorordo expecting a pretty café and left feeling like I had borrowed a small Parisian evening in the middle of Lahug — unhurried, warm, and oddly comforting even when you come in solo.
         </DropCap>
 
         <AnimatedSection>
@@ -42,12 +42,12 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">First Impressions That Keep Building</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">A Place That Understands Mood</H2>
           <Paragraph>
-            My first descriptors were precise: cozy, romantic, homey. They still hold up. The space opens wider than expected, with enough room to support different kinds of nights. There is indoor seating for comfort, outdoor areas for a more casual mood, and a rooftop that gives the whole place personality. It works for couples, barkadas, families, solo diners, and even people trying to get a little work done between meals.
+            The first three words I wrote in my notes were simple: cozy, romantic, homey. They still feel exactly right. The layout gives you options without feeling chaotic — indoor seats when you want comfort, outdoor tables for slower conversations, and a rooftop that turns the whole visit into an occasion. Whether you’re on a date, with barkada, with family, or just reclaiming your own evening, the space adjusts without losing character.
           </Paragraph>
           <Paragraph>
-            Timing matters here. Around 5:00 PM, you can still choose your preferred table. Later at night, it gets busy and louder, but still stays conversational. Love songs run through the room and keep the tone soft. The place still feels friendly when you’re alone, which is harder to pull off than most cafés realize.
+            Arriving around 5:00 PM is the sweet spot if you care about table choice and a calmer atmosphere. As the night deepens, the place gets busier and louder, but never rowdy. Love songs float through the room, people linger over dessert, and the energy stays gentle enough that you can still talk — or think — without rushing.
           </Paragraph>
         </AnimatedSection>
 
@@ -71,28 +71,28 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Details That Make It Memorable</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Design Details That Actually Matter</H2>
           <Paragraph>
-            The design lands in a sweet spot between cafe and restaurant, with little choices that show personality. Wine displayed on the walls doubles as design and smart space use. Outside, there are plenty of seats for long talks, and the rooftop has a small Eiffel Tower feature with a two-person date chair that is playful in the best way. There is also a koi area, and the fish are big and clearly well cared for, which says a lot about the overall upkeep.
+            What I liked most is that the details never feel random. Wine bottles on the wall function as décor and identity at the same time. The rooftop has a playful Eiffel Tower corner with a two-seater date chair that could have been gimmicky, but somehow works. There’s even a koi pond area, and the fish look healthy and well kept — small proof that management pays attention beyond the obvious photo spots.
           </Paragraph>
           <Paragraph>
-            One of the most surprising highlights is the bathroom. It is genuinely clean, spacious, and smells fresh, easily a 5/5 on cleanliness. Even the entrance is themed, with a bookshelf-style door that matches the whole Paris-inspired concept without feeling too forced.
+            Even the restroom deserves mention, which is rare in restaurant write-ups for a reason. Clean, spacious, fresh-smelling, and thoughtfully themed, down to a bookshelf-style door at the entrance. I’d still score it a straight 5/5 for cleanliness and upkeep.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <PullQuote>
-            It is the kind of place that makes you want to love love again, even if you came in alone.
+            It’s one of those places that makes romance feel accessible — not staged, not intimidating, just naturally present.
           </PullQuote>
         </AnimatedSection>
 
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">What We Ordered</H2>
           <Paragraph>
-            Service was fast from the start. I got seated right away, and the food arrived in around 5 to 10 minutes. I ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). I’d rate the spaghetti 7.8/10, with the meatballs carrying the dish because the sauce clings well and gives each bite more flavor.
+            Service speed was excellent at the start: seated quickly, with food arriving in roughly 5 to 10 minutes. I ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The spaghetti lands at 7.8/10 for me — decent base, with the meatballs carrying most of the flavor payoff.
           </Paragraph>
           <Paragraph>
-            The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that made me pause because it was unexpectedly that good. Best order of the visit, no contest. Even the water became part of the experience, because this is the kind of place where I ended up staying longer than expected.
+            The clear winner was the dark chocolate gelato. Creamy, rich, balanced, and honestly the kind of dessert that makes you stop mid-conversation just to appreciate it. Best order of the night, no debate. No true “worst” order this round, but if you’re coming for a wow moment, prioritize dessert.
           </Paragraph>
         </AnimatedSection>
 
@@ -125,28 +125,28 @@ export default function LaParisienneArticle() {
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Honest Take</H2>
           <Paragraph>
-            The strongest argument for La Parisienne is still atmosphere. It delivers romance without feeling exclusive, and that balance is why people return. I can come here for a date, but I can also come alone and still feel held by the space.
+            La Parisienne’s greatest strength is emotional consistency. It delivers a romantic atmosphere without making solo diners or casual groups feel out of place — and that balance is harder to achieve than it looks. I’d confidently recommend it for date nights, low-pressure catch-ups, and anyone craving a slower evening in the city.
           </Paragraph>
           <Paragraph>
-            The weak point is service consistency. Staff friendliness during the visit tracked around 2 to 3 out of 5, with attentiveness at 2 out of 5, especially at the counter. WiFi is available but paid through PisoNet, so work sessions are possible, just not seamless. The menu could also use more high-protein choices.
+            The weak point is still front-of-house warmth and attentiveness. Staff friendliness felt closer to 2–3/5 during this visit, with attentiveness around 2/5 at certain moments. WiFi exists through PisoNet, which is useful but not seamless for longer work sessions. A few stronger high-protein mains would also improve menu range.
           </Paragraph>
           <Paragraph>
-            If what you want is a polished, romantic setting where conversations can stretch and the city noise drops to the background, this place does that very well. At 8.7/10, it earns a strong recommendation and an easy return visit.
+            Overall score: 8.7/10. If your priority is ambiance, conversation, and a setting that feels cinematic without being too precious, this is a strong pick — and yes, I’d come back.
           </Paragraph>
         </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Details</h3>
-              <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City 6000. Along Gorordo near UP Cebu. Easy Grab/taxi drop-off.</p>
-              <p className="text-sm text-stone-600 mt-2">Mon–Thu: 9:00 AM – 1:00 AM. Fri–Sun: 9:00 AM – 2:00 AM. Best time to arrive: around 5:00 PM.</p>
-              <p className="text-sm text-stone-600 mt-2">Setting: Indoor + outdoor + rooftop seating. WiFi: PisoNet (coin-operated). Parking available (limited during peak hours).</p>
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location &amp; Details</h3>
+              <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City 6000. Along Gorordo near UP Cebu, with easy Grab/taxi drop-off access.</p>
+              <p className="text-sm text-stone-600 mt-2">Mon–Thu: 9:00 AM – 1:00 AM. Fri–Sun: 9:00 AM – 2:00 AM. Best arrival window: around 5:00 PM for quieter seating.</p>
+              <p className="text-sm text-stone-600 mt-2">Setting: Indoor, outdoor, and rooftop seating. WiFi: PisoNet (coin-operated). Parking available but limited during peak hours.</p>
               <p className="text-sm text-stone-600 mt-2">Phone: 0999 885 4318 • IG: @laparisiennecebu • FB: La Parisienne CEBU</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">★★★★☆ (8.7/10) • Price: ₱₱₱. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. No clear worst order from this visit. Great for date nights, friends, solo resets, family hangouts, and lingering conversations. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
+              <p className="text-sm text-stone-600 italic">★★★★☆ (8.7/10) • Price: ₱₱₱. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450): 7.8/10. Best for couples, barkadas, solo resets, and family hangs. Main drawback: service attentiveness can lag during busy periods, but atmosphere remains the standout reason to return.</p>
             </div>
           </div>
         </AnimatedSection>
