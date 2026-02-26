@@ -20,39 +20,6 @@ export default function LaParisienneArticle() {
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
-        <AnimatedSection>
-          <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
-            <div className="p-6 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Highlights</h3>
-              <ul className="text-sm text-stone-700 space-y-1">
-                <li>• Cozy, romantic, homey atmosphere that still works for solo visits</li>
-                <li>• Surprisingly large layout with indoor, outdoor, and rooftop zones</li>
-                <li>• Rooftop Eiffel detail + lush koi area add personality without feeling gimmicky</li>
-                <li>• Dark Chocolate Gelato is the standout order</li>
-                <li>• Best arrival window for seat choice: around 5:00 PM</li>
-              </ul>
-            </div>
-            <div className="p-6 bg-stone-50 border shadow-sm">
-              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Quick Read</h3>
-              <div className="mb-3 pb-3 border-b border-stone-200">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Price</p>
-                <p className="text-sm text-stone-800 font-medium">₱₱₱ · Reasonable</p>
-              </div>
-              <div className="mb-4 pb-3 border-b border-stone-200">
-                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Overall Rating</p>
-                <p className="text-sm text-stone-800 font-medium">★★★★☆ <span className="text-stone-600">(8.7/10)</span></p>
-              </div>
-              <ul className="text-sm text-stone-700 space-y-1">
-                <li>• Date-night energy, but still friendly for barkada and family dinners</li>
-                <li>• Music leans love-song heavy, especially in evening service</li>
-                <li>• Comfort and design are the strengths</li>
-                <li>• Service attentiveness still needs tightening</li>
-                <li>• Overall feel: a romantic reset in the middle of the city</li>
-              </ul>
-            </div>
-          </div>
-        </AnimatedSection>
-
         <DropCap>
           La Parisienne Cebu is the kind of place that reminds you how much atmosphere matters. From the street, it is an easy yes, right on Gorordo and simple to reach. Inside, it shifts into something softer. The room is warm, the pace slows down, and suddenly the night feels less like a checklist and more like an actual evening.
         </DropCap>
@@ -166,6 +133,39 @@ export default function LaParisienneArticle() {
           <Paragraph>
             If what you want is a polished, romantic setting where conversations can stretch and the city noise drops to the background, this place does that very well. At 8.7/10, it earns a strong recommendation and an easy return visit.
           </Paragraph>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-6 font-sans">
+            <div className="p-6 bg-stone-50 border shadow-sm">
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Highlights</h3>
+              <ul className="text-sm text-stone-700 space-y-1">
+                <li>• Cozy, romantic, homey atmosphere that still works for solo visits</li>
+                <li>• Surprisingly large layout with indoor, outdoor, and rooftop zones</li>
+                <li>• Rooftop Eiffel detail + lush koi area add personality without feeling gimmicky</li>
+                <li>• Dark Chocolate Gelato is the standout order</li>
+                <li>• Best arrival window for seat choice: around 5:00 PM</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-stone-50 border shadow-sm">
+              <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-3">Quick Read</h3>
+              <div className="mb-3 pb-3 border-b border-stone-200">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Price</p>
+                <p className="text-sm text-stone-800 font-medium">₱₱₱ · Reasonable</p>
+              </div>
+              <div className="mb-4 pb-3 border-b border-stone-200">
+                <p className="text-[11px] uppercase tracking-[0.18em] text-stone-500">Overall Rating</p>
+                <p className="text-sm text-stone-800 font-medium">★★★★☆ <span className="text-stone-600">(8.7/10)</span></p>
+              </div>
+              <ul className="text-sm text-stone-700 space-y-1">
+                <li>• Date-night energy, but still friendly for barkada and family dinners</li>
+                <li>• Music leans love-song heavy, especially in evening service</li>
+                <li>• Comfort and design are the strengths</li>
+                <li>• Service attentiveness still needs tightening</li>
+                <li>• Overall feel: a romantic reset in the middle of the city</li>
+              </ul>
+            </div>
+          </div>
         </AnimatedSection>
 
         <AnimatedSection>
