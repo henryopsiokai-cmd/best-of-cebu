@@ -26,13 +26,15 @@ export default function TableaArticle() {
 
         <AnimatedSection>
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative">
-             <video 
-              className="w-full h-full object-cover"
-              controls
-              poster="https://drive.google.com/thumbnail?id=1c7PyaftjWM8YTJf2xqzzMIgvwDMqWxAw&sz=w1000"
-            >
-              <source src="https://drive.google.com/uc?export=download&id=1c7PyaftjWM8YTJf2xqzzMIgvwDMqWxAw" type="video/mp4" />
-            </video>
+             <iframe
+              className="w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/hALOUNN3jog"
+              title="Best of Cebu video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               The Tablea Counter • Salinas Drive
             </div>

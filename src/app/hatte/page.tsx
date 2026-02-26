@@ -105,13 +105,15 @@ export default function HatteArticle() {
 
         <AnimatedSection>
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-xl">
-             <video 
-              className="w-full h-full object-cover"
-              controls
-              poster="https://drive.google.com/thumbnail?id=1YaZYx8OneR7yAWrsXT1rpcVmWoYndDRj&sz=w1000"
-            >
-              <source src="https://drive.google.com/uc?export=download&id=1YaZYx8OneR7yAWrsXT1rpcVmWoYndDRj" type="video/mp4" />
-            </video>
+             <iframe
+              className="w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/FJ5HE8KRM4c"
+              title="Best of Cebu video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
             <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
               Barista Detail
             </div>

@@ -26,13 +26,15 @@ export default function TampArticle() {
 
         <AnimatedSection>
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
-             <video 
-              className="w-full h-full object-cover"
-              controls
-              poster="https://drive.google.com/thumbnail?id=17CBbV8_QcQ76IXt3o_qrWEm-4hE074s4&sz=w1000"
-            >
-              <source src="https://drive.google.com/uc?export=download&id=17CBbV8_QcQ76IXt3o_qrWEm-4hE074s4" type="video/mp4" />
-            </video>
+             <iframe
+              className="w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/A3UrYUDROEU"
+              title="Best of Cebu video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
               Tamp Cafe &amp; Co. • Paseo Banawa
             </div>
