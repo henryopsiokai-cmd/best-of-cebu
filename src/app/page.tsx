@@ -42,8 +42,8 @@ export default function Home() {
         },
         {
             category: "Modern Comfort",
-            title: "Effortless Elegance at Tamp",
-            excerpt: "Technical precision and modern cafe culture at Tamp Cafe & Co., a reliable haven in the city.",
+            title: "The One Peso Cake That Actually Delivers",
+            excerpt: "At Tamp Banawa, tender beef, warm service, and a standout promo make this cafe one of the easiest recommendations in the area.",
             href: "/tamp",
             imageSrc: "https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000"
         },
