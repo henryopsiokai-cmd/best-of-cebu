@@ -19,6 +19,30 @@ export function Gallery({ images, title = "The Gallery" }: GalleryProps) {
         [images]
     );
 
+    const previewIndices = useMemo(() => {
+        const targetCount = 12;
+        const total = images.length;
+
+        if (total <= targetCount) {
+            return Array.from({ length: total }, (_, i) => i);
+        }
+
+        const picked = new Set<number>();
+        const step = (total - 1) / (targetCount - 1);
+
+        for (let i = 0; i < targetCount; i++) {
+            picked.add(Math.round(i * step));
+        }
+
+        let cursor = 0;
+        while (picked.size < targetCount && cursor < total) {
+            picked.add(cursor);
+            cursor += 1;
+        }
+
+        return Array.from(picked).sort((a, b) => a - b).slice(0, targetCount);
+    }, [images]);
+
     const openAt = (index: number) => setActiveIndex(index);
     const close = () => setActiveIndex(null);
 
@@ -62,22 +86,25 @@ export function Gallery({ images, title = "The Gallery" }: GalleryProps) {
                 </div>
 
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    {images.slice(0, 12).map((id, i) => (
-                        <button
-                            key={id + i}
-                            type="button"
-                            onClick={() => openAt(i)}
-                            className="aspect-square bg-stone-100 rounded-sm overflow-hidden relative group border border-stone-100 shadow-sm text-left"
-                            aria-label={`Open image ${i + 1}`}
-                        >
-                            <img
-                                src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`}
-                                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                                alt={`Gallery ${i + 1}`}
-                            />
-                            <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/10 transition-colors duration-500"></div>
-                        </button>
-                    ))}
+                    {previewIndices.map((originalIndex, previewIndex) => {
+                        const id = images[originalIndex];
+                        return (
+                            <button
+                                key={id + previewIndex}
+                                type="button"
+                                onClick={() => openAt(originalIndex)}
+                                className="aspect-square bg-stone-100 rounded-sm overflow-hidden relative group border border-stone-100 shadow-sm text-left"
+                                aria-label={`Open image ${originalIndex + 1}`}
+                            >
+                                <img
+                                    src={`https://drive.google.com/thumbnail?id=${id}&sz=w1000`}
+                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                                    alt={`Gallery preview ${previewIndex + 1}`}
+                                />
+                                <div className="absolute inset-0 bg-stone-900/0 group-hover:bg-stone-900/10 transition-colors duration-500"></div>
+                            </button>
+                        );
+                    })}
                 </div>
 
                 {images.length > 12 && (
