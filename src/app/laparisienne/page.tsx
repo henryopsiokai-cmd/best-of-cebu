@@ -52,6 +52,31 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-16">
+            <figure className="space-y-3">
+              <img
+                src="https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1600"
+                alt="La Parisienne facade and first impression"
+                className="w-full aspect-[4/5] object-cover border shadow-sm"
+              />
+              <figcaption className="font-sans text-xs uppercase tracking-widest text-stone-500">
+                Street-side facade on Gorordo Avenue, where the city pace drops at the door.
+              </figcaption>
+            </figure>
+            <figure className="space-y-3">
+              <img
+                src="https://drive.google.com/thumbnail?id=1X7hRsNRM-WVY7ka6mfKVb-EZD3NvV_u8&sz=w1600"
+                alt="La Parisienne interior seating"
+                className="w-full aspect-[4/5] object-cover border shadow-sm"
+              />
+              <figcaption className="font-sans text-xs uppercase tracking-widest text-stone-500">
+                Layered seating and warm tones that hold the room in a calm, romantic register.
+              </figcaption>
+            </figure>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection>
           <PullQuote attribution="Criste Joy">
             La Parisienne does not chase attention. It sustains mood, and in a fast city, that is a rare luxury.
           </PullQuote>
@@ -65,6 +90,41 @@ export default function LaParisienneArticle() {
           <Paragraph>
             What remains after the meal is a specific emotional residue: calm, softness, and the sense that the city briefly slowed down for you. That is the real achievement here. La Parisienne translates a European romantic language into a Cebu context without feeling imported or forced.
           </Paragraph>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
+            <figure className="space-y-2">
+              <img
+                src="https://drive.google.com/thumbnail?id=1KMv1w73XVTR8qV6uIo-P2cBBqaNj5rKS&sz=w1200"
+                alt="Dessert and table styling at La Parisienne"
+                className="w-full aspect-[4/5] object-cover border shadow-sm"
+              />
+              <figcaption className="font-sans text-[10px] uppercase tracking-widest text-stone-500">
+                Pastry-forward table styling that matches the room's soft visual language.
+              </figcaption>
+            </figure>
+            <figure className="space-y-2">
+              <img
+                src="https://drive.google.com/thumbnail?id=1u_9Bp1KVC-8446wlZmZMR7ulZTNJVXHe&sz=w1200"
+                alt="Ambient corner at La Parisienne"
+                className="w-full aspect-[4/5] object-cover border shadow-sm"
+              />
+              <figcaption className="font-sans text-[10px] uppercase tracking-widest text-stone-500">
+                A quiet corner designed for long-form conversation and slower evenings.
+              </figcaption>
+            </figure>
+            <figure className="space-y-2">
+              <img
+                src="https://drive.google.com/thumbnail?id=1Aq7hbwLJFjiXy-aHWoyFUzWCQsDHeo8w&sz=w1200"
+                alt="Night atmosphere at La Parisienne Cebu"
+                className="w-full aspect-[4/5] object-cover border shadow-sm"
+              />
+              <figcaption className="font-sans text-[10px] uppercase tracking-widest text-stone-500">
+                Late-night mood, the main reason this stop remains a repeat date-night choice.
+              </figcaption>
+            </figure>
+          </div>
         </AnimatedSection>
 
         <AnimatedSection>
