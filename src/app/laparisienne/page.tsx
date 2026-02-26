@@ -62,8 +62,8 @@ export default function LaParisienneArticle() {
             </figure>
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1X7hRsNRM-WVY7ka6mfKVb-EZD3NvV_u8&sz=w1600"
-                alt="La Parisienne interior seating"
+                src="https://drive.google.com/thumbnail?id=1b7YpR9VUesTsuZLkpyR1gfxhqhMR7W82&sz=w1600"
+                alt="La Parisienne hidden bookshelf bathroom entrance"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
             </figure>
@@ -76,7 +76,7 @@ export default function LaParisienneArticle() {
             Many concept restaurants in Cebu lean too hard into styling; La Parisienne does not. The wine display, warm amber lighting, and Paris inspired accents create character without tipping into theater. Even its photo friendly corners feel like natural extensions of the room, not staged backdrops.
           </Paragraph>
           <Paragraph>
-            Operations strengthen the appeal. Shared spaces stay clean, table turnover is efficient, and upkeep is visible across the property. The restroom deserves a mention. It is spacious, tidy, and clearly monitored throughout service hours, a quiet marker of care that diners notice.
+            Operations strengthen the appeal. Shared spaces stay clean, table turnover is efficient, and upkeep is visible across the property. The restroom deserves a full mention. It is spacious, tidy, and clearly monitored throughout service hours. The most memorable detail is the entrance, which looks like a built in bookshelf from the outside. That hidden door moment feels playful and thoughtful, and it matches the romantic concept of the whole place.
           </Paragraph>
         </AnimatedSection>
 
