@@ -21,7 +21,7 @@ export default function LaParisienneArticle() {
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <DropCap>
-          If you’ve spent enough time around Cebu traffic, you know how rare it is to find a place that instantly makes you slow down. La Parisienne Cebu does that. It’s right on Gorordo, easy to get to, but once you step in, the outside noise fades. The space feels warm, cozy, and made for staying longer than you planned. It works for date night, late catch-ups with friends, or even a solo coffee when you need a reset.
+          La Parisienne Cebu is one of those places that changes your mood before you even sit down. On paper, it is super practical, right on 371 Gorordo Avenue in Lahug, with easy Grab drop-off and nearby landmarks like UP Cebu. In real life, it feels like a little romantic escape once you cross the door. The highway is still outside, but inside it’s all cozy energy, soft lighting, and that feeling that you should stay longer than you planned.
         </DropCap>
 
         <AnimatedSection>
@@ -42,12 +42,12 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">An Interior Built for Slow Evenings</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">First Impressions That Keep Building</H2>
           <Paragraph>
-            What La Parisienne gets right is the vibe. The layout is simple, the lighting is flattering, and the space feels calm without trying too hard. It’s one of those Cebu spots where you naturally talk softer and stay longer. Nothing feels forced, but everything feels intentional.
+            The vibe can be summed up in three words that are actually accurate: cozy, romantic, and homey. The place is big, bigger than you expect from first glance, with indoor seating, outdoor seating, and a rooftop area. It is air-conditioned where needed, open where it should be, and designed for different moods. You can come as a couple, as barkada, with family, for solo dining, or even for a work session.
           </Paragraph>
           <Paragraph>
-            Even when it gets busy, it still feels balanced. That’s why people come back. Not just for one drink or one pretty corner, but because it’s reliable for real conversations and chill nights when you don’t want to rush home yet.
+            At around 5:00 PM, you get the best seat choices. Later in the evening, it gets crowded and the energy shifts into something livelier, but the romantic mood still holds because the music leans heavily into love songs. It sounds cheesy, but it works. Even if you come alone, the atmosphere still feels comforting instead of awkward.
           </Paragraph>
         </AnimatedSection>
 
@@ -71,18 +71,28 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <PullQuote attribution="Criste Joy">
-            La Parisienne does not chase attention. It sustains mood, and in a fast city, that is a rare luxury.
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Details That Make It Memorable</H2>
+          <Paragraph>
+            The design lands in a sweet spot between cafe and restaurant, with little choices that show personality. Wine displayed on the walls doubles as design and smart space use. Outside, there are plenty of seats for long talks, and the rooftop has a small Eiffel Tower feature with a two-person date chair that is playful in the best way. There is also a koi area, and the fish are big and clearly well cared for, which says a lot about the overall upkeep.
+          </Paragraph>
+          <Paragraph>
+            One of the most surprising highlights is the bathroom. It is genuinely clean, spacious, and smells fresh, easily a 5/5 on cleanliness. Even the entrance is themed, with a bookshelf-style door that matches the whole Paris-inspired concept without feeling too forced.
+          </Paragraph>
+        </AnimatedSection>
+
+        <AnimatedSection>
+          <PullQuote>
+            It is the kind of place that makes you want to love love again, even if you came in alone.
           </PullQuote>
         </AnimatedSection>
 
         <AnimatedSection>
-          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Why It Works in Lahug</H2>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">What We Ordered</H2>
           <Paragraph>
-            The location helps a lot too. It’s at 371 Gorordo Avenue near UP Cebu, so it’s easy to swing by even on a random weekday. They’re open late, until 1:00 AM on weekdays and 2:00 AM on weekends, which makes it a solid option when most places are already winding down. Parking is available, but coming a little earlier gives you better seat choices.
+            Service starts fast. Seating was immediate, and food came in around 5 to 10 minutes. We ordered Spaghetti Meatballs (₱450), Water (₱60), and Dark Chocolate Gelato (₱175). The spaghetti itself was rated 7.8/10, with the meatballs being the best part because the sauce clings well and gives each bite more flavor.
           </Paragraph>
           <Paragraph>
-            By the time you leave, the best part is the feeling. You feel lighter, calmer, and less rushed. That’s why this place works. It has that romantic Paris-inspired personality, but still feels natural in Cebu and never overdone.
+            The standout was clearly the dark chocolate gelato. Texture, creaminess, and flavor were all on point, and it was one of those desserts that makes you pause for a second because it is unexpectedly that good. Best order of the visit, no contest.
           </Paragraph>
         </AnimatedSection>
 
@@ -113,16 +123,30 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
+          <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Honest Take</H2>
+          <Paragraph>
+            La Parisienne is strongest on atmosphere. It feels romantic without being intimidating, and it works whether you are on a date or just trying to reset after a long day. That is why this is a place people come back to. It is not only photogenic, it is genuinely comfortable.
+          </Paragraph>
+          <Paragraph>
+            There are still fixes needed. Staff friendliness felt around 2 to 3 out of 5, and attentiveness was closer to 2 out of 5, especially at the counter when someone is already waiting. WiFi exists, but it is PisoNet style, coin-operated, so the work-from-cafe experience is not always seamless. Menu-wise, more high-protein options would make the lineup stronger.
+          </Paragraph>
+          <Paragraph>
+            Still, at 8.7/10 overall, this is an easy recommendation for anyone who likes romantic spots, long conversations, and places that make the city feel softer for a few hours.
+          </Paragraph>
+        </AnimatedSection>
+
+        <AnimatedSection>
           <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Details</h3>
-              <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City 6000. Located by the highway, near UP Cebu. Easy Grab drop-off.</p>
-              <p className="text-sm text-stone-600 mt-2">Mon–Thu: 9:00 AM – 1:00 AM. Fri–Sun: 9:00 AM – 2:00 AM. WiFi: PisoNet. Parking: Available.</p>
-              <p className="text-sm text-stone-600 mt-2">IG: @laparisiennecebu • FB: La Parisienne CEBU</p>
+              <p className="text-sm text-stone-600 italic">371 Gorordo Ave, Lahug, Cebu City 6000. Along Gorordo near UP Cebu. Easy Grab/taxi drop-off.</p>
+              <p className="text-sm text-stone-600 mt-2">Mon–Thu: 9:00 AM – 1:00 AM. Fri–Sun: 9:00 AM – 2:00 AM. Parking available (limited during peak hours). WiFi: PisoNet (coin-operated).</p>
+              <p className="text-sm text-stone-600 mt-2">Setup: Indoor + outdoor + rooftop seating. Noise level: conversational/lively at night.</p>
+              <p className="text-sm text-stone-600 mt-2">Phone: 0999 885 4318 • IG: @laparisiennecebu • FB: La Parisienne CEBU</p>
             </div>
             <div className="p-8 bg-stone-50 border shadow-sm">
               <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-              <p className="text-sm text-stone-600 italic">8.7/10. An essential romantic escape in Cebu City. The dark chocolate gelato is world-class, the bookshelf bathroom is a delight, and the atmosphere is thick with cinematic charm. A few service improvements would make it flawless, but it remains a must-visit for anyone who believes in the art of the slow conversation.</p>
+              <p className="text-sm text-stone-600 italic">8.7/10. Best order: Dark Chocolate Gelato (₱175). Spaghetti Meatballs (₱450) rated 7.8/10. Great for date nights, friends, solo resets, and family hangouts. Main gap is service attentiveness (2/5 to 3/5), but the cozy romantic atmosphere is strong enough to make this an easy return visit.</p>
             </div>
           </div>
         </AnimatedSection>
