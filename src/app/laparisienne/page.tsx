@@ -22,17 +22,15 @@ export default function LaParisienneArticle() {
       <article className="max-w-4xl mx-auto px-6 pb-24">
         <AnimatedSection>
           <div className="mt-8 mb-8 font-sans">
-            <p className="text-[11px] uppercase tracking-[0.22em] text-stone-500 mb-4">Quick Read</p>
-
-            <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-stone-700 mb-4">
-              <span><span className="text-stone-400">Price:</span> ₱₱₱ · Reasonable</span>
-              <span><span className="text-stone-400">Rating:</span> ★★★★☆ (8.7/10)</span>
-              <span><span className="text-stone-400">Best time:</span> Around 5:00 PM</span>
+            <div className="w-full md:w-[320px] border border-stone-200 bg-stone-50 px-5 py-4 text-sm text-stone-700">
+              <div className="space-y-2">
+                <p><span className="text-stone-400">Price:</span> ₱₱₱</p>
+                <p><span className="text-stone-400">Rating:</span> ★★★★☆ (8.7/10)</p>
+                <p><span className="text-stone-400">Best Time:</span> 5:00 PM</p>
+                <p><span className="text-stone-400">Setting:</span> Indoor · Outdoor · Rooftop</p>
+                <p><span className="text-stone-400">WiFi:</span> PisoNet</p>
+              </div>
             </div>
-
-            <p className="text-sm text-stone-700 leading-relaxed">
-              Date-night energy, but still friendly for barkada and family dinners. Music leans love-song heavy in evening service. Comfort and design are the strongest points, while service attentiveness still needs work.
-            </p>
           </div>
         </AnimatedSection>
 
