@@ -42,6 +42,23 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
+          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
+             <iframe
+              className="w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/H3mIxuO6n2I"
+              title="Best of Cebu video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+            <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
+              Dining Experience
+            </div>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">A Room Built for Lingering</H2>
           <Paragraph>
             The layout is part of the reason this place works. You get indoor seating for comfort, an outdoor section for people watching, and a rooftop area that becomes the emotional center once evening settles in. Many diners still remember the older La Vie naming, but the current La Parisienne identity feels sharper and more focused. The concept is Paris inspired, but it still feels grounded in Cebu nightlife culture where groups stay late and conversations stretch.
