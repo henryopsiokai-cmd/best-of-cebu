@@ -17,6 +17,7 @@ export default function PukotArticle() {
         subtitle="Inside a subdivision in Banilad, a restaurant named after a fishing net is quietly weaving together community, comfort food, and one owner's hard-won philosophy on perseverance."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=18SEa3UMZNRxTTojNoY_7FTVTOXZCvptg&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">

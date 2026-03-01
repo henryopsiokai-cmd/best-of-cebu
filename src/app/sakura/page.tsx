@@ -17,6 +17,7 @@ export default function SakuraArticle() {
         subtitle="A Valentine visit to Sakura Dining in Cebu IT Park, where fluffy pancakes, pink interiors, and crowd day chaos all land in one memorable meal."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=1ttkMNUMItqVYmdDjEtSTyq1sawCUAGBG&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">

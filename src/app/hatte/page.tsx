@@ -17,6 +17,7 @@ export default function HatteArticle() {
         subtitle="Step into the split-level, color-blocked world of Hatte Cafe, where the aesthetic is sharp but the hospitality is disarmingly sweet."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=1aLErNxBcMctPFt-Urmq-3W8trS33PXEL&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">

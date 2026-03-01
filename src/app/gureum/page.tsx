@@ -17,6 +17,7 @@ export default function GureumArticle() {
         subtitle="How a Korean expat turned a forgotten speakeasy above a Chinese restaurant into Banilad's most disarming hideout — and why a single window changed everything."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=1iWE0BP3QFY8nAY_CLNtN5tD8NTQ4pLkO&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">

@@ -17,6 +17,7 @@ export default function LaParisienneArticle() {
         subtitle="A Lahug destination where atmosphere, dessert, and thoughtful design details turn an ordinary dinner into an occasion."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=1UznRCm2fi18o-ijUrFPJlynOS5Fv85Du&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24 -mt-4 md:-mt-6">
