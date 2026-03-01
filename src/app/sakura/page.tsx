@@ -72,15 +72,15 @@ export default function SakuraArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1bMZK-axAAMEbjV2tbn4aTAaKDr1kJYRj&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1PpG_XkRhmmbqRVdl0RlKOrAwxy9e6qA7&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Sakura Decor Detail"
+                alt="Sakura Pink Interior"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=14iRVAk39F8ahohHF1oVocpbNCoAVDT2r&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1gxEp5BoMgnCL9YlKT9qxoPe7XA20Hqwt&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Sakura Table Setting"
               />
@@ -88,9 +88,9 @@ export default function SakuraArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1T5l5McKM2JxPggenRObvKnK4brLX-Mmj&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
-                alt="Sakura Pancake Close-up"
+                alt="Sakura Pancakes"
               />
               <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors"></div>
             </div>
@@ -110,16 +110,18 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-xl">
-             <video 
-              className="w-full h-full object-cover"
-              controls
-              poster="https://drive.google.com/thumbnail?id=1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91&sz=w1000"
-            >
-              <source src="https://drive.google.com/uc?export=download&id=1uxyaG9c_APfLZtBOw9M6zXI8EzT4Qi91" type="video/mp4" />
-            </video>
-            <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
-              Table Detail
+          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
+             <iframe
+              className="w-full h-full"
+              src="https://www.youtube-nocookie.com/embed/Nn-T9lsQGAo"
+              title="Best of Cebu video"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+            <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
+              Table Detail & Food
             </div>
           </div>
         </AnimatedSection>
