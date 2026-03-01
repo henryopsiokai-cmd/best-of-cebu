@@ -56,21 +56,21 @@ export default function HatteArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1Q4ZTBbVhTOlw0wvS2wSTu4Ef0i66uz4x&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Hatte Interior"
               />
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1VhS-B9HW1zM2B7F0aIDfSnvVKCmQeiEL&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1ADVFhMzR4Ql_cTCTSmEDOefhvZHy5jjZ&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Hatte Detail"
               />
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1zSI98rF-_UmReGydX-D_PCsOBNMsUS-o&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1XB2bJhZMZUuO5lKNFdSW49yZSVlMINbw&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Hatte Coffee"
               />

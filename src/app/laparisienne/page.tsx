@@ -73,14 +73,14 @@ export default function LaParisienneArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-16">
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1600"
+                src="https://drive.google.com/thumbnail?id=1GS9AsKEAwENjs_bv-0THikccNRgzjDI7&sz=w1600"
                 alt="La Parisienne facade and first impression"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
             </figure>
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1b7YpR9VUesTsuZLkpyR1gfxhqhMR7W82&sz=w1600"
+                src="https://drive.google.com/thumbnail?id=1Q_LfawLJ3ST5S4ihYJXIfFihHpwdW7wq&sz=w1600"
                 alt="La Parisienne hidden bookshelf bathroom entrance"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
@@ -118,21 +118,21 @@ export default function LaParisienneArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1KMv1w73XVTR8qV6uIo-P2cBBqaNj5rKS&sz=w1200"
+                src="https://drive.google.com/thumbnail?id=1qfN6a_SReXCavRvft6ftxLLfNFrF-eAT&sz=w1200"
                 alt="Dessert and table styling at La Parisienne"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
             </figure>
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1u_9Bp1KVC-8446wlZmZMR7ulZTNJVXHe&sz=w1200"
+                src="https://drive.google.com/thumbnail?id=1GS9AsKEAwENjs_bv-0THikccNRgzjDI7&sz=w1200"
                 alt="Ambient corner at La Parisienne"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
             </figure>
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1Aq7hbwLJFjiXy-aHWoyFUzWCQsDHeo8w&sz=w1200"
+                src="https://drive.google.com/thumbnail?id=1Q_LfawLJ3ST5S4ihYJXIfFihHpwdW7wq&sz=w1200"
                 alt="Night atmosphere at La Parisienne Cebu"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />

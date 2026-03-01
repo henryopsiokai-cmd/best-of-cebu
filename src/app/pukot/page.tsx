@@ -56,21 +56,21 @@ export default function PukotArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1MmKL2yZMkeFX58Ot0usaTMJ8UdVAXj1o&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Pukot Interior"
               />
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=14TyvAmh-_Xp9xUzN5h1H_QiPgR6FUt5l&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1894aA35FBCMI06G2yCqiZv32fCBPoizN&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Pukot Detail"
               />
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1-FZWmhy6zWFaiI0QU_lmDdqqMcV2pHxd&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=12CIJACZ4hQPckrZdOY-6tunT1DPwoBE3&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Pukot Food"
               />

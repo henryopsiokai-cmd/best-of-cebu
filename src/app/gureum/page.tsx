@@ -59,7 +59,7 @@ export default function GureumArticle() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1LS1w_jTl9EasdEjhzmkGavYkzpGM8dhF&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=19kc_O-it7HR8bzZ0vhBpEbfIxlrn6J8_&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Gureum Interior"
               />
@@ -67,7 +67,7 @@ export default function GureumArticle() {
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group">
               <img 
-                src="https://drive.google.com/thumbnail?id=1z-PVEsiKuaCTK7yOxLR_0M6NHnmKRbGi&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1J1aQRMi8dqwitPmq6-LNMIa8oFbyt4yT&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Marshmallow Choco Detail"
               />
