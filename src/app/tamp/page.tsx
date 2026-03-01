@@ -17,6 +17,7 @@ export default function TampArticle() {
         subtitle="A full fresh take on Paseo Arcenas favorite, where tender beef, warm service, and a tiny fish pond turn dinner into a story."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
