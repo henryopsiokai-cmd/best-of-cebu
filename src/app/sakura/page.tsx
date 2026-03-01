@@ -43,23 +43,6 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <AnimatedSection>
-          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
-             <iframe
-              className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/Nn-T9lsQGAo"
-              title="Best of Cebu video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-            <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Interior & Ambiance
-            </div>
-          </div>
-        </AnimatedSection>
-
-        <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Fuwari Fluff Factor</H2>
           <Paragraph>
             The menu covers both savory and sweet options, but the reason most people come here is obvious after one bite of the Chocolate Banana Pancake (₱440). It was the best item we ordered, and it carried the table from first spoonful to last. 
