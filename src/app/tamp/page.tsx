@@ -17,7 +17,7 @@ export default function TampArticle() {
         subtitle="A full fresh take on Paseo Arcenas favorite, where tender beef, warm service, and a tiny fish pond turn dinner into a story."
         author="Criste Joy"
         publishedAt="February 2026"
-        imageSrc="https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1600"
+        imageSrc="https://drive.google.com/thumbnail?id=1EimJ5SSpFDL5_V4cGY_R80C0mZN3_few&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
@@ -56,21 +56,21 @@ export default function TampArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1EimJ5SSpFDL5_V4cGY_R80C0mZN3_few&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Tamp Interior"
               />
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1X6zdvfRm8JCEwyL-3aV9kbxN7eAdw55t&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=1tAZiftIdiMZKOw1OeTxwhmyl05HrfKHh&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Tamp Detail"
               />
             </div>
             <div className="aspect-[4/5] bg-stone-200 overflow-hidden relative group border">
               <img 
-                src="https://drive.google.com/thumbnail?id=1nun4LORx-YOZOXL9J3nvIhhafIDE9rGd&sz=w1000" 
+                src="https://drive.google.com/thumbnail?id=125nKaB3y_3fyl2RLXkZl6rIoDHUZyf4-&sz=w1000" 
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" 
                 alt="Tamp Food"
               />
@@ -378,7 +378,7 @@ export default function TampArticle() {
             "1WsHNTUJLdYoKEWSOMhGAse-5nfSBF28h",
             "1YudUDd-ailKNYmeUnWWnNOzsz9ryCs3s",
             "1yq1zJ9M8W1PLRV-_mRAxM_ZGFjnn3FdS",
-            "1nun4LORx-YOZOXL9J3nvIhhafIDE9rGd",
+            "125nKaB3y_3fyl2RLXkZl6rIoDHUZyf4-",
             "1FbXCxBCQ9IqyPsyoSxiLATw7MBItv2BL",
             "1sS-kK0sbLwHKpPyYhT68oYETs-zHBCCE",
             "1TzNZvb7iSbItgBur_rvXk03Rp44JfbqI",
@@ -388,8 +388,8 @@ export default function TampArticle() {
             "1tAZiftIdiMZKOw1OeTxwhmyl05HrfKHh",
             "1EimJ5SSpFDL5_V4cGY_R80C0mZN3_few",
             "1lGiugt9SF5ujWWZ5VqpIi4MDnpkZLpnZ",
-            "1X6zdvfRm8JCEwyL-3aV9kbxN7eAdw55t",
-            "1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn",
+            "1tAZiftIdiMZKOw1OeTxwhmyl05HrfKHh",
+            "1EimJ5SSpFDL5_V4cGY_R80C0mZN3_few",
           ]} 
         />
       </article>
