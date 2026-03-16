@@ -25,22 +25,6 @@ export default function LaParisienneArticle() {
           On paper, La Parisienne sits on one of the busiest stretches in Lahug. In person, it feels like a pocket world. The traffic noise fades fast, the lighting softens the whole room, and you immediately understand why people come here for long conversations instead of quick meals. It is one of those Cebu places that changes your mood before your food even arrives.
         </DropCap>
 
-        <AnimatedSection>
-          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
-             <iframe
-              className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/TtWfYsJ9WzE"
-              title="Best of Cebu video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-            <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
-              Atmospheric View
-            </div>
-          </div>
-        </AnimatedSection>
 
         <AnimatedSection>
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
