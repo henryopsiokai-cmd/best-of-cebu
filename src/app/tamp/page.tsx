@@ -37,7 +37,7 @@ export default function TampArticle() {
               allowFullScreen
             />
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Tamp Cafe &amp; Co. • Paseo Banawa
+              Tamp Cafe: The One Peso Cake
             </div>
           </div>
         </AnimatedSection>

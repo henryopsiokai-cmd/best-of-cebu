@@ -37,7 +37,7 @@ export default function SakuraArticle() {
               allowFullScreen
             />
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Sakura Dining Exterior • Cebu IT Park
+              Sakura Dining: Pink Blossoms & Fluffy Pancakes
             </div>
           </div>
         </AnimatedSection>

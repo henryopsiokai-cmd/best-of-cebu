@@ -37,7 +37,7 @@ export default function PukotArticle() {
               allowFullScreen
             />
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Pukot Kitchen • Banilad, Cebu City
+              Pukot Kitchen: A Net of Local Flavors
             </div>
           </div>
         </AnimatedSection>

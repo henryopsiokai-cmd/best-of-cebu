@@ -36,7 +36,7 @@ export default function TableaArticle() {
               allowFullScreen
             />
             <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              The Tablea Counter • Salinas Drive
+              Tablea Chocolate Cafe: The Cacao Ritual
             </div>
           </div>
         </AnimatedSection>
