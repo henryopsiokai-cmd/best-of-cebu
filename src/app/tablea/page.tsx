@@ -28,7 +28,7 @@ export default function TableaArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/hALOUNN3jog"
+              src="https://www.youtube-nocookie.com/embed/3DJPA5N3Su8"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

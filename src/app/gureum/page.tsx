@@ -29,7 +29,7 @@ export default function GureumArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/YdwINas_Ao8"
+              src="https://www.youtube-nocookie.com/embed/Qh_YhXJ1JxQ"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -99,7 +99,7 @@ export default function GureumArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-xl">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/6zYm8HyylCk"
+              src="https://www.youtube-nocookie.com/embed/Qh_YhXJ1JxQ"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

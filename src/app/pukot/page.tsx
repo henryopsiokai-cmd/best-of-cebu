@@ -29,7 +29,7 @@ export default function PukotArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/ZEFGsWqxawU"
+              src="https://www.youtube-nocookie.com/embed/Pa5SSWdxvWo"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

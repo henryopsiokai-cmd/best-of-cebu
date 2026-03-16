@@ -29,7 +29,7 @@ export default function SakuraArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/Ik1FpM7f1-w"
+              src="https://www.youtube-nocookie.com/embed/vS_ziMEFZU0"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -97,7 +97,7 @@ export default function SakuraArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/Nn-T9lsQGAo"
+              src="https://www.youtube-nocookie.com/embed/vS_ziMEFZU0"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

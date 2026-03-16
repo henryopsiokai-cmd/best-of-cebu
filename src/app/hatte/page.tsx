@@ -29,7 +29,7 @@ export default function HatteArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/4mhopBuQJSw"
+              src="https://www.youtube-nocookie.com/embed/wKFfrLt7C_E"
               title="Best of Cebu — Hatte Cafe"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -108,7 +108,7 @@ export default function HatteArticle() {
           <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-xl">
              <iframe
               className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/FJ5HE8KRM4c"
+              src="https://www.youtube-nocookie.com/embed/wKFfrLt7C_E"
               title="Best of Cebu video"
               loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
