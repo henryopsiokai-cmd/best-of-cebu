@@ -14,52 +14,59 @@ export default function Home() {
     const articles = [
         {
             category: "Japanese Aesthetic",
-            title: "Pink Blossoms and Pancakes",
+            title: "Sakura Dining: Pink Blossoms and Pancakes",
             excerpt: "Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes.",
             href: "/sakura",
             imageSrc: "https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000"
         },
         {
             category: "French Patisserie",
-            title: "A Romantic Escape on Gorordo Avenue",
+            title: "La Parisienne: A Romantic Escape on Gorordo Avenue",
             excerpt: "A Lahug destination where atmosphere, dessert, and thoughtful design details turn an ordinary dinner into an occasion.",
             href: "/laparisienne",
             imageSrc: "https://drive.google.com/thumbnail?id=1s9UsQdGu2CLUXCyviqMMtVFstxzWCT5m&sz=w1000"
         },
         {
             category: "Industrial Coffee",
-            title: "Minimalist Brew in Mandaue",
+            title: "Hatte Cafe: Minimalist Brew in Banilad",
             excerpt: "Concrete lines and technical extraction at Hatte Cafe, a sanctuary for the serious coffee enthusiast.",
             href: "/hatte",
             imageSrc: "https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000"
         },
         {
             category: "Community & Soul",
-            title: "A Net of Local Flavors",
+            title: "Pukot Kitchen: A Net of Local Flavors",
             excerpt: "Celebrating the vibrant textures and soulful Cebuano cuisine at Pukot Kitchen.",
             href: "/pukot",
             imageSrc: "https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000"
         },
         {
             category: "Modern Comfort",
-            title: "The One Peso Cake That Actually Delivers",
+            title: "Tamp Cafe: The One Peso Cake That Actually Delivers",
             excerpt: "At Tamp Banawa, tender beef, warm service, and a standout promo make this cafe one of the easiest recommendations in the area.",
             href: "/tamp",
             imageSrc: "https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000"
         },
         {
             category: "Coffee & Chill",
-            title: "The Half-Moon View",
+            title: "Gureum Cafe: The Half-Moon View",
             excerpt: "How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation.",
             href: "/gureum",
             imageSrc: "https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000"
         },
         {
             category: "Tradition",
-            title: "The Cacao Ritual",
+            title: "Tablea Chocolate Cafe: The Cacao Ritual",
             excerpt: "Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe.",
             href: "/tablea",
             imageSrc: "https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000"
+        },
+        {
+            category: "Fine Dining",
+            title: "Amato: Modern Italian in the Heart of Cebu",
+            excerpt: "An intimate fine dining experience featuring contemporary Italian cuisine with a local twist.",
+            href: "/amato",
+            imageSrc: "https://drive.google.com/thumbnail?id=118SI_2XkELMzO2wbHo3YC6JwpAjkuoJc&sz=w1000"
         },
         {
             category: "The Island Table",

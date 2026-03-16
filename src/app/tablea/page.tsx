@@ -272,7 +272,7 @@ export default function TableaArticle() {
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
             <Link href="/gureum" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: The Half-Moon View</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Sakura Dining</Link>
+            <Link href="/amato" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Amato</Link>
           </nav>
         </div>
       </footer>

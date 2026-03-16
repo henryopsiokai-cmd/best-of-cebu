@@ -67,7 +67,7 @@ export default function FoodArticle() {
             <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
           </div>
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-            <Link href="/tablea" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Cacao Ritual</Link>
+            <Link href="/amato" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Amato</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
             <Link href="/sakura" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Sakura Dining</Link>
           </nav>
