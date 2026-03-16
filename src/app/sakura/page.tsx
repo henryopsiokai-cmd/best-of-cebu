@@ -93,22 +93,6 @@ export default function SakuraArticle() {
           </PullQuote>
         </AnimatedSection>
 
-        <AnimatedSection>
-          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-2xl">
-             <iframe
-              className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/vS_ziMEFZU0"
-              title="Best of Cebu video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-            <div className="absolute bottom-4 left-4 bg-black/50 text-white text-[10px] uppercase tracking-widest px-2 py-1 backdrop-blur-sm">
-              Table Detail & Food
-            </div>
-          </div>
-        </AnimatedSection>
 
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">Aesthetic Architecture</H2>

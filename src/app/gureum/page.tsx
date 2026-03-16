@@ -95,22 +95,6 @@ export default function GureumArticle() {
           </PullQuote>
         </AnimatedSection>
 
-        <AnimatedSection>
-          <div className="my-16 aspect-video bg-stone-100 rounded-lg overflow-hidden flex items-center justify-center border group relative shadow-xl">
-             <iframe
-              className="w-full h-full"
-              src="https://www.youtube-nocookie.com/embed/Qh_YhXJ1JxQ"
-              title="Best of Cebu video"
-              loading="lazy"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin"
-              allowFullScreen
-            />
-            <div className="absolute top-4 right-4 bg-amber-500 text-white text-[10px] uppercase tracking-widest px-2 py-1">
-              Table Experience
-            </div>
-          </div>
-        </AnimatedSection>
 
         <AnimatedSection>
           <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Food: Owner's Best Picks</H2>
