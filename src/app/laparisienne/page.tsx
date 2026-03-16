@@ -102,21 +102,21 @@ export default function LaParisienneArticle() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-16">
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1qfN6a_SReXCavRvft6ftxLLfNFrF-eAT&sz=w1200"
+                src="https://drive.google.com/thumbnail?id=1dfQbYclFftuselKFte0lgUDElKFeGnoy&sz=w1200"
                 alt="Dessert and table styling at La Parisienne"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
             </figure>
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1GS9AsKEAwENjs_bv-0THikccNRgzjDI7&sz=w1200"
+                src="https://drive.google.com/thumbnail?id=1qfN6a_SReXCavRvft6ftxLLfNFrF-eAT&sz=w1200"
                 alt="Ambient corner at La Parisienne"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
             </figure>
             <figure>
               <img
-                src="https://drive.google.com/thumbnail?id=1Q_LfawLJ3ST5S4ihYJXIfFihHpwdW7wq&sz=w1200"
+                src="https://drive.google.com/thumbnail?id=1SQFmaaTgM7XPpuLSoOQCSNW9J6oZBb-_&sz=w1200"
                 alt="Night atmosphere at La Parisienne Cebu"
                 className="w-full aspect-[4/5] object-cover border shadow-sm"
               />
