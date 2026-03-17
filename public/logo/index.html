@@ -185,6 +185,15 @@
                 <button class="preset-btn" onclick="applyPreset('#000000', '#000000', '#ffffff', 'transparent')">Monochrome</button>
             </div>
             
+            <label style="margin-bottom: 10px; margin-top: 20px;">Metallic Themes</label>
+            <div class="color-presets">
+                <button class="preset-btn" onclick="applyMetallic('gold')">Gold</button>
+                <button class="preset-btn" onclick="applyMetallic('silver')">Silver</button>
+                <button class="preset-btn" onclick="applyMetallic('rose')">Rose Gold</button>
+                <button class="preset-btn" onclick="applyMetallic('bronze')">Bronze</button>
+                <button class="preset-btn" onclick="applyMetallic('platinum')">Platinum</button>
+            </div>
+            
             <div class="control-group">
                 <label>Main Text Color</label>
                 <input type="color" id="mainTextColor" value="#0B2559">
@@ -260,9 +269,27 @@
 
         // Apply colors to live preview
         function updateColors() {
-            elMainText.style.color = mainTextColor.value;
-            elSquareBg.style.backgroundColor = squareBgColor.value;
+            // Reset gradient text fill to solid color
+            elMainText.style.background = 'none';
+            elMainText.style.webkitBackgroundClip = 'unset';
+            elMainText.style.webkitTextFillColor = mainTextColor.value;
+            elMainText.style.backgroundClip = 'unset';
+            
+            elSquareText1.style.background = 'none';
+            elSquareText1.style.webkitBackgroundClip = 'unset';
+            elSquareText1.style.webkitTextFillColor = squareTextColor.value;
+            elSquareText1.style.backgroundClip = 'unset';
+            
+            elSquareText2.style.background = 'none';
+            elSquareText2.style.webkitBackgroundClip = 'unset';
+            elSquareText2.style.webkitTextFillColor = squareTextColor.value;
+            elSquareText2.style.backgroundClip = 'unset';
+            
+            // Reset square background to solid color
+            elSquareBg.style.background = squareBgColor.value;
             elSquareTriangle.style.borderBottomColor = squareBgColor.value;
+            
+            elMainText.style.color = mainTextColor.value;
             elSquareText1.style.color = squareTextColor.value;
             elSquareText2.style.color = squareTextColor.value;
             
@@ -295,6 +322,85 @@
                 }
             }
             updateColors();
+        }
+        
+        // Metallic presets function
+        function applyMetallic(type) {
+            const presets = {
+                gold: {
+                    text: '#B8860B',
+                    squareBg: 'linear-gradient(135deg, #FFD700 0%, #DAA520 25%, #FFD700 50%, #B8860B 75%, #DAA520 100%)',
+                    squareText: '#FFFFFF',
+                    textGradient: 'linear-gradient(135deg, #FFD700 0%, #DAA520 50%, #FFD700 100%)'
+                },
+                silver: {
+                    text: '#71797E',
+                    squareBg: 'linear-gradient(135deg, #C0C0C0 0%, #A9A9A9 25%, #C0C0C0 50%, #71797E 75%, #A9A9A9 100%)',
+                    squareText: '#FFFFFF',
+                    textGradient: 'linear-gradient(135deg, #C0C0C0 0%, #A9A9A9 50%, #C0C0C0 100%)'
+                },
+                rose: {
+                    text: '#B76E79',
+                    squareBg: 'linear-gradient(135deg, #E8B4B8 0%, #D4A4AA 25%, #E8B4B8 50%, #B76E79 75%, #D4A4AA 100%)',
+                    squareText: '#FFFFFF',
+                    textGradient: 'linear-gradient(135deg, #E8B4B8 0%, #D4A4AA 50%, #E8B4B8 100%)'
+                },
+                bronze: {
+                    text: '#CD7F32',
+                    squareBg: 'linear-gradient(135deg, #D2691E 0%, #A0522D 25%, #CD7F32 50%, #8B4513 75%, #A0522D 100%)',
+                    squareText: '#FFFFFF',
+                    textGradient: 'linear-gradient(135deg, #D2691E 0%, #A0522D 50%, #CD7F32 100%)'
+                },
+                platinum: {
+                    text: '#E5E4E2',
+                    squareBg: 'linear-gradient(135deg, #F5F5F5 0%, #DCDCDC 25%, #E5E4E2 50%, #C0C0C0 75%, #DCDCDC 100%)',
+                    squareText: '#333333',
+                    textGradient: 'linear-gradient(135deg, #F5F5F5 0%, #DCDCDC 50%, #E5E4E2 100%)'
+                }
+            };
+            
+            const p = presets[type];
+            if (!p) return;
+            
+            mainTextColor.value = p.text;
+            squareBgColor.value = '#888888';
+            squareTextColor.value = p.squareText;
+            
+            // Apply gradient to square background
+            elSquareBg.style.background = p.squareBg;
+            elSquareTriangle.style.borderBottomColor = p.squareBg.split('100%')[1].split(')')[0] + ')';
+            
+            // Apply gradient to text
+            elMainText.style.background = p.textGradient;
+            elMainText.style.webkitBackgroundClip = 'text';
+            elMainText.style.webkitTextFillColor = 'transparent';
+            elMainText.style.backgroundClip = 'text';
+            
+            elSquareText1.style.background = p.textGradient;
+            elSquareText1.style.webkitBackgroundClip = 'text';
+            elSquareText1.style.webkitTextFillColor = 'transparent';
+            elSquareText1.style.backgroundClip = 'text';
+            
+            elSquareText2.style.background = p.textGradient;
+            elSquareText2.style.webkitBackgroundClip = 'text';
+            elSquareText2.style.webkitTextFillColor = 'transparent';
+            elSquareText2.style.backgroundClip = 'text';
+            
+            // Reset any solid color settings
+            if (exportFormat.value !== 'jpeg') {
+                exportBackground.value = 'transparent';
+            }
+            
+            // Handle background presentation
+            if (exportBackground.value === 'solid' || exportFormat.value === 'jpeg') {
+                previewContainer.style.background = previewBgColor.value;
+                bgColorGroup.style.display = 'block';
+            } else {
+                previewContainer.style.background = '';
+                previewContainer.style.backgroundColor = '#ffffff';
+                previewContainer.style.backgroundImage = 'linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee), linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee)';
+                bgColorGroup.style.display = 'none';
+            }
         }
 
         // Setup event listeners
