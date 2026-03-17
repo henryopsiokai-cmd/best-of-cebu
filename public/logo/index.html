@@ -287,7 +287,12 @@
             
             // Reset square background to solid color
             elSquareBg.style.background = squareBgColor.value;
+            elSquareTriangle.style.background = 'transparent';
+            elSquareTriangle.style.clipPath = 'unset';
+            elSquareTriangle.style.border = '';
             elSquareTriangle.style.borderBottomColor = squareBgColor.value;
+            elSquareTriangle.style.width = '0';
+            elSquareTriangle.style.height = '0';
             
             elMainText.style.color = mainTextColor.value;
             elSquareText1.style.color = squareTextColor.value;
@@ -368,7 +373,14 @@
             
             // Apply gradient to square background
             elSquareBg.style.background = p.squareBg;
-            elSquareTriangle.style.borderBottomColor = p.squareBg.split('100%')[1].split(')')[0] + ')';
+            elSquareTriangle.style.background = 'transparent';
+            elSquareTriangle.style.borderBottomColor = 'transparent';
+            // Create gradient using pseudo-element simulation via clip-path
+            elSquareTriangle.style.width = '100%';
+            elSquareTriangle.style.height = '180px';
+            elSquareTriangle.style.border = 'none';
+            elSquareTriangle.style.background = p.squareBg;
+            elSquareTriangle.style.clipPath = 'polygon(0 100%, 3.8% 0, 100% 0)';
             
             // Apply gradient to text
             elMainText.style.background = p.textGradient;
