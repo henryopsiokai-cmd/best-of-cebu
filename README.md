@@ -19,3 +19,4 @@ A premium, magazine-style digital platform showcasing the best of Cebu, Philippi
 - [x] Repository Initialized
 - [/] Base project structure
 - [ ] Landing page draft
+<!-- force rebuild -->
