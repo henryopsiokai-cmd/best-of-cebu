@@ -76,18 +76,37 @@
             white-space: nowrap;
         }
         .square-part {
-            background-color: #00AEEF;
+            position: relative;
             width: 212px;
             height: 180px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            transition: background-color 0.3s;
-            clip-path: polygon(38.2px 0, 100% 0, 100% 100%, 0 100%);
             margin-left: -5px;
             padding-left: 20px;
             padding-right: 5px; /* fine tune horizontal centering of text */
+        }
+        .square-bg-rect {
+            position: absolute;
+            top: 0;
+            left: 37px; /* Overlaps with the 38.2px triangle to seal the sub-pixel gap! */
+            right: 0;
+            height: 180px;
+            background-color: #00AEEF;
+            z-index: -1;
+            transition: background-color 0.3s;
+        }
+        .square-bg-triangle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 0;
+            border-bottom: 180px solid #00AEEF;
+            border-left: 38.2px solid transparent;
+            z-index: -1;
+            transition: border-bottom-color 0.3s;
         }
         .square-text {
             font-family: 'Oswald', 'Impact', sans-serif;
@@ -99,6 +118,7 @@
             letter-spacing: 1px;
             transition: color 0.3s;
             transform: scaleY(1.05);
+            z-index: 1;
         }
         
         h2 { margin-top: 0; font-size: 1.4rem; color: #2c3e50; border-bottom: 2px solid #f0f0f0; padding-bottom: 12px; margin-bottom: 25px; }
@@ -140,7 +160,9 @@
             <div class="preview-container" id="previewContainer">
                 <div class="logo-wrapper" id="logo">
                     <div class="text-part" id="elMainText">BEST OF CEBU</div>
-                    <div class="square-part" id="elSquareBg">
+                    <div class="square-part" id="elSquareContainer">
+                        <div class="square-bg-rect" id="elSquareBg"></div>
+                        <div class="square-bg-triangle" id="elSquareTriangle"></div>
                         <div class="square-text" id="elSquareText1" style="margin-top: -5px">DOT</div>
                         <div class="square-text" id="elSquareText2" style="margin-top: 0px">COM</div>
                     </div>
@@ -225,6 +247,7 @@
         
         const elMainText = document.getElementById('elMainText');
         const elSquareBg = document.getElementById('elSquareBg');
+        const elSquareTriangle = document.getElementById('elSquareTriangle');
         const elSquareText1 = document.getElementById('elSquareText1');
         const elSquareText2 = document.getElementById('elSquareText2');
         const previewContainer = document.getElementById('previewContainer');
@@ -239,6 +262,7 @@
         function updateColors() {
             elMainText.style.color = mainTextColor.value;
             elSquareBg.style.backgroundColor = squareBgColor.value;
+            elSquareTriangle.style.borderBottomColor = squareBgColor.value;
             elSquareText1.style.color = squareTextColor.value;
             elSquareText2.style.color = squareTextColor.value;
             
