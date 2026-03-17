@@ -2,38 +2,65 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Page Not Found</title>
+    <title>Page Not Found - Best of Cebu</title>
     <style>
         body { 
-            background-color: #0a0a0a; 
-            color: #444; 
-            font-family: 'Courier New', monospace; 
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0; 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             display: flex; 
-            flex-direction: column; 
+            flex-direction: column;
             align-items: center; 
             justify-content: center; 
             min-height: 100vh; 
             margin: 0; 
             text-align: center;
-            font-size: 14px;
         }
-        .container { padding: 40px; }
-        .code { 
-            font-size: 72px; 
-            font-weight: bold; 
-            color: #333; 
-            margin-bottom: 20px; 
+        .logo { margin-bottom: 30px; }
+        .logo svg { width: 250px; height: auto; }
+        .oops { 
+            font-size: 48px; 
+            margin-bottom: 10px;
         }
-        .msg { 
-            color: #555; 
-            letter-spacing: 1px;
+        .message { 
+            font-size: 20px; 
+            color: #aaa;
+            margin-bottom: 20px;
+        }
+        .sub { 
+            font-size: 14px; 
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .link {
+            color: #00AEEF;
+            text-decoration: none;
+            padding: 12px 24px;
+            border: 2px solid #00AEEF;
+            border-radius: 8px;
+            transition: all 0.3s;
+        }
+        .link:hover {
+            background: #00AEEF;
+            color: #1a1a2e;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="code">404</div>
-        <div class="msg">NOT FOUND</div>
+    <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#0B2559;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#00AEEF;stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <text x="600" y="220" font-family="Georgia" font-size="120" font-weight="bold" fill="url(#grad1)" text-anchor="middle">Best of Cebu</text>
+        </svg>
     </div>
+    <div class="oops">😵</div>
+    <div class="message">Uh oh! You look a little lost...</div>
+    <div class="sub">This page doesn't exist. But don't worry, we got you!</div>
+    <a href="https://dev.bestofcebu.com" class="link">Back to Safety</a>
 </body>
 </html>
