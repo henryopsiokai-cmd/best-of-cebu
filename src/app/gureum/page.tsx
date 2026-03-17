@@ -171,7 +171,7 @@ export default function GureumArticle() {
         </AnimatedSection>
 
         <Gallery 
-          images={["1ZuSVbC0f8NkauRn50BWw-5k32LPFyF17","19kc_O-it7HR8bzZ0vhBpEbfIxlrn6J8_","1J1aQRMi8dqwitPmq6-LNMIa8oFbyt4yT","13Fn08IZNTJwxevibs63zxHhQPTf1Y3e5","1_uKh1Gg0y7fm9HAfJrNcRCjXatJEKmiY","1whxbgThZNos6cjzDXHVpKXQcfhV6qWhy","10-sZcC-CDXUINrRo9N-ithwg00gWER_z","10H005kvcGjR5rxtOjYD7gtvu8jKT7HMb","14nMnw81eSPDhxR749CP2ldw_-qNyw32J","1bUfme2ukda6BQLb70vW6tnAKnvBWN6pi","1LmhMWQjlnBGVsISrWh6Oi8Ct81rkP9WU","1Gztit0v9oDqS2Qhivhui3Igx9FVR353o","1SqmKtv1zdxYkDTUCKMz7YX5JMLJNYDUP","1P7fR09XfeKSGkhnJWYppuYi9_EV7mFXD","1QIsyAtprXhDRmJqJjzy0C9udrhxToUYG","1OrAoEMtWW6UToj4-C76nHxnYqYrfma1v"]} 
+          images={["19kc_O-it7HR8bzZ0vhBpEbfIxlrn6J8_","1J1aQRMi8dqwitPmq6-LNMIa8oFbyt4yT","13Fn08IZNTJwxevibs63zxHhQPTf1Y3e5","1_uKh1Gg0y7fm9HAfJrNcRCjXatJEKmiY","1whxbgThZNos6cjzDXHVpKXQcfhV6qWhy","10-sZcC-CDXUINrRo9N-ithwg00gWER_z","10H005kvcGjR5rxtOjYD7gtvu8jKT7HMb","14nMnw81eSPDhxR749CP2ldw_-qNyw32J","1bUfme2ukda6BQLb70vW6tnAKnvBWN6pi","1LmhMWQjlnBGVsISrWh6Oi8Ct81rkP9WU","1Gztit0v9oDqS2Qhivhui3Igx9FVR353o","1SqmKtv1zdxYkDTUCKMz7YX5JMLJNYDUP","1P7fR09XfeKSGkhnJWYppuYi9_EV7mFXD","1QIsyAtprXhDRmJqJjzy0C9udrhxToUYG"]} 
         />
       </article>
 
