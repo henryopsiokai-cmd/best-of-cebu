@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BEST OF CEBU LOGO STUDIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-align: center; 
+            margin: 0; 
+            padding: 40px 20px; 
+            background: #f4f7f6; 
+            color: #333; 
+        }
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            display: flex; 
+            flex-direction: column; /* Stack top to bottom */
+            gap: 40px; 
+            align-items: center; 
+        }
+        .panel { 
+            background: white; 
+            padding: 30px; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+            text-align: left; 
+            width: 100%; 
+            max-width: 700px; 
+        }
+        .preview-panel { 
+            width: 100%; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+        .preview-container { 
+            /* Checkerboard background to show transparency */
+            background-color: #ffffff;
+            background-image: linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee), 
+                              linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            width: 100%; 
+            padding: 20px 0;
+            overflow-x: auto; 
+            display: flex; 
+            justify-content: center; 
+            min-height: 250px; 
+            align-items: center; 
+            transition: background 0.3s;
+        }
+        
+        .logo-wrapper {
+            display: inline-flex;
+            align-items: center;
+            padding: 20px;
+            transform: scale(0.7); /* visually scale to fit typical laptop screen sizes */
+            transform-origin: center;
+        }
+        .text-part {
+            font-family: 'Oswald', 'Impact', sans-serif;
+            font-weight: 700;
+            font-size: 156px;
+            color: #0B2559;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-right: 25px;
+            letter-spacing: -2px;
+            transform: skewX(-12deg);
+            transform-origin: bottom;
+            transition: color 0.3s;
+            white-space: nowrap;
+        }
+        .square-part {
+            background-color: #00AEEF;
+            width: 212px;
+            height: 180px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: background-color 0.3s;
+            clip-path: polygon(38.2px 0, 100% 0, 100% 100%, 0 100%);
+            margin-left: -5px;
+            padding-left: 20px;
+            padding-right: 5px; /* fine tune horizontal centering of text */
+        }
+        .square-text {
+            font-family: 'Oswald', 'Impact', sans-serif;
+            font-weight: 700;
+            font-size: 68px; /* Bigger font size, scaled less vertically to match uploaded logo better */
+            color: #ffffff;
+            line-height: 1.0;
+            text-align: center;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+            transform: scaleY(1.05);
+        }
+        
+        h2 { margin-top: 0; font-size: 1.4rem; color: #2c3e50; border-bottom: 2px solid #f0f0f0; padding-bottom: 12px; margin-bottom: 25px; }
+        .control-group { margin-bottom: 20px; }
+        label { display: block; font-weight: 600; margin-bottom: 8px; font-size: 0.9rem; color: #555; }
+        select, input[type="color"] { width: 100%; padding: 12px; border: 1px solid #ccd0d5; border-radius: 8px; font-size: 1rem; cursor: pointer; }
+        input[type="color"] { height: 50px; padding: 2px; }
+        
+        .color-presets { display: flex; gap: 10px; margin-bottom: 25px; flex-wrap: wrap; }
+        .preset-btn { 
+            flex: 1; min-width: 80px; padding: 10px; border: 1px solid #ddd; background: #f8f9fa; 
+            cursor: pointer; border-radius: 6px; font-size: 0.85rem; font-weight: 600; transition: all 0.2s;
+        }
+        .preset-btn:hover { background: #e2e6ea; border-color: #ccc; }
+        
+        .export-btn { 
+            width: 100%; padding: 18px; font-size: 1.2rem; font-weight: bold; cursor: pointer; 
+            background: #00AEEF; color: white; border: none; border-radius: 8px; 
+            transition: background 0.2s, transform 0.1s; margin-top: 15px; 
+            box-shadow: 0 4px 6px rgba(0, 174, 239, 0.3);
+        }
+        .export-btn:hover { background: #008ebf; transform: translateY(-2px); box-shadow: 0 6px 12px rgba(0, 174, 239, 0.4); }
+        .export-btn:active { transform: translateY(1px); box-shadow: 0 2px 4px rgba(0, 174, 239, 0.3); }
+        .export-btn:disabled { background: #cccccc; cursor: not-allowed; box-shadow: none; transform: none; }
+        
+        .note { font-size: 0.85rem; color: #e53935; margin-top: 8px; background: #ffebee; padding: 8px; border-radius: 4px; display: none; }
+    </style>
+</head>
+<body>
+    <h1 style="color: #0B2559; margin-bottom: 40px; font-family: 'Oswald', sans-serif; font-size: 2.5rem; letter-spacing: -1px;">
+        BEST OF CEBU LOGO STUDIO
+    </h1>
+    
+    <div class="container">
+        
+        <!-- Preview Panel -->
+        <div class="preview-panel">
+            <h2>Live Preview</h2>
+            <div class="preview-container" id="previewContainer">
+                <div class="logo-wrapper" id="logo">
+                    <div class="text-part" id="elMainText">BEST OF CEBU</div>
+                    <div class="square-part" id="elSquareBg">
+                        <div class="square-text" id="elSquareText1" style="margin-top: -5px">DOT</div>
+                        <div class="square-text" id="elSquareText2" style="margin-top: 0px">COM</div>
+                    </div>
+                </div>
+            </div>
+            <p style="color: #666; font-size: 0.9rem; margin-top: 15px;">
+                * The checkerboard pattern indicates transparent areas. Only the logo will be exported.
+            </p>
+        </div>
+
+        <!-- Controls Panel -->
+        <div class="panel">
+            <h2>1. Choose Colors</h2>
+            <label style="margin-bottom: 10px;">Quick Themes</label>
+            <div class="color-presets">
+                <button class="preset-btn" onclick="applyPreset('#0B2559', '#00AEEF', '#ffffff', 'transparent')">Original</button>
+                <button class="preset-btn" onclick="applyPreset('#ffffff', '#00AEEF', '#0B2559', '#1a1a1a')">Dark Mode</button>
+                <button class="preset-btn" onclick="applyPreset('#333333', '#e53935', '#ffffff', 'transparent')">Red Accent</button>
+                <button class="preset-btn" onclick="applyPreset('#2e7d32', '#ffb300', '#ffffff', 'transparent')">Forest</button>
+                <button class="preset-btn" onclick="applyPreset('#000000', '#000000', '#ffffff', 'transparent')">Monochrome</button>
+            </div>
+            
+            <div class="control-group">
+                <label>Main Text Color</label>
+                <input type="color" id="mainTextColor" value="#0B2559">
+            </div>
+            <div class="control-group">
+                <label>Square Background Color</label>
+                <input type="color" id="squareBgColor" value="#00AEEF">
+            </div>
+            <div class="control-group">
+                <label>Square Text Color</label>
+                <input type="color" id="squareTextColor" value="#ffffff">
+            </div>
+
+            <h2 style="margin-top: 40px;">2. Export Settings</h2>
+            <div class="control-group">
+                <label>Format</label>
+                <select id="exportFormat">
+                    <option value="png">PNG (Best quality, supports transparency)</option>
+                    <option value="jpeg">JPEG (Smaller file, NO transparency)</option>
+                    <option value="webp">WebP (Modern web format, supports transparency)</option>
+                </select>
+                <div id="jpegNote" class="note">⚠️ JPEGs do not support transparency. The background will be exported as a solid color.</div>
+            </div>
+            
+            <div class="control-group">
+                <label>Background</label>
+                <select id="exportBackground">
+                    <option value="transparent">Transparent Background</option>
+                    <option value="solid">Solid Color Background</option>
+                </select>
+            </div>
+            
+            <div class="control-group" id="bgColorGroup" style="display: none;">
+                <label>Export/Preview Background Color</label>
+                <input type="color" id="previewBgColor" value="#ffffff">
+            </div>
+
+            <div class="control-group" style="margin-top: 25px;">
+                <label>Resolution / Size</label>
+                <select id="exportScale">
+                    <option value="1">Small (~1200px wide - Web)</option>
+                    <option value="2" selected>Medium (~2400px wide - Standard)</option>
+                    <option value="3">Large (~3600px wide - High Res)</option>
+                    <option value="4">Extra Large (~4800px wide - Print Quality)</option>
+                </select>
+            </div>
+            
+            <button id="downloadBtn" class="export-btn">Download Logo</button>
+        </div>
+    </div>
+
+    <!-- html2canvas exactly renders the DOM element into a canvas which we then export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script>
+        // DOM Elements
+        const mainTextColor = document.getElementById('mainTextColor');
+        const squareBgColor = document.getElementById('squareBgColor');
+        const squareTextColor = document.getElementById('squareTextColor');
+        const previewBgColor = document.getElementById('previewBgColor');
+        
+        const elMainText = document.getElementById('elMainText');
+        const elSquareBg = document.getElementById('elSquareBg');
+        const elSquareText1 = document.getElementById('elSquareText1');
+        const elSquareText2 = document.getElementById('elSquareText2');
+        const previewContainer = document.getElementById('previewContainer');
+        const logoWrapper = document.getElementById('logo');
+        
+        const exportFormat = document.getElementById('exportFormat');
+        const exportBackground = document.getElementById('exportBackground');
+        const bgColorGroup = document.getElementById('bgColorGroup');
+        const jpegNote = document.getElementById('jpegNote');
+
+        // Apply colors to live preview
+        function updateColors() {
+            elMainText.style.color = mainTextColor.value;
+            elSquareBg.style.backgroundColor = squareBgColor.value;
+            elSquareText1.style.color = squareTextColor.value;
+            elSquareText2.style.color = squareTextColor.value;
+            
+            // Handle background presentation
+            if (exportBackground.value === 'solid' || exportFormat.value === 'jpeg') {
+                previewContainer.style.background = previewBgColor.value;
+                bgColorGroup.style.display = 'block';
+            } else {
+                // Return to checkerboard
+                previewContainer.style.background = '';
+                previewContainer.style.backgroundColor = '#ffffff';
+                previewContainer.style.backgroundImage = 'linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee), linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee)';
+                bgColorGroup.style.display = 'none';
+            }
+        }
+
+        // Preset button function
+        function applyPreset(textC, squareBgC, squareTextC, bgType) {
+            mainTextColor.value = textC;
+            squareBgColor.value = squareBgC;
+            squareTextColor.value = squareTextC;
+            
+            if (bgType !== 'transparent') {
+                exportBackground.value = 'solid';
+                previewBgColor.value = bgType;
+            } else {
+                // If it's JPEG we can't do transparent anyway
+                if (exportFormat.value !== 'jpeg') {
+                    exportBackground.value = 'transparent';
+                }
+            }
+            updateColors();
+        }
+
+        // Setup event listeners
+        mainTextColor.addEventListener('input', updateColors);
+        squareBgColor.addEventListener('input', updateColors);
+        squareTextColor.addEventListener('input', updateColors);
+        previewBgColor.addEventListener('input', updateColors);
+        
+        exportFormat.addEventListener('change', () => {
+            if (exportFormat.value === 'jpeg') {
+                jpegNote.style.display = 'block';
+                exportBackground.value = 'solid'; // Force solid for JPEG
+                exportBackground.disabled = true;
+            } else {
+                jpegNote.style.display = 'none';
+                exportBackground.disabled = false;
+            }
+            updateColors();
+        });
+        
+        exportBackground.addEventListener('change', updateColors);
+
+        // Download functionality
+        document.getElementById('downloadBtn').onclick = function() {
+            const btn = this;
+            const originalText = btn.innerText;
+            btn.innerText = 'Rendering High-Res Image...';
+            btn.disabled = true;
+            
+            const scale = parseInt(document.getElementById('exportScale').value);
+            const format = exportFormat.value;
+            const bgType = exportBackground.value;
+            
+            // Determine background color for canvas
+            let canvasBgColor = null; // Transparent by default
+            if (bgType === 'solid' || format === 'jpeg') {
+                canvasBgColor = previewBgColor.value; // Use chosen color
+            }
+            
+            document.fonts.ready.then(() => {
+                // Temporarily disable the CSS visual scale for high-res export
+                logoWrapper.style.transform = 'scale(1)';
+                
+                // Momentarily add some padding to the logo wrapper for the export to give it breathing room
+                const originalPadding = logoWrapper.style.padding;
+                logoWrapper.style.padding = "40px 60px";
+                
+                html2canvas(logoWrapper, {
+                    backgroundColor: canvasBgColor, 
+                    scale: scale, 
+                    logging: false
+                }).then(canvas => {
+                    // Restore original padding and scale
+                    logoWrapper.style.padding = originalPadding;
+                    logoWrapper.style.transform = 'scale(0.7)';
+                    
+                    const link = document.createElement('a');
+                    
+                    let mimeType = 'image/png';
+                    let ext = 'png';
+                    
+                    if (format === 'jpeg') {
+                        mimeType = 'image/jpeg';
+                        ext = 'jpg';
+                    } else if (format === 'webp') {
+                        mimeType = 'image/webp';
+                        ext = 'webp';
+                    }
+                    
+                    // Add size info to filename
+                    const sizes = {1: 'small', 2: 'medium', 3: 'large', 4: 'xlarge'};
+                    let bgColorName = (canvasBgColor === null) ? 'transparent' : 'solid';
+                    
+                    link.download = `best-of-cebu-logo-${sizes[scale]}-${bgColorName}.${ext}`;
+                    
+                    // JPEGs get 0.95 quality, WebP 0.9
+                    const quality = (format === 'jpeg') ? 0.95 : ((format === 'webp') ? 0.9 : undefined);
+                    
+                    link.href = canvas.toDataURL(mimeType, quality);
+                    link.click();
+                    
+                    btn.innerText = originalText;
+                    btn.disabled = false;
+                }).catch(err => {
+                    logoWrapper.style.padding = originalPadding;
+                    logoWrapper.style.transform = 'scale(0.7)';
+                    console.error("Rendering failed:", err);
+                    alert("Whoops! Something went wrong rendering the image. See console for details.");
+                    btn.innerText = originalText;
+                    btn.disabled = false;
+                });
+            });
+        };
+
+        // Init colors
+        updateColors();
+    </script>
+</body>
+</html>
