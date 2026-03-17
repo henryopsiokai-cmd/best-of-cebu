@@ -17,6 +17,7 @@ export default function TableaArticle() {
         subtitle="A grounded Cebu visit to JY Square where Filipino cacao tradition still leads the menu."
         author="Criste Joy"
         publishedAt="February 2026"
+        imageSrc="https://drive.google.com/thumbnail?id=1E5tqV782jMV13U6mUXRyVx0ahK4vf4jV&sz=w1600"
       />
 
       <article className="max-w-4xl mx-auto px-6 pb-24">
