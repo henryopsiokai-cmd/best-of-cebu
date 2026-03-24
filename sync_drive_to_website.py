@@ -37,6 +37,9 @@ LOCATION_MAP = {
     'Hatte Cafe': 'hatte',
     'Tamp Cafe & Co.': 'tamp',
     'Tablea Chocolate Cafe': 'tablea',
+    'Nimo Brew': 'nimo-brew',
+    'Cafe Cappuccino by Double Dutch': 'cafe-cappuccino',
+    'La Salsa': 'la-salsa',
 }
 
 # YouTube OAuth

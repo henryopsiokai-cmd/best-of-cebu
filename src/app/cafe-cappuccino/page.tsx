@@ -21,7 +21,7 @@ export default function CafeCappuccino() {
 
             <article className="max-w-4xl mx-auto px-6 pb-24">
                 <DropCap>
-                    This is the opening paragraph in first person. Start with atmosphere, location context, and emotional hook.
+                    There's something about Cafe Cappuccino by Double Dutch that hits different. Maybe it's the fact that it's perched right along the M.L. Quezon National Highway — easy to get to, easy to miss if you're not looking. Or maybe it's the size of the place, which is frankly enormous for a cafe in Mactan. I'm talking 100+ seats, all air-conditioned, with this European bistro energy that makes you forget you're a stone's throw from the Newtown. Across from Mactan Elementary School, tucked into Unit II, it's the kind of place that could easily be a tourist trap but somehow isn't. The vibe walks this interesting line between cafe and bar — casual enough for a weekday coffee run, but with enough atmosphere to make a date night feel special. On weekends, there's apparently a live band, which I didn't experience but can imagine transforms the space entirely. For now, I came on a quiet afternoon, and it was exactly what I needed: space to breathe, good food, and the faint hum of conversation around me.
                 </DropCap>
 
                 <AnimatedSection>
@@ -41,10 +41,10 @@ export default function CafeCappuccino() {
                 <AnimatedSection>
                     <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Experience</H2>
                     <Paragraph>
-                        Narrative paragraph one.
+                        The Hawaiian Pizza was the right call. I'm picky about pizza — I grew up with the thin, crispy New York style, so the Sicilian-adjacent approach here suited me perfectly. The bottom was crunchy in that satisfying way where you get a little resistance before the toppings give way. The top wasn't as crispy, which I actually prefer — it meant the cheese and sauce stayed gooey instead of getting that cardboard texture. What surprised me was how much I enjoyed the onions. They're not just filler; they're caramelized enough to bring sweetness that balanced the ham and pineapple without overwhelming either. Food arrived in about 10-15 minutes, which felt reasonable given the crowd. I could see the kitchen was keeping pace. Hein, the owner, seems like the kind of person who'd rather focus on getting things right than chatting up every table, which I respect.
                     </Paragraph>
                     <Paragraph>
-                        Narrative paragraph two.
+                        On a weekday afternoon, the noise level was perfect — quiet enough to work or have a real conversation, but with enough ambient life that it didn't feel sterile. I can imagine on Friday or Saturday nights, when the band kicks in, it gets loud and celebratory in a way that would be perfect for groups or anyone looking for nightlife energy. The cleanliness scored a 3.5 out of 5 for me — not remarkable, but nothing off-putting either. Same with the bathrooms. The staff friendliness was a 3.5 out of 5, attentiveness a 3 — professional but not effusive. I'd call this place ideal for daytime work sessions, casual dates, or hosting foreigners who want that international cafe feel without leaving Cebu. The WiFi is reliable, the seating is comfortable, and there's enough variety on the menu to keep things interesting over multiple visits.
                     </Paragraph>
                 </AnimatedSection>
 
@@ -57,7 +57,7 @@ export default function CafeCappuccino() {
 
                 <AnimatedSection>
                     <PullQuote>
-                        Author pull quote goes here.
+                        The Hawaiian Pizza was the right call. The bottom was crunchy in that satisfying way where you get a little resistance before the toppings give way.
                     </PullQuote>
                 </AnimatedSection>
 
@@ -65,11 +65,24 @@ export default function CafeCappuccino() {
                     <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
                         <div className="p-8 bg-stone-50 border shadow-sm">
                             <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Details</h3>
-                            <p className="text-sm text-stone-600 italic">Address, area, hours, parking, WiFi, contact links.</p>
+                            <p className="text-sm text-stone-600">
+                                <strong>Address:</strong> M.L. Quezon National Highway, Unit II Mactan, Lapu-Lapu City, 6015 Cebu<br/>
+                                <strong>Hours:</strong> 8:00 AM – 11:00 PM Mon–Thu | Until 1:00 AM Fri–Sat–Sun<br/>
+                                <strong>Parking:</strong> Yes, front and back (no valet)<br/>
+                                <strong>WiFi:</strong> Yes<br/>
+                                <strong>Owner:</strong> Hein<br/>
+                                <strong>Nearest Landmark:</strong> Across Mactan Elementary School; ~5 min walk from Mactan Newtown
+                            </p>
                         </div>
                         <div className="p-8 bg-stone-50 border shadow-sm">
                             <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">The Verdict</h3>
-                            <p className="text-sm text-stone-600 italic">★★★★☆ (X.X/10) • Price: ₱₱₱. Best order, strengths, weaknesses, return recommendation.</p>
+                            <p className="text-sm text-stone-600">
+                                <strong>Rating:</strong> ★★★★☆ (Solid all-rounder with weekend live music bonus)<br/>
+                                <strong>Price:</strong> ₱₱ (₱250–₱600 per person)<br/>
+                                <strong>Best Order:</strong> Hawaiian Pizza<br/>
+                                <strong>Best For:</strong> Date night, work-from-cafe (best daytime), foreigners, groups<br/>
+                                <strong>Would Return:</strong> Yes — for the pizza, the space, and the weekend atmosphere
+                            </p>
                         </div>
                     </div>
                 </AnimatedSection>

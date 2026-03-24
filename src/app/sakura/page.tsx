@@ -125,7 +125,7 @@ export default function SakuraArticle() {
         </AnimatedSection>
 
         <Gallery 
-          images={["1PpG_XkRhmmbqRVdl0RlKOrAwxy9e6qA7","1gxEp5BoMgnCL9YlKT9qxoPe7XA20Hqwt","1T5l5McKM2JxPggenRObvKnK4brLX-Mmj","1M-RvM9a-bSE6e33LSfWHdrYpfyI98cwS","1K791V7YMwsNW7cAMK3Uvay_YYQkQmXO9","1YcNphN2FYIKVN5BnfWa8l3o3zHjkVQuj","1KVrTvadNYCsEw0dMAaHV4QHIzJ149I9r","1ft-PhXUC-bfeAbF7WMiSFUmBQ2R7jOFx","10rbhUacH-TW9ZTv-kBu7OJ-3Kp6bUwLb","1EfYSPEv5PpdKU9FPl9yUj1WuDv2edyEe","1FjXl9rlSBJQIlQXMHFbIrtdN6HKC15TY","1Ns7fGbSkp-sxK2zATNZ4QSkckPRcVQNU","1LTRdvijVFrF_ZOy-D-AeaZYWF9sTKsv-","1bc-abCC9mqWu_7Qjbk98Jns39XFEvO7e"]} 
+          images={["1M-RvM9a-bSE6e33LSfWHdrYpfyI98cwS","1K791V7YMwsNW7cAMK3Uvay_YYQkQmXO9","1YcNphN2FYIKVN5BnfWa8l3o3zHjkVQuj","1KVrTvadNYCsEw0dMAaHV4QHIzJ149I9r","1ft-PhXUC-bfeAbF7WMiSFUmBQ2R7jOFx","10rbhUacH-TW9ZTv-kBu7OJ-3Kp6bUwLb","1EfYSPEv5PpdKU9FPl9yUj1WuDv2edyEe","1FjXl9rlSBJQIlQXMHFbIrtdN6HKC15TY","1Ns7fGbSkp-sxK2zATNZ4QSkckPRcVQNU","1LTRdvijVFrF_ZOy-D-AeaZYWF9sTKsv-","1bc-abCC9mqWu_7Qjbk98Jns39XFEvO7e"]} 
         />
       </article>
 

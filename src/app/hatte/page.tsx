@@ -131,7 +131,7 @@ export default function HatteArticle() {
         </AnimatedSection>
 
         <Gallery 
-          images={["1l1DUWjHnN-ZUaINFMiBSn1j-dhmiIVVv","1Q4ZTBbVhTOlw0wvS2wSTu4Ef0i66uz4x","1ADVFhMzR4Ql_cTCTSmEDOefhvZHy5jjZ","1XB2bJhZMZUuO5lKNFdSW49yZSVlMINbw","1WG5dE0Zw2B-sVCD_L7ME3BnRGclqP32Z","1BMrzbt-YY5V0s-pfQiAbPxfIhfZdmZzT","1ULrPGjmkpnvgrcQdn8onA9z4i-zaVBRN","1HweQqgLDqQNAJU1NXYg7yzrs0rCMrkKa","1ds89wj6feFYf4qinuv0F7rwa9kGNoD8l","1nrZiPW8jSY_WEBVugoKlj_RmUSWdwvqm","1Fv9MH7arQVaeSb_EOPRKYOEFppgrtItU","1wn-A5cQQskyAaptq6fGxLVpF_kMEw_q8","16fxQ0_RTlp59Y6Nyapec6JSvpkZJv39x","1c1heyveb-iv2BmIO-v1SGgs1LhKvXaNY","1iwRPlFhUemtQCmR4QivJYOLstio04eQq","1Fy6Oyv_nNSkOef7_DLOAgxDV6Q31tNRW","16FdwpeEztvZ8zzwcR4WZzCY-_XxeAVs_"]} 
+          images={["1l1DUWjHnN-ZUaINFMiBSn1j-dhmiIVVv","1WG5dE0Zw2B-sVCD_L7ME3BnRGclqP32Z","1BMrzbt-YY5V0s-pfQiAbPxfIhfZdmZzT","1ULrPGjmkpnvgrcQdn8onA9z4i-zaVBRN","1HweQqgLDqQNAJU1NXYg7yzrs0rCMrkKa","1ds89wj6feFYf4qinuv0F7rwa9kGNoD8l","1nrZiPW8jSY_WEBVugoKlj_RmUSWdwvqm","1Fv9MH7arQVaeSb_EOPRKYOEFppgrtItU","1wn-A5cQQskyAaptq6fGxLVpF_kMEw_q8","16fxQ0_RTlp59Y6Nyapec6JSvpkZJv39x","1c1heyveb-iv2BmIO-v1SGgs1LhKvXaNY","1iwRPlFhUemtQCmR4QivJYOLstio04eQq","1Fy6Oyv_nNSkOef7_DLOAgxDV6Q31tNRW","16FdwpeEztvZ8zzwcR4WZzCY-_XxeAVs_"]} 
         />
       </article>
 

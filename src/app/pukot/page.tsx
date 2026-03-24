@@ -165,7 +165,7 @@ export default function PukotArticle() {
         </AnimatedSection>
 
         <Gallery 
-          images={["1aEUphnzKXrjp3ZYf66XW2kf2vroq1fHd","1MmKL2yZMkeFX58Ot0usaTMJ8UdVAXj1o","1894aA35FBCMI06G2yCqiZv32fCBPoizN","12CIJACZ4hQPckrZdOY-6tunT1DPwoBE3","1ZEV0E-A4u7b4kCptDwEvwKQ10Mt-yZIB","1XV4defTFtOD33EvqBsiTIeQkWd7yyKxG","1o6mpcZAGFZuw5Lhrgb5ht0ZZeusR_ndA","1Yu-Za_dj8FkyaSbbRKGoAyeMpl1nTDkS","1_ZFzkJYkHgr6fudZwd4o9ROgUDTaFQgQ","1DtBlTLeCKTXHBq10I-O3MMYMtnBOXHiu","1hET-YjlNX9jmkXunwnndmdv9EzkUBgjM","1YpqGk87q0Lgvunv3GbTjQsNULhh2M8MY","1khf5ozP9NaDL6im6GMmykHa4V1QyLalO","1Rk-t3fZJqBcrVSqNNIPP8rv--vADhI_1","1Aov0QhlGic8dgZsZd-ghCFmukypwDZDJ","1uGlXIqklAJC8fXStQXG7asVSJ9KVdi3S","1l4ibnTaX2Y2XzFjZYt76Wpm-e8p2PJW4","1SSy-tVyWCn-DGeEgOvTMmNyb7OjVVC1l","1_7nloN3f19MEw4EieW_6huYy1espvGGK","124SMY1ZlvHMo7-BCSlj5y0e5Jh1gSHhW"]} 
+          images={["1aEUphnzKXrjp3ZYf66XW2kf2vroq1fHd","1ZEV0E-A4u7b4kCptDwEvwKQ10Mt-yZIB","1XV4defTFtOD33EvqBsiTIeQkWd7yyKxG","1o6mpcZAGFZuw5Lhrgb5ht0ZZeusR_ndA","1Yu-Za_dj8FkyaSbbRKGoAyeMpl1nTDkS","1_ZFzkJYkHgr6fudZwd4o9ROgUDTaFQgQ","1DtBlTLeCKTXHBq10I-O3MMYMtnBOXHiu","1hET-YjlNX9jmkXunwnndmdv9EzkUBgjM","1YpqGk87q0Lgvunv3GbTjQsNULhh2M8MY","1khf5ozP9NaDL6im6GMmykHa4V1QyLalO","1Rk-t3fZJqBcrVSqNNIPP8rv--vADhI_1","1Aov0QhlGic8dgZsZd-ghCFmukypwDZDJ","1uGlXIqklAJC8fXStQXG7asVSJ9KVdi3S","1l4ibnTaX2Y2XzFjZYt76Wpm-e8p2PJW4","1SSy-tVyWCn-DGeEgOvTMmNyb7OjVVC1l","1_7nloN3f19MEw4EieW_6huYy1espvGGK","124SMY1ZlvHMo7-BCSlj5y0e5Jh1gSHhW"]} 
         />
       </article>
 

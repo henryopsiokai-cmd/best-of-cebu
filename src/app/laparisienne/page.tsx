@@ -154,7 +154,7 @@ export default function LaParisienneArticle() {
         </AnimatedSection>
 
         <Gallery 
-          images={["1dfQbYclFftuselKFte0lgUDElKFeGnoy","1GS9AsKEAwENjs_bv-0THikccNRgzjDI7","1Q_LfawLJ3ST5S4ihYJXIfFihHpwdW7wq","1qfN6a_SReXCavRvft6ftxLLfNFrF-eAT","1SQFmaaTgM7XPpuLSoOQCSNW9J6oZBb-_","1s0ItKtySUAOjSt2QkKdeG9K2ypmGEgRG","10Q7N5j5G4egWJHroeQOYSd7N811TTSuQ","1wK1EJ0QYXEz-abPizhh0C9psH9IsErgC","1hXOpGm8JcI6E0aeBx7yIyAOWBEgD9uO6","1iOOB2a7N-r-qsxoRD_d4kT-X3AgqJcl2","1VhpJQwXdvmemqlQhkUsrFnQ3pSOosLNl","10bbvk30Ty38M3fVqvYClI3cuzmNYMwfg","1SThsmTXxLxJLC5ApuX4NStIrzw8-JyoU","1jaRiirbX0Bw3RB53gPrHUCo4DiXUr5Wn","1wIeDhHnRQZilfXNVsfKWUIoomlgMrTiS","1r-Eh641GmsufX3dKqa492w7QghQfODeD","1oV7D5dboqxxZ6Vkq2v5mRdx_uRN3iCIL","1ZBca0S-q674-Id_Q_4e1etzwwabpnuCX","1BR-c7R4CxozACApzclUy_ABkygkHIC_C","18HbxTiPHtj6YaryM8fEbtGa848c5GRV0"]} 
+          images={["1s0ItKtySUAOjSt2QkKdeG9K2ypmGEgRG","10Q7N5j5G4egWJHroeQOYSd7N811TTSuQ","1wK1EJ0QYXEz-abPizhh0C9psH9IsErgC","1hXOpGm8JcI6E0aeBx7yIyAOWBEgD9uO6","1iOOB2a7N-r-qsxoRD_d4kT-X3AgqJcl2","1VhpJQwXdvmemqlQhkUsrFnQ3pSOosLNl","10bbvk30Ty38M3fVqvYClI3cuzmNYMwfg","1SThsmTXxLxJLC5ApuX4NStIrzw8-JyoU","1jaRiirbX0Bw3RB53gPrHUCo4DiXUr5Wn","1wIeDhHnRQZilfXNVsfKWUIoomlgMrTiS","1r-Eh641GmsufX3dKqa492w7QghQfODeD","1oV7D5dboqxxZ6Vkq2v5mRdx_uRN3iCIL","1ZBca0S-q674-Id_Q_4e1etzwwabpnuCX","1BR-c7R4CxozACApzclUy_ABkygkHIC_C","18HbxTiPHtj6YaryM8fEbtGa848c5GRV0"]} 
         />
       </article>
 
