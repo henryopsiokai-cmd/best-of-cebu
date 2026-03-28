@@ -76,6 +76,20 @@ export default function Home() {
             imageSrc: "https://drive.google.com/thumbnail?id=1FFwfSo2jIYC923oBApcfxu4s8ydKS8rF&sz=w1000"
         },
         {
+            category: "Coffee & Escape",
+            title: "Nimo Brew: A Garden Cafe on Mactan",
+            excerpt: "Some of the best escapes hide in plain sight — Nimo Brew turns a quiet Mactan road into a destination.",
+            href: "/nimo-brew",
+            imageSrc: "https://drive.google.com/thumbnail?id=1-ntB8rfrmt4aDE0BdH0TnYs1MjuUpyXY&sz=w1000"
+        },
+        {
+            category: "Latin Comfort",
+            title: "La Salsa: Mexican Home Cooking on Salinas Drive",
+            excerpt: "A colorful cantina in a Lahug corner house — charming, casual, and great for a low-key evening out.",
+            href: "/la-salsa",
+            imageSrc: "https://drive.google.com/thumbnail?id=1EjjXS9J6F5eBes8nkEnMvSzReqQkLVrj&sz=w1000"
+        },
+        {
             category: "The Island Table",
             title: "Exploring Cebuano Cafes",
             excerpt: "Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories.",
