@@ -103,7 +103,7 @@ export default function MyGreekTaverna() {
                     </div>
                 </AnimatedSection>
 
-                <Gallery images={["1feLJxM1d5y98Du84QvfmwrPix99ei3oY","1t5o0_jT5YzUGH0efTUxuw89M9YROSctl","1EnBlA_QcguJC7JV3JDOdGrIzKd4yjpuD","1d-D55IEz1eA9g1b1puw4oy9Kfpv3DQzJ","1W8gB3dLa5ayD4D6Q-_j0_NbKOATsqq_z","1g8b0aK5XcPd8EsFp3mJnK2vTqLwYzHuR","1_HkRrT6VdPE2YgNm9X4LsOcSuA1JjFqB","1jLmNwE7BfQS3ZhKo0P8dYqWtX5CvZtuU","1aMnOpQ2EcRG4ZjLp7vSdKfYuT6HiAqmB","1bNOQR3SfDT5AkMq8tYwPdVjWH7XgYplc","1cPQST4TgEU6BlNr9uXxVeWkZI8YmZqrs","1dQR5U5VfFV7CmSrBv0YwLeXkJ9ZnAost","1eRS6V6WgGW8DnTcCw1ZxMfYlK0aBmNpt","1fST7W7XhHX9EoUdDx2AyNgZPA1bCoOqu","1gTU8X8YiIY0FpVeEy3BZOgAQ2cDpPQrx","1hUV9Y9ZjJZ1GqWfEz4CapHBRC3eQsSty","1iVW0A0AkKa2GrXgFA5cDqICSD4fRtUuv","1jWX1B1BlLb3HsYhGB6dEorJTE5gSuVvw"]} />
+                <Gallery images={["1feLJxM1d5y98Du84QvfmwrPix99ei3oY","1t5o0_jT5YzUGH0efTUxuw89M9YROSctl","1EnBlA_QcguJC7JV3JDOdGrIzKd4yjpuD","1d-D55IEz1eA9g1b1puw4oy9Kfpv3DQzJ","1W8gB3dLa5ayD4D6Q-_j0_NbKOATsqq_z","1N3ONEMZ0d5KbUPCauxna2-HtjO-QV5EB","1FbugPYjxJ6PCu8pOIEqMsZHIoBCLxcQg","10mu6RX3Ic9Uorp7bcN95vLWdoyuUth0w","1IDkhkL6pN6Dyy1KJ0jIoaLu_z8mfkBmT","1CmM9594uAFgJxUF_a07qTKhlcNIXv4u4","1AKAT9c0K74WxZeDT_7nlpP1Gqr3xXRd3","1Nhs7duSABwnSHGMAhEyPqBGt4j98rtbW","1LgKP51mqL_2P46ZqJqv3IiW63qw1AXrd","1s_kBPJlmpq8EPICB_9sCRPonmLzYTNa1","1LxOOgqD2eVL2v9HgiOaSN5h3jM6gH9iW","15v6NeSnNsrXxRGfhLR-7Fm1I49Lhvzks","1LYl9sogci3mkyVfBjN2M2pRvvFS7IByV","15agsuVghmpgT3K7eQU0FGyI0ktisXP1Z"]} />
             </article>
 
             <footer className="bg-stone-900 text-white py-24 px-6">
