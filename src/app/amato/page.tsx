@@ -177,7 +177,7 @@ export default function AmatoArticle() {
           <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
             <Link href="/tablea" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Tablea Chocolate Cafe</Link>
             <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/food" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: Food</Link>
+            <Link href="/my-greek-taverna" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: My Greek Taverna</Link>
           </nav>
         </div>
       </footer>

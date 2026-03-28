@@ -69,6 +69,13 @@ export default function Home() {
             imageSrc: "https://drive.google.com/thumbnail?id=118SI_2XkELMzO2wbHo3YC6JwpAjkuoJc&sz=w1000"
         },
         {
+            category: "Mediterranean",
+            title: "My Greek Taverna: Elevated Greek in Banilad",
+            excerpt: "The Chicken Parmigiana alone is worth the drive — a calm, elegant Mediterranean spot that actually delivers on its promises.",
+            href: "/my-greek-taverna",
+            imageSrc: "https://drive.google.com/thumbnail?id=1FFwfSo2jIYC923oBApcfxu4s8ydKS8rF&sz=w1000"
+        },
+        {
             category: "The Island Table",
             title: "Exploring Cebuano Cafes",
             excerpt: "Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories.",
