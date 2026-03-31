@@ -83,6 +83,13 @@ export default function Home() {
             imageSrc: "https://drive.google.com/thumbnail?id=1-ntB8rfrmt4aDE0BdH0TnYs1MjuUpyXY&sz=w1000"
         },
         {
+            category: "European Cafe",
+            title: "Cafe Cappuccino by Double Dutch",
+            excerpt: "A European-style coffee bar bringing international cafe culture to Cebu.",
+            href: "/cafe-cappuccino",
+            imageSrc: "https://drive.google.com/thumbnail?id=10wmdOPGY__rL_XkEuTUIlTGpb760oGBW&sz=w1000"
+        },
+        {
             category: "Latin Comfort",
             title: "La Salsa: Mexican Home Cooking on Salinas Drive",
             excerpt: "A colorful cantina in a Lahug corner house — charming, casual, and great for a low-key evening out.",
