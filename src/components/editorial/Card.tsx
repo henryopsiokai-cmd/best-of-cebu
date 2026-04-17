@@ -10,10 +10,11 @@ export type CardProps = {
     excerpt: string;
     href: string;
     imageSrc?: string;
+    date?: string;
     className?: string;
 };
 
-export function Card({ category, title, excerpt, href, imageSrc, className }: CardProps) {
+export function Card({ category, title, excerpt, href, imageSrc, date, className }: CardProps) {
     return (
         <article className={clsx('border-b border-stone-200 pb-12 mb-12 last:border-0 group', className)}>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -31,7 +32,12 @@ export function Card({ category, title, excerpt, href, imageSrc, className }: Ca
                     </div>
                 )}
                 <div className={imageSrc ? "md:col-span-2" : "md:col-span-3"}>
-                    <Label className="mb-3 block text-stone-400">{category}</Label>
+                    <div className="flex justify-between items-start mb-3">
+                        <Label className="text-stone-400">{category}</Label>
+                        {date && (
+                            <span className="text-xs font-sans text-stone-400">{date}</span>
+                        )}
+                    </div>
                     <Link href={href} className="group">
                         <H2 className="mt-2 mb-4 group-hover:text-amber-700 transition-colors">{title}</H2>
                     </Link>
