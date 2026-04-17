@@ -9,12 +9,12 @@ export type PullQuoteProps = {
 
 export function PullQuote({ children, attribution, className }: PullQuoteProps) {
     return (
-        <figure className={clsx('my-12 pl-6 border-l-4 border-amber-600', className)}>
-            <blockquote className="font-serif text-2xl md:text-3xl italic leading-relaxed text-stone-900">
+        <figure className={clsx('my-12 pl-6 border-l-8 border-amber-600', className)}>
+            <blockquote className="font-serif text-3xl md:text-4xl font-light italic leading-relaxed text-stone-900">
                 "{children}"
             </blockquote>
             {attribution && (
-                <figcaption className="mt-4 font-sans text-sm font-bold tracking-wider text-stone-500 uppercase">
+                <figcaption className="mt-4 font-sans text-sm font-bold tracking-wider text-stone-500">
                     — {attribution}
                 </figcaption>
             )}
