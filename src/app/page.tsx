@@ -11,95 +11,15 @@ export default function Home() {
     const y1 = useTransform(scrollY, [0, 500], [0, 200]);
 
     // Internal index to maintain order and prevent duplicates
-    // Ordered: newest first (by date added to codebase)
+    // Ordered: oldest first (chronological)
     const articles = [
         {
-            category: "The Island Table",
-            title: "Exploring Cebuano Cafes",
-            excerpt: "Beyond the roast. Exploring the new wave of Cebuano cafes and hidden culinary laboratories.",
-            href: "/food",
-            imageSrc: "https://drive.google.com/thumbnail?id=1bMZK-axAAMEbjV2tbn4aTAaKDr1kJYRj&sz=w1000",
-            date: "April 2026"
-        },
-        {
-            category: "Latin Comfort",
-            title: "La Salsa: Mexican Home Cooking on Salinas Drive",
-            excerpt: "A colorful cantina in a Lahug corner house — charming, casual, and great for a low-key evening out.",
-            href: "/la-salsa",
-            imageSrc: "https://drive.google.com/thumbnail?id=1EjjXS9J6F5eBes8nkEnMvSzReqQkLVrj&sz=w1000",
-            date: "March 2026"
-        },
-        {
-            category: "European Cafe",
-            title: "Cafe Cappuccino by Double Dutch",
-            excerpt: "A European-style coffee bar bringing international cafe culture to Cebu.",
-            href: "/cafe-cappuccino",
-            imageSrc: "https://drive.google.com/thumbnail?id=10wmdOPGY__rL_XkEuTUIlTGpb760oGBW&sz=w1000",
-            date: "March 2026"
-        },
-        {
-            category: "Coffee & Escape",
-            title: "Nimo Brew: A Garden Cafe on Mactan",
-            excerpt: "Some of the best escapes hide in plain sight — Nimo Brew turns a quiet Mactan road into a destination.",
-            href: "/nimo-brew",
-            imageSrc: "https://drive.google.com/thumbnail?id=1-ntB8rfrmt4aDE0BdH0TnYs1MjuUpyXY&sz=w1000",
-            date: "February 2026"
-        },
-        {
-            category: "Mediterranean",
-            title: "My Greek Taverna: Elevated Greek in Banilad",
-            excerpt: "The Chicken Parmigiana alone is worth the drive — a calm, elegant Mediterranean spot that actually delivers on its promises.",
-            href: "/my-greek-taverna",
-            imageSrc: "https://drive.google.com/thumbnail?id=1FFwfSo2jIYC923oBApcfxu4s8ydKS8rF&sz=w1000",
-            date: "February 2026"
-        },
-        {
-            category: "Fine Dining",
-            title: "Amato: Modern Italian in the Heart of Cebu",
-            excerpt: "An intimate fine dining experience featuring contemporary Italian cuisine with a local twist.",
-            href: "/amato",
-            imageSrc: "https://drive.google.com/thumbnail?id=118SI_2XkELMzO2wbHo3YC6JwpAjkuoJc&sz=w1000",
-            date: "January 2026"
-        },
-        {
-            category: "Tradition",
-            title: "Tablea Chocolate Cafe: The Cacao Ritual",
-            excerpt: "Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe.",
-            href: "/tablea",
-            imageSrc: "https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000",
-            date: "January 2026"
-        },
-        {
-            category: "Coffee & Chill",
-            title: "Gureum Cafe: The Half-Moon View",
-            excerpt: "How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation.",
-            href: "/gureum",
-            imageSrc: "https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000",
-            date: "December 2025"
-        },
-        {
-            category: "Modern Comfort",
-            title: "Tamp Cafe: The One Peso Cake That Actually Delivers",
-            excerpt: "At Tamp Banawa, tender beef, warm service, and a standout promo make this cafe one of the easiest recommendations in the area.",
-            href: "/tamp",
-            imageSrc: "https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000",
-            date: "November 2025"
-        },
-        {
-            category: "Community & Soul",
-            title: "Pukot Kitchen: A Net of Local Flavors",
-            excerpt: "Celebrating the vibrant textures and soulful Cebuano cuisine at Pukot Kitchen.",
-            href: "/pukot",
-            imageSrc: "https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000",
-            date: "October 2025"
-        },
-        {
-            category: "Industrial Coffee",
-            title: "Hatte Cafe: Minimalist Brew in Banilad",
-            excerpt: "Concrete lines and technical extraction at Hatte Cafe, a sanctuary for the serious coffee enthusiast.",
-            href: "/hatte",
-            imageSrc: "https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000",
-            date: "September 2025"
+            category: "Japanese Aesthetic",
+            title: "Sakura Dining: Pink Blossoms and Pancakes",
+            excerpt: "Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes.",
+            href: "/sakura",
+            imageSrc: "https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000",
+            date: "February 2025"
         },
         {
             category: "French Patisserie",
@@ -110,12 +30,84 @@ export default function Home() {
             date: "August 2025"
         },
         {
-            category: "Japanese Aesthetic",
-            title: "Sakura Dining: Pink Blossoms and Pancakes",
-            excerpt: "Valentine's Day at Sakura Dining: Fluffy pancakes, heart message trees, and aesthetic Japanese vibes.",
-            href: "/sakura",
-            imageSrc: "https://drive.google.com/thumbnail?id=1i5fm3k_YBqbHrdXWsKkRbswYqASB4vhD&sz=w1000",
-            date: "February 2025"
+            category: "Industrial Coffee",
+            title: "Hatte Cafe: Minimalist Brew in Banilad",
+            excerpt: "Concrete lines and technical extraction at Hatte Cafe, a sanctuary for the serious coffee enthusiast.",
+            href: "/hatte",
+            imageSrc: "https://drive.google.com/thumbnail?id=1l3TYo14AA8kylwsWEqABsMxFOt0CX1An&sz=w1000",
+            date: "September 2025"
+        },
+        {
+            category: "Community & Soul",
+            title: "Pukot Kitchen: A Net of Local Flavors",
+            excerpt: "Celebrating the vibrant textures and soulful Cebuano cuisine at Pukot Kitchen.",
+            href: "/pukot",
+            imageSrc: "https://drive.google.com/thumbnail?id=1y8jiUByV_-C-xU-8mgiq4AKwyaHE4YWN&sz=w1000",
+            date: "October 2025"
+        },
+        {
+            category: "Modern Comfort",
+            title: "Tamp Cafe: The One Peso Cake That Actually Delivers",
+            excerpt: "At Tamp Banawa, tender beef, warm service, and a standout promo make this cafe one of the easiest recommendations in the area.",
+            href: "/tamp",
+            imageSrc: "https://drive.google.com/thumbnail?id=1FSLuFuIQan4A0cb77gn12Tv9TUmlSinn&sz=w1000",
+            date: "November 2025"
+        },
+        {
+            category: "Coffee & Chill",
+            title: "Gureum Cafe: The Half-Moon View",
+            excerpt: "How Korean owner Felicia turned an empty corner in Country Mall into a monument of relaxation.",
+            href: "/gureum",
+            imageSrc: "https://drive.google.com/thumbnail?id=1WzTKTb1uOgmskLhAEzhrYq6CTOMN0UTF&sz=w1000",
+            date: "December 2025"
+        },
+        {
+            category: "Tradition",
+            title: "Tablea Chocolate Cafe: The Cacao Ritual",
+            excerpt: "Finding the best Sikwate in the city at the quiet, traditional Tablea Chocolate Cafe.",
+            href: "/tablea",
+            imageSrc: "https://drive.google.com/thumbnail?id=1MO9WVW5Jkupf35v8oe8prt8im3fghHS8&sz=w1000",
+            date: "January 2026"
+        },
+        {
+            category: "Fine Dining",
+            title: "Amato: Modern Italian in the Heart of Cebu",
+            excerpt: "An intimate fine dining experience featuring contemporary Italian cuisine with a local twist.",
+            href: "/amato",
+            imageSrc: "https://drive.google.com/thumbnail?id=118SI_2XkELMzO2wbHo3YC6JwpAjkuoJc&sz=w1000",
+            date: "January 2026"
+        },
+        {
+            category: "Mediterranean",
+            title: "My Greek Taverna: Elevated Greek in Banilad",
+            excerpt: "The Chicken Parmigiana alone is worth the drive — a calm, elegant Mediterranean spot that actually delivers on its promises.",
+            href: "/my-greek-taverna",
+            imageSrc: "https://drive.google.com/thumbnail?id=1FFwfSo2jIYC923oBApcfxu4s8ydKS8rF&sz=w1000",
+            date: "February 2026"
+        },
+        {
+            category: "Coffee & Escape",
+            title: "Nimo Brew: A Garden Cafe on Mactan",
+            excerpt: "Some of the best escapes hide in plain sight — Nimo Brew turns a quiet Mactan road into a destination.",
+            href: "/nimo-brew",
+            imageSrc: "https://drive.google.com/thumbnail?id=1-ntB8rfrmt4aDE0BdH0TnYs1MjuUpyXY&sz=w1000",
+            date: "February 2026"
+        },
+        {
+            category: "European Cafe",
+            title: "Cafe Cappuccino by Double Dutch",
+            excerpt: "A European-style coffee bar bringing international cafe culture to Cebu.",
+            href: "/cafe-cappuccino",
+            imageSrc: "https://drive.google.com/thumbnail?id=10wmdOPGY__rL_XkEuTUIlTGpb760oGBW&sz=w1000",
+            date: "March 2026"
+        },
+        {
+            category: "Latin Comfort",
+            title: "La Salsa: Mexican Home Cooking on Salinas Drive",
+            excerpt: "A colorful cantina in a Lahug corner house — charming, casual, and great for a low-key evening out.",
+            href: "/la-salsa",
+            imageSrc: "https://drive.google.com/thumbnail?id=1EjjXS9J6F5eBes8nkEnMvSzReqQkLVrj&sz=w1000",
+            date: "March 2026"
         }
     ];
 
@@ -131,10 +123,10 @@ export default function Home() {
                     <div
                         className="absolute inset-0 bg-cover bg-center"
                         style={{
-                            backgroundImage: "url('/images/hero.png')",
-                            filter: "brightness(0.7)"
+                            backgroundImage: "url('/images/hero.png')"
                         }}
                     ></div>
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60"></div>
                 </motion.div>
 
                 <div className="relative z-10 max-w-5xl">
@@ -143,7 +135,7 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     >
-                        <h1 className="text-7xl md:text-9xl font-black mb-6 tracking-tighter text-white drop-shadow-2xl">
+                        <h1 className="text-7xl md:text-9xl font-bold mb-6 tracking-tight text-white drop-shadow-2xl">
                             Best of Cebu
                         </h1>
                     </motion.div>
@@ -167,11 +159,13 @@ export default function Home() {
                 </div>
 
                 <motion.div
-                    className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 text-sm"
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ repeat: Infinity, duration: 2 }}
+                    className="absolute bottom-10 left-1/2 -translate-x-1/2"
+                    animate={{ y: [0, 8, 0] }}
+                    transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
                 >
-                    Scroll to Explore
+                    <svg className="w-6 h-6 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    </svg>
                 </motion.div>
             </header>
 
