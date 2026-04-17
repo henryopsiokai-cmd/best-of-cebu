@@ -131,10 +131,10 @@ export default function Home() {
                     <div
                         className="absolute inset-0 bg-cover bg-center"
                         style={{
-                            backgroundImage: "url('/images/hero.png')",
-                            filter: "brightness(0.7)"
+                            backgroundImage: "url('/images/hero.png')"
                         }}
                     ></div>
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/60"></div>
                 </motion.div>
 
                 <div className="relative z-10 max-w-5xl">
@@ -143,7 +143,7 @@ export default function Home() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                     >
-                        <h1 className="text-7xl md:text-9xl font-black mb-6 tracking-tighter text-white drop-shadow-2xl">
+                        <h1 className="text-7xl md:text-9xl font-bold mb-6 tracking-tight text-white drop-shadow-2xl">
                             Best of Cebu
                         </h1>
                     </motion.div>
@@ -167,11 +167,13 @@ export default function Home() {
                 </div>
 
                 <motion.div
-                    className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 text-sm"
-                    animate={{ y: [0, 10, 0] }}
-                    transition={{ repeat: Infinity, duration: 2 }}
+                    className="absolute bottom-10 left-1/2 -translate-x-1/2"
+                    animate={{ y: [0, 8, 0] }}
+                    transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
                 >
-                    Scroll to Explore
+                    <svg className="w-6 h-6 text-white/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    </svg>
                 </motion.div>
             </header>
 

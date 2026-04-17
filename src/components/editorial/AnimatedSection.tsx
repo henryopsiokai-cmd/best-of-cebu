@@ -24,15 +24,15 @@ export const AnimatedSection = ({
     const variants = {
         hidden: {
             opacity: 0,
-            y: direction === 'up' ? 50 : direction === 'down' ? -50 : 0,
-            x: direction === 'left' ? 50 : direction === 'right' ? -50 : 0
+            y: direction === 'up' ? 30 : direction === 'down' ? -30 : 0,
+            x: direction === 'left' ? 30 : direction === 'right' ? -30 : 0
         },
         visible: {
             opacity: 1,
             y: 0,
             x: 0,
             transition: {
-                duration: 0.8,
+                duration: 0.5,
                 ease: [0.22, 1, 0.36, 1], // Apple-like ease
                 delay: delay
             }
