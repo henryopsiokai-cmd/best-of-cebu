@@ -173,9 +173,6 @@ export default function Home() {
             <main className="max-w-7xl mx-auto py-32 px-6">
                 <AnimatedSection className="mb-24 text-center max-w-3xl mx-auto">
                     <H2 className="text-center">The Edit</H2>
-                    <Paragraph className="text-center text-xl text-stone-600">
-                        We don't review everything. We only review what matters. From hidden culinary gems to architectural marvels, this is your essential guide.
-                    </Paragraph>
                 </AnimatedSection>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
@@ -195,18 +192,18 @@ export default function Home() {
                     </section>
 
                     <aside className="md:col-span-4 space-y-12">
-                        <AnimatedSection delay={0.8} direction="left">
-                            <div className="bg-white p-8 rounded-2xl shadow-2xl border border-stone-100 sticky top-10">
+                        <AnimatedSection delay={0.8} direction="none">
+                            <div className="bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border border-stone-100 sticky top-10">
                                 <h3 className="text-xl font-bold mb-8 font-serif tracking-tight">The Curated List</h3>
                                 <ul className="space-y-6 font-sans">
                                     {articles.slice(0, 3).map((item, i) => (
-                                        <li key={item.href} className="group border-b border-stone-100 pb-4">
+                                        <li key={item.href} className="group">
                                             <a href={item.href} className="flex justify-between items-center">
                                                 <div className="flex items-center gap-4">
                                                     <span className="text-xs font-bold text-stone-300">{String(i + 1).padStart(2, '0')}</span>
                                                     <span className="text-stone-600 group-hover:text-stone-900 transition-colors">Best of {item.category}</span>
                                                 </div>
-                                                <span className="font-bold text-amber-600 opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0 duration-300">Open</span>
+                                                <span className="w-0 overflow-hidden text-amber-600 font-bold group-hover:w-5 transition-all duration-300">→</span>
                                             </a>
                                         </li>
                                     ))}
