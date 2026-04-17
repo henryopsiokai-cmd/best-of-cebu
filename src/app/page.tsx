@@ -173,6 +173,9 @@ export default function Home() {
             <main className="max-w-7xl mx-auto py-32 px-6">
                 <AnimatedSection className="mb-24 text-center max-w-3xl mx-auto">
                     <H2 className="text-center">The Edit</H2>
+                    <Paragraph className="text-center text-xl text-stone-600">
+                        We don't review everything. We only review what matters. From hidden culinary gems to architectural marvels, this is your essential guide.
+                    </Paragraph>
                 </AnimatedSection>
 
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-16">
