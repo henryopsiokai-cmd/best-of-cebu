@@ -7,10 +7,12 @@ import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
 import { Gallery } from '../../components/editorial/Gallery';
+import { ReadingProgress } from '../../components/editorial/ReadingProgress';
 
 export default function AmatoArticle() {
   return (
     <div className="min-h-screen bg-white text-stone-900 font-serif">
+      <ReadingProgress />
       <ArticleHeader
         category="Fine Dining"
         title="Amato: Modern Italian in the Heart of Cebu"
