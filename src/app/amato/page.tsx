@@ -7,6 +7,7 @@ import { PullQuote } from '../../components/editorial/PullQuote';
 import { DropCap } from '../../components/editorial/DropCap';
 import { AnimatedSection } from '../../components/editorial/AnimatedSection';
 import { Gallery } from '../../components/editorial/Gallery';
+import { Footer } from '../../components/editorial/Footer';
 import { ReadingProgress } from '../../components/editorial/ReadingProgress';
 
 export default function AmatoArticle() {
@@ -171,18 +172,7 @@ export default function AmatoArticle() {
         />
       </article>
 
-      <footer className="bg-stone-900 text-white py-24 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-8 md:mb-0">
-            <h3 className="text-2xl font-black italic uppercase tracking-tighter">Best of Cebu</h3>
-          </div>
-          <nav className="flex space-x-12 font-sans text-xs font-bold uppercase tracking-widest">
-            <Link href="/tablea" className="hover:text-amber-500 transition-colors text-stone-400 italic">Previous: Tablea Chocolate Cafe</Link>
-            <Link href="/" className="hover:text-amber-500 transition-colors">Back to Issues</Link>
-            <Link href="/my-greek-taverna" className="hover:text-amber-500 transition-colors text-stone-400 italic">Next: My Greek Taverna</Link>
-          </nav>
-        </div>
-      </footer>
+      <Footer prevHref="/tablea" prevTitle="Tablea Chocolate Cafe" nextHref="/my-greek-taverna" nextTitle="My Greek Taverna" />
     </div>
   );
 }
