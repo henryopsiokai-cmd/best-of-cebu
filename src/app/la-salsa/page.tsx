@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { ArticleHeader } from '../../components/editorial/ArticleHeader';
 import { H2, Paragraph } from '../../components/editorial/Typography';
@@ -14,14 +15,14 @@ export default function LaSalsa() {
                 category="Restaurant"
                 title="La Salsa"
                 subtitle="Authentic flavors and vibrant atmosphere — a celebration of Latin American cuisine in the heart of Cebu."
-                author="Best of Cebu"
-                publishedAt="2025"
+                author="Criste Joy"
+                publishedAt="March 2026"
                 imageSrc="https://drive.google.com/thumbnail?id=1EjjXS9J6F5eBes8nkEnMvSzReqQkLVrj&sz=w1600"
             />
 
             <article className="max-w-4xl mx-auto px-6 pb-24">
                 <DropCap>
-                    I'd driven past Salinas Drive a dozen times and never once noticed the little house with the colorful signage tucked between the other buildings. That's the thing about La Salsa — from the outside, it looks like someone's home, which is exactly what makes it so charming. You half-expect to walk in and find someone's lola watching soap operas in the living room. Instead, you get mariachi music, bright papel picado banners strung across the ceiling, and the kind of warm, slightly chaotic energy that makes you exhale the moment you step through the door. It's casual in a way that feels intentional, like the owners decided early on that fancy didn't suit them. The air conditioning was a welcome relief from the Cebu heat, and the space — maybe 30 seats — had this cozy, lived-in quality. I could see myself settling into a corner booth here with friends, losing track of time over tacos and good conversation. Finding places like this, the ones that don't announce themselves with flashing lights or viral TikToks, is honestly one of my favorite parts of this job.
+                    I had driven past Salinas Drive more times than I could count, and every single time the little house with the colorful signage just blended into the scenery. That is the thing about this place. It does not announce itself. From the road it looks like someone's home, the kind of place where a lola might be watching the telenovela in the living room while something simmers on the stove. You almost do not want to walk in because what if you are wrong, what if it is private property and you just made it weird. But then the door opens and everything shifts. The music reaches you first, then the colors, then the smell of something sizzling. It hits you that this is a restaurant, a real one, and somehow that realization makes it better. A place that does not need to perform at you from the street because the moment you step inside, it takes care of the rest.
                 </DropCap>
 
                 <AnimatedSection>
@@ -41,10 +42,13 @@ export default function LaSalsa() {
                 <AnimatedSection>
                     <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Experience</H2>
                     <Paragraph>
-                        The Beef Quesadilla (₱325) is what I'd call the star of the menu, for better and for worse. The cheese pulls in all the right ways — stretchy, golden, comforting in that way only melted cheese can be. But the beef filling was sparse, and there was a faint whiff of something that reminded me of last night's dinner reheated. Not enough to send it back, but enough to notice. Still, at ₱325, it's a decent portion for one person, and the flour tortilla had good texture. I'd order it again, maybe with extra salsa on the side to make up for the skimpy meat. The Oreo Shake (₱145) was fine — I want to be honest about this because you might see it on Instagram and get excited. It's a decent milkshake. It's not a destination shake. The cookie bits were there, the chocolate flavor was there, but nothing made me want to snap a photo and tag my friends. Sometimes "fine" is just fine.
+                        The Beef Quesadilla (₱325) arrives and the first thing you notice is the cheese. It stretches in all the right ways, golden and comforting in the way only melted cheese can be. That is what keeps you at the table. The beef, though, tells a different story. There is not enough of it, and what is there carries a faint smell of something reheated, like it has been waiting under a heat lamp longer than it should have. I want to be honest about this because a ₱325 quesadilla deserves honesty. The tortilla has good texture. The cheese works. But the beef needs to show up differently, needs to taste like it was just cooked and not pulled from a container that has been sitting around. Still, for one person, it is a decent enough portion, and the comfort factor is real. I would order it again. I would just wish for more beef, fresher beef, and maybe a little more heat so that it arrives at the table the way it should.
                     </Paragraph>
                     <Paragraph>
-                        The staff were genuinely sweet. When I mentioned Best of Cebu, one of them got flustered and asked if I was a vlogger — I appreciated the confusion, honestly. Their friendliness scored a solid 4 out of 5 in my book, though attentiveness dipped to a 3. I never felt neglected, but there were moments I had to flag someone down. Mexican music played softly in the background throughout my meal, which felt appropriate if not especially authentic. For a chill afternoon with a friend, a casual date, or when you just want somewhere quiet to eat without the fanfare of a busy mall restaurant, La Salsa fits the bill. It's not going to blow your mind, but it might just become one of those places you return to when you need good-enough food in a comfortable space.
+                        The Oreo Shake (₱145) is fine. I want to say that clearly because I know it might look exciting on a menu board or someone's Instagram story. It is a fine milkshake. The cookie bits are there. The chocolate is there. It is the kind of thing you order when you are thirsty or want something sweet and you are already here. It did not make me reach for my phone. Sometimes fine is just fine, and that is not an insult, just a fact. The shake is consistent and drinkable. It just does not stand out in a way that earns its own post.
+                    </Paragraph>
+                    <Paragraph>
+                        The staff were warm and accommodating in a way that made the whole visit feel easy. When I mentioned Best of Cebu, one of them got flustered in the most endearing way and asked if I was a vlogger. I appreciated the confusion. Their friendliness scored a 4 out of 5 in my book, though attentiveness dipped to a 3. There were moments I had to flag someone down, nothing serious, just a small gap between what I needed and when it arrived. What mattered more was the space itself. The art on the walls, the music drifting softly through the room, the way the light moved across the tables. I forgot, for a little while, that I was in the middle of Lahug. There was one other couple dining when I was there, which made the whole place feel like it was exactly the right size. Not too full, not empty enough to feel awkward. Just right for a slow, quiet meal where time passes without you noticing.
                     </Paragraph>
                 </AnimatedSection>
 
@@ -57,18 +61,28 @@ export default function LaSalsa() {
 
                 <AnimatedSection>
                     <PullQuote>
-                        The cheese pulls in all the right ways — stretchy, golden, comforting in that way only melted cheese can be. But the beef filling was sparse.
+                        From the road it looks like someone's home. But then the door opens and everything shifts.
                     </PullQuote>
+                </AnimatedSection>
+
+                <AnimatedSection>
+                    <H2 className="italic border-b-2 border-stone-900 inline-block pb-2 mb-8 uppercase text-sm tracking-widest">The Space</H2>
+                    <Paragraph>
+                        What stays with me most is the art on the walls. Paintings, colorful and full of character, the kind that make you slow down as you walk to your table. There is something about a space that fills its walls with care rather than leaving them blank, and La Salsa does exactly that. The paintings feel warm and intentional, like someone thought about what would make a guest feel at home. Even the brightness of the room, the way the natural light comes in and bounces off the walls, adds to the effect. It does not feel like a sterile restaurant. It feels like a garden that someone decided to put tables in. The papel picado banners strung across the ceiling catch the light and add to that festive, colorful energy without ever feeling overwhelming.
+                    </Paragraph>
+                    <Paragraph>
+                        The space is more generous than it looks from the outside. I remember thinking, when I first walked in, that it might feel cramped once people started filling it. But it does not. Even with a full dining room, there is enough room to breathe, enough distance between tables that your conversation stays your own. The Mexican music playing softly in the background ties everything together without ever demanding attention. It is just there, part of the atmosphere, like the paint on the walls or the brightness coming through the windows. This is a place that works best for chill dates, casual meals with friends, and anyone looking for a small escape from the noise of the city. The ₱₱ price point is fair for what you are getting. If they tighten up the freshness and add a little more volume to the plates, this place could become a real neighborhood favorite. As it stands, I would come back. Not for the food alone, but for the feeling of sitting somewhere that actually tried to be something. That matters.
+                    </Paragraph>
                 </AnimatedSection>
 
                 <AnimatedSection>
                     <div className="my-16 grid grid-cols-1 md:grid-cols-2 gap-8 font-sans">
                         <div className="p-8 bg-stone-50 border shadow-sm">
-                            <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location & Details</h3>
+                            <h3 className="text-amber-600 font-bold uppercase tracking-widest text-xs mb-2">Location &amp; Details</h3>
                             <p className="text-sm text-stone-600">
                                 <strong>Address:</strong> 18 Salinas Dr, Lahug, Cebu City, Central Visayas<br/>
                                 <strong>Hours:</strong> 10:00 AM – 10:00 PM daily<br/>
-                                <strong>Parking:</strong> Yes, directly in front<br/>
+                                <strong>Parking:</strong> Yes, directly in front. No valet.<br/>
                                 <strong>WiFi:</strong> No<br/>
                                 <strong>Phone:</strong> 0920-900-9001<br/>
                                 <strong>Email:</strong> lasalsalahug@gmail.com<br/>
